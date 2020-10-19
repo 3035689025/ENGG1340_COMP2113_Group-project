@@ -1,11 +1,14 @@
 # ENGG1340_COMP2113_Group-project
-By Group 20
+Group 20
+
 Team members: Lian Ho Yeung (3035714260), Luk Chin Kiu (3035689025)
 
 ## Title of project: abc 
 _a game inspired by Papers Please_
+
 #### Game description:
 ...
+
 #### Endings:
 ##### 1) Died in disgrace(1)
 Prerequisites: 
