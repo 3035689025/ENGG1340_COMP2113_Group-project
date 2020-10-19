@@ -60,13 +60,18 @@ Became a hero
 
 #### Basic game rules:
 
-#### List of features)
-###### Requirement 1
+#### List of features
+###### Requirement 1- Generation of random game sets or events
 
-###### Requirement 2
+###### Requirement 2- Data structures for storing game status
 
-###### Requirement 3
+###### Requirement 3- Dynamic memory management
 
-###### Requirement 4
+###### Requirement 4- File input/output (e.g., for loading/saving game status)
 
-###### Requirement 5
+###### Requirement 5- Program codes in multiple files
+
+###### Requirement 6- Proper indentation and naming styles
+
+###### Requirement 7- In-code documentation
+
