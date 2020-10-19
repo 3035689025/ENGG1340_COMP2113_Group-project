@@ -16,7 +16,7 @@ Died immediately- killed on the spot by superior (will be warning prior to this 
 
 ##### 2) Died in incompetence
 Prerequisites: 
-Run out of money (poor grades in previous days: time, accuracy)
+Run out of money (poor grades in previous days- time, accuracy...)
 
 Events:
 Starved in the next day
