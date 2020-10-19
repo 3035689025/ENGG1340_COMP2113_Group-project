@@ -2,7 +2,7 @@
 By Group 20
 Team members: Lian Ho Yeung (3035714260), Luk Chin Kiu (3035689025)
 
-##Title of project: abc (inspired by Papers Please)
+## Title of project: abc (inspired by Papers Please)
 Game description:
 
 ####Endings:
