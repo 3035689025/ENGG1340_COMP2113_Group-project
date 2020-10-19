@@ -3,7 +3,7 @@ By Group 20
 Team members: Lian Ho Yeung (3035714260), Luk Chin Kiu (3035689025)
 
 ## Title of project: abc (inspired by Papers Please)
-Game description:
+####Game description:
 
 #### Endings:
 ##### 1) Died in disgrace(1)
@@ -58,15 +58,15 @@ Rebellion was a success
 Became a hero
 
 
-Basic game rules:
+#### Basic game rules:
 
-List of features)
-Requirement 1
+#### List of features)
+###### Requirement 1
 
-Requirement 2
+###### Requirement 2
 
-Requirement 3
+###### Requirement 3
 
-Requirement 4
+###### Requirement 4
 
-Requirement 5
+###### Requirement 5
