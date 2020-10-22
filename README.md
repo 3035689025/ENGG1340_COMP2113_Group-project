@@ -75,7 +75,3 @@ You were celebrated as a hero.
 
 ###### Requirement 5- Program codes in multiple files
 
-###### Requirement 6- Proper indentation and naming styles
-
-###### Requirement 7- In-code documentation
-
