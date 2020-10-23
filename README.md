@@ -95,7 +95,8 @@ The array will store:\
 Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameday.
 
 For example,
-1. Earth officials will go to earth only on game-day 5 and thus the variable - Number of times of approving earth officials to Earth, will be declared on day5.
+1. Earth officials will go to earth only on game-day 5
+and thus the variable - Number of times of approving earth officials to Earth, will be declared on day5.
 2. The gameday variable in the array will be declared after the player starts the game or loads the save.
 
 Therefore, the program will request for memory if needed (when the game come to a particular gameday or step)
