@@ -74,7 +74,7 @@ Random game sets:
 Entrants’ information including name, passport number, gender will be created in the program and stored into arrays. \
 For each entrant in the game, their information will be randomly drawn from the arrays. \
 False passport information (E.g. not existing country or typo) may also be randomly drawn from the list. \
-For this situation, the player may consider to  disapprove of its entry. (60% True, 40% False)\
+For this situation, the player may consider to  disapprove of its entry. (60% True, 40% False)
 
 
 
@@ -86,7 +86,7 @@ The array will store:\
 (2) Money\
 (3) Number of times of disapproving human entries\
 (4) Number of times of false approved alien entries\
-(5) Number of times of approving earth officials to Earth\
+(5) Number of times of approving earth officials to Earth
 
 
 
@@ -114,9 +114,9 @@ Format of the game save is as follow:\
 Gameday, 7
 Money, 999999\
 Number of times of disapproving human entries, 3\
-Number of times of false approved alien entries, 5\
+Number of times of false approved alien entries, 5
 
-###### Requirement 5- Program codes in multiple files\
+###### Requirement 5- Program codes in multiple files
 \
 The program codes will be saved in multiple files based on the different functions.\
 \
