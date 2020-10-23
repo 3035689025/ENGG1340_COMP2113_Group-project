@@ -69,60 +69,57 @@ You were celebrated as a hero.
 
 ###### Requirement 1- Generation of random game sets or events
 
-Random game sets: 
+Random game sets:
 
-Entrants’ information including name, passport number, gender will be created in the program and stored into arrays. 
-For each entrant in the game, their information will be randomly drawn from the arrays. 
-False passport information (E.g. not existing country or typo) may also be randomly drawn from the list. 
-For this situation, the player may consider to  disapprove of its entry. (60% True, 40% False)
+Entrants’ information including name, passport number, gender will be created in the program and stored into arrays. \
+For each entrant in the game, their information will be randomly drawn from the arrays. \
+False passport information (E.g. not existing country or typo) may also be randomly drawn from the list. \
+For this situation, the player may consider to  disapprove of its entry. (60% True, 40% False)\
 
 
 
 ###### Requirement 2- Data structures for storing game status
 
-Array of integers will be used to store the game status. 
-The array will store:
-(1) Gameday
-(2) Money
-(3) Number of times of disapproving human entries
-(4) Number of times of false approved alien entries
-(5) Number of times of approving earth officials to Earth
+Array of integers will be used to store the game status. \
+The array will store:\
+(1) Gameday\
+(2) Money\
+(3) Number of times of disapproving human entries\
+(4) Number of times of false approved alien entries\
+(5) Number of times of approving earth officials to Earth\
 
 
 
 ###### Requirement 3- Dynamic memory management
 
-Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameday. 
+Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameday. \
 
-For example,  
-1. Earth officials will go to earth only on game-day 5 and thus the variable - Number of times of approving earth officials to Earth, will be declared on day5. 
-2. The gameday variable in the array will be declared after the player starts the game or loads the save.  
+For example,  \
+1. Earth officials will go to earth only on game-day 5 and thus the variable - Number of times of approving earth officials to Earth, will be declared on day5. \
+2. The gameday variable in the array will be declared after the player starts the game or loads the save.  \
 
-Therefore, the program will request for memory if needed (when the game come to a particular gameday or step)
+Therefore, the program will request for memory if needed (when the game come to a particular gameday or step)\
 
 
 
 ###### Requirement 4- File input/output (e.g., for loading/saving game status)
 
-For the end of each day, players can save their gamestatus in the menu. 
-The save will be stored into a text format file. The format of the game save is “Description, Value” in each line. 
-It is designed not to encrypt deliberately so that the players can get a particular ending of the game. 
-Easter egg endings are also designed for players who modify the money data, gameday.
-
-Format of the game save is as follow:
-
-Gameday, 7
-Money, 999999
-Number of times of disapproving human entries, 3
-Number of times of false approved alien entries, 5
-
-
-
-###### Requirement 5- Program codes in multiple files
-
-The program codes will be saved in multiple files based on the different functions.
-
-Main file for programming the functions of the main function including start(), exit() when executing the game program.
-Gameplay file for programming the main game-play and including the dialogues that provides the introduction and different special rules each day.
+For the end of each day, players can save their gamestatus in the menu.\
+The save will be stored into a text format file. The format of the game save is “Description, Value” in each line.\
+It is designed not to encrypt deliberately so that the players can get a particular ending of the game. \
+Easter egg endings are also designed for players who modify the money data, gameday.\
+\
+Format of the game save is as follow:\
+\
+Gameday, 7\
+Money, 999999\
+Number of times of disapproving human entries, 3\
+Number of times of false approved alien entries, 5\
+\
+###### Requirement 5- Program codes in multiple files\
+\
+The program codes will be saved in multiple files based on the different functions.\
+\
+Main file for programming the functions of the main function including start(), exit() when executing the game program.\
+Gameplay file for programming the main game-play and including the dialogues that provides the introduction and different special rules each day.\
 Event file for programming some special event that may happen on a particular gameday. Those event functions will be called on particular gamedays.
-
