@@ -92,13 +92,13 @@ The array will store:\
 
 ###### Requirement 3- Dynamic memory management
 
-Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameday. \
+Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameday.
 
-For example,  \
-1. Earth officials will go to earth only on game-day 5 and thus the variable - Number of times of approving earth officials to Earth, will be declared on day5. \
-2. The gameday variable in the array will be declared after the player starts the game or loads the save.  \
+For example,
+1. Earth officials will go to earth only on game-day 5 and thus the variable - Number of times of approving earth officials to Earth, will be declared on day5.
+2. The gameday variable in the array will be declared after the player starts the game or loads the save.
 
-Therefore, the program will request for memory if needed (when the game come to a particular gameday or step)\
+Therefore, the program will request for memory if needed (when the game come to a particular gameday or step)
 
 
 
@@ -111,11 +111,11 @@ Easter egg endings are also designed for players who modify the money data, game
 \
 Format of the game save is as follow:\
 \
-Gameday, 7\
+Gameday, 7
 Money, 999999\
 Number of times of disapproving human entries, 3\
 Number of times of false approved alien entries, 5\
-\
+
 ###### Requirement 5- Program codes in multiple files\
 \
 The program codes will be saved in multiple files based on the different functions.\
