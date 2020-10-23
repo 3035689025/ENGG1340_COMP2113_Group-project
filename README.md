@@ -65,6 +65,8 @@ You were celebrated as a hero.
 #### Basic game rules:
 
 #### List of features
+
+
 ###### Requirement 1- Generation of random game sets or events
 
 Random game sets: 
@@ -73,6 +75,8 @@ Entrants’ information including name, passport number, gender will be created 
 For each entrant in the game, their information will be randomly drawn from the arrays. 
 False passport information (E.g. not existing country or typo) may also be randomly drawn from the list. 
 For this situation, the player may consider to  disapprove of its entry. (60% True, 40% False)
+
+
 
 ###### Requirement 2- Data structures for storing game status
 
@@ -84,6 +88,8 @@ The array will store:
 (4) Number of times of false approved alien entries
 (5) Number of times of approving earth officials to Earth
 
+
+
 ###### Requirement 3- Dynamic memory management
 
 Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameday. 
@@ -93,6 +99,8 @@ For example,
 2. The gameday variable in the array will be declared after the player starts the game or loads the save.  
 
 Therefore, the program will request for memory if needed (when the game come to a particular gameday or step)
+
+
 
 ###### Requirement 4- File input/output (e.g., for loading/saving game status)
 
@@ -107,6 +115,8 @@ Gameday, 7
 Money, 999999
 Number of times of disapproving human entries, 3
 Number of times of false approved alien entries, 5
+
+
 
 ###### Requirement 5- Program codes in multiple files
 
