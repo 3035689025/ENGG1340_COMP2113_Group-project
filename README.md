@@ -3,11 +3,11 @@ Group 20
 
 Team members: Lian Ho Yeung (3035714260), Luk Chin Kiu (3035689025)
 
-## Title of project: abc 
+## Title of project: Officer 
 _a game inspired by Papers Please_
 
 #### Game description:
-Officer is a story-based RPG (role-playing game) based on the game “Papers please”. Although we have borrowed concepts such as checking documents and secret missions from the original game, the gameplay and story of “Officer” is completely original.
+"Officer" is a story-based RPG (role-playing game) based on the game “Papers please”. Although we have borrowed concepts such as checking documents and secret missions from the original game, the gameplay and story of “Officer” is completely original.
 
 In this game, players take up the position of a border officer to Earth, where it is opened after 30 years of isolation. By cross-referencing the documents presented by visitors and data provided by your superior, players have to approve or disapprove visitors’ entry to the recently opened Earth. As the difficulty rises (weeks elapsed), more details will need to be inspected by the players and more events (secret missions) will be prompted. The following is an example of a passport from a visitor:
 
@@ -55,46 +55,46 @@ Players will be provided with related information, such as years till expiration
 After each week, players’ performance will be evaluated by the time spent and the accuracy of approvals. Players are incentivized to reach a high mark as our rare condition (caused by The Infected blood) requires an expensive medicine (although money will evanually run out no matter how well we perform) and food will take up a majority of our paycheck (starvation can be one of the endings).
 
 
-Events and cases:
-*Normal encounters: 40% should be disapproved*
+Events and cases:\
+*Normal encounters: 40% should be disapproved*\
 
 
-Week 1)
-Introduction to the setting and job.
-Only humans should be approved. 
-(easy, introducing how to play)
+Week 1)\
+Introduction to the setting and job.\
+Only humans should be approved. \
+(easy, introducing how to play)\
 
 
-Week 2)
-Only:
-Humans 
-Aliens with passports from approved countries/ planets 
-(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)
+Week 2)\
+Only:\
+Humans \
+Aliens with passports from approved countries/ planets \
+(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)\
 
 
-Week 3)
-Humans with passports from approved planets
-Aliens with passports from approved countries/ planets, with approved visas
-(The last case will be an encounter with a rebel.)
+Week 3)\
+Humans with passports from approved planets\
+Aliens with passports from approved countries/ planets, with approved visas\
+(The last case will be an encounter with a rebel.)\
 A major twist is revealed by a letter from the player’s mother. 300 years ago, Earth was origainlly occupied by the alien species, The Infected, but was since taken away by humans. As victory is often written by the victors, history books has referred to  the deportation of “The Infected species”  in 1800s as a victory of humans defending their motherland against external aliens powers. Even the name “The Infected” is to associate the species with a negative stigma to further alienate them from Earth.
 
 In the last part of the letter, it is also revealed that the player secretly bears the bloodline of The Infected. The player will then be more incentivized to join the rebellion (secret missions) against humanity, or even feel guilty about prior disapproved entries for The Infected. 
 
 
-Week 4)
-
-Humans with passports from approved planets
-Aliens with passports from approved countries/ planets, with approved visas
-Name is not mentioned on ‘The Wanted” list
-(The last case will be the encounter to introduce the Earth officials visit if the player fulfills the requirements)
+Week 4)\
+Humans with passports from approved planets\
+Aliens with passports from approved countries/ planets, with approved visas\
+Name is not mentioned on ‘The Wanted” list\
+(The last case will be the encounter to introduce the Earth officials visit if the player fulfills the requirements)\
 After this week, our superior will announce a paycut to further put load on our financial situation.
 
 
-Week5)
-Humans with passports from approved planets
-Aliens with passports from approved countries/ planets, with approved visas
-Name is not mentioned on ‘The Wanted” list
+Week 5)\
+Humans with passports from approved planets\
+Aliens with passports from approved countries/ planets, with approved visas\
+Name is not mentioned on ‘The Wanted” list\
 (Includes the 3 cases)
+(Gameplay will not be the highlight of this day as to let the story shine.) 
 
 
 #### Endings:
@@ -148,6 +148,18 @@ All 3 officials were ambushed in space by assassins
 Ruling party was overthrown
 Rebellion was a success
 You were celebrated as a hero.
+
+##### 7) Early retirement 
+Prerequisites:
+a) Survive week 3
+b) Choose “retirement with retirement plan” at the end of a week 
+
+Events:
+Continue living as a human
+Died after relieved from duty- killed by superior (treason)
+
+
+Players may struggle to pick a stand or wish to play out differnet scienarios/endings, so we believe our game has a compelling story and high replayablity. Our game also has different elements of programming that meets the requirements as explained as follows.
 
 
 #### Basic game rules:
