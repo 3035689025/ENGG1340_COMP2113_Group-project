@@ -61,7 +61,7 @@ Players will be provided with related information, such as years till expiration
 After each week, players’ performance will be evaluated by the time spent and the accuracy of approvals. Players are incentivized to reach a high mark as our rare condition (caused by The Infected blood) requires an expensive medicine (although money will evanually run out no matter how well we perform) and food will take up a majority of our paycheck (starvation can be one of the endings).
 
 
-Events and cases:\
+#### Events and cases:
 *Normal encounters: 40% should be disapproved*
 
 
