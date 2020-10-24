@@ -6,6 +6,11 @@ Team members: Lian Ho Yeung (3035714260), Luk Chin Kiu (3035689025)
 ## Title of project: Officer 
 _a game inspired by Papers Please_
 
+####Settings:
+Year 2077: Earth is opening after 30 years of self-isolation\
+Location: Earth Border \
+Role: Border officer, B-263-54
+
 #### Game description:
 "Officer" is a story-based RPG (role-playing game) based on the game “Papers please”. Although we have borrowed concepts such as checking documents and secret missions from the original game, the gameplay and story of “Officer” is completely original.
 
