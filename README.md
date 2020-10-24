@@ -56,20 +56,20 @@ After each week, players’ performance will be evaluated by the time spent and 
 
 
 Events and cases:\
-*Normal encounters: 40% should be disapproved*\
+*Normal encounters: 40% should be disapproved*
 
 
 Week 1)\
 Introduction to the setting and job.\
 Only humans should be approved. \
-(easy, introducing how to play)\
+(easy, introducing how to play)
 
 
 Week 2)\
 Only:\
 Humans \
 Aliens with passports from approved countries/ planets \
-(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)\
+(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)
 
 
 Week 3)\
