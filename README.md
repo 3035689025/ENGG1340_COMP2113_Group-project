@@ -73,15 +73,18 @@ Aliens with passports from approved countries/ planets \
 
 
 Week 3)\
+Only:\
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
 (The last case will be an encounter with a rebel.)\
+
 A major twist is revealed by a letter from the player’s mother. 300 years ago, Earth was origainlly occupied by the alien species, The Infected, but was since taken away by humans. As victory is often written by the victors, history books has referred to  the deportation of “The Infected species”  in 1800s as a victory of humans defending their motherland against external aliens powers. Even the name “The Infected” is to associate the species with a negative stigma to further alienate them from Earth.
 
 In the last part of the letter, it is also revealed that the player secretly bears the bloodline of The Infected. The player will then be more incentivized to join the rebellion (secret missions) against humanity, or even feel guilty about prior disapproved entries for The Infected. 
 
 
 Week 4)\
+Only:\
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
 Name is not mentioned on ‘The Wanted” list\
@@ -90,6 +93,7 @@ After this week, our superior will announce a paycut to further put load on our 
 
 
 Week 5)\
+Only:
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
 Name is not mentioned on ‘The Wanted” list\
