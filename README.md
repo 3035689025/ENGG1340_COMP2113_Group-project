@@ -65,20 +65,20 @@ After each week, players’ performance will be evaluated by the time spent and 
 *Normal encounters: 40% should be disapproved*
 
 
-Week 1)\
+##### Week 1)
 Introduction to the setting and job.\
 Only humans should be approved. \
 (easy, introducing how to play)
 
 
-Week 2)\
+##### Week 2)
 Only:\
 Humans \
 Aliens with passports from approved countries/ planets \
 (A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)
 
 
-Week 3)\
+##### Week 3)
 Only:\
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
@@ -89,7 +89,7 @@ A major twist is revealed by a letter from the player’s mother. 300 years ago,
 In the last part of the letter, it is also revealed that the player secretly bears the bloodline of The Infected. The player will then be more incentivized to join the rebellion (secret missions) against humanity, or even feel guilty about prior disapproved entries for The Infected. 
 
 
-Week 4)\
+##### Week 4)
 Only:\
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
@@ -98,7 +98,7 @@ Name is not mentioned on ‘The Wanted” list\
 After this week, our superior will announce a paycut to further put load on our financial situation.
 
 
-Week 5)\
+##### Week 5)
 Only:\
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
@@ -114,7 +114,7 @@ False approved alien entries/ disapproved human entries x times
 
 Events:\
 Died immediately- killed on the spot by superior (will be warning prior to this event)
-
+##### 
 ##### 2) Died in incompetence
 Prerequisites:\
 Run out of money (poor grades in previous weekss- time, accuracy...)
