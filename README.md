@@ -169,6 +169,7 @@ Continue living as a human\
 Died after relieved from duty- killed by superior (treason)
 
 
+
 Players may struggle to pick a stand or wish to play out differnet scienarios/endings, so we believe our game has a compelling story and high replayablity. Our game also has different elements of programming that meets the requirements as explained as follows.
 
 
