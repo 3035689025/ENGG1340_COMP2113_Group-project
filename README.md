@@ -42,7 +42,7 @@ In this game, players take up the position of a border officer to Earth, where i
 ────────────────────▓▒\
 
 
-Name: Arthur Holiweek\
+Name: Arthur Holiday\
 Gender: Heart\
 Date of birth: 09/08/1502\
 Date of issue: 11/21/2070\
