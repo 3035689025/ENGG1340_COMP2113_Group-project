@@ -39,7 +39,7 @@ In this game, players take up the position of a border officer to Earth, where i
 ────────────────▓▓▒▒▒░░░▒▒\
 ──────────────────▓▓▒░▒▒\
 ───────────────────▓▒░▒\
-────────────────────▓▒\
+────────────────────▓▒
 
 
 Name: Arthur Holiday\
@@ -76,7 +76,7 @@ Week 3)\
 Only:\
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
-(The last case will be an encounter with a rebel.)\
+(The last case will be an encounter with a rebel.)
 
 A major twist is revealed by a letter from the player’s mother. 300 years ago, Earth was origainlly occupied by the alien species, The Infected, but was since taken away by humans. As victory is often written by the victors, history books has referred to  the deportation of “The Infected species”  in 1800s as a victory of humans defending their motherland against external aliens powers. Even the name “The Infected” is to associate the species with a negative stigma to further alienate them from Earth.
 
@@ -110,56 +110,56 @@ Events:
 Died immediately- killed on the spot by superior (will be warning prior to this event)
 
 ##### 2) Died in incompetence
-Prerequisites: 
+Prerequisites:\
 Run out of money (poor grades in previous weekss- time, accuracy...)
 
-Events:
+Events:\
 Starved in the next week
 
 ##### 3) Died with honor(1)
-Prerequisites: 
- Did not encounter  “invitation from assassin” (x disapproved alien spies entries)
+Prerequisites: \
+Did not encounter  “invitation from assassin” (x disapproved alien spies entries)
 
-Events: 
+Events:\
 Died in week 7(final week) by starvation/over-working (tbd)
 
 ##### 4) Died with honor (2)
-Prerequisites: 
-a) Encounter “invitation from assassin” (x approved alien spies entries),
+Prerequisites:\
+a) Encounter “invitation from assassin” (x approved alien spies entries)\
 b) Approved all 3 (tbd) Earth officials to Earth
 
-Events: 
-Awarded medal of honor in week 6
+Events:\
+Awarded medal of honor in week 6\
 Died in week 7(final week) by starvation/over-working (tbd)
 
 ##### 5) Died in disgrace (2)
-Prerequisites: 
-a) Encounter “invitation from assassin” (x approved alien spies entries),
+Prerequisites:\
+a) Encounter “invitation from assassin” (x approved alien spies entries)\
 b) Did not approve all 3 (tbd) Earth officials to Earth
 
-Events:
-Officials were ambushed in space by assassins
+Events:\
+Officials were ambushed in space by assassins\
 Died when week 6 ended- killed by superior 
 
 
 ##### 6) Hero’s journey
-Prerequisites: 
-a) Encounter “invitation from assassin” (x approved alien spies entries),
+Prerequisites:\
+a) Encounter “invitation from assassin” (x approved alien spies entries)\
 b) Disapproved all 3 (tbd) Earth officials to Earth
 
 Events:
-All 3 officials were ambushed in space by assassins
-Ruling party was overthrown
-Rebellion was a success
+All 3 officials were ambushed in space by assassins\
+Ruling party was overthrown\
+Rebellion was a success\
 You were celebrated as a hero.
 
 ##### 7) Early retirement 
-Prerequisites:
-a) Survive week 3
+Prerequisites:\
+a) Survive week 3\
 b) Choose “retirement with retirement plan” at the end of a week 
 
-Events:
-Continue living as a human
+Events:\
+Continue living as a human\
 Died after relieved from duty- killed by superior (treason)
 
 
