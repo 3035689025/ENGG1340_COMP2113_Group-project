@@ -6,7 +6,7 @@ Team members: Lian Ho Yeung (3035714260), Luk Chin Kiu (3035689025)
 ## Title of project: Officer 
 _a game inspired by Papers Please_
 
-####Settings:
+#### Settings:
 Year 2077: Earth is opening after 30 years of self-isolation\
 Location: Earth Border \
 Role: Border officer, B-263-54
