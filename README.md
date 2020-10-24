@@ -93,20 +93,20 @@ After this week, our superior will announce a paycut to further put load on our 
 
 
 Week 5)\
-Only:
+Only:\
 Humans with passports from approved planets\
 Aliens with passports from approved countries/ planets, with approved visas\
 Name is not mentioned on ‘The Wanted” list\
-(Includes the 3 cases)
+(Includes the 3 cases)\
 (Gameplay will not be the highlight of this day as to let the story shine.) 
 
 
 #### Endings:
 ##### 1) Died in disgrace(1)
-Prerequisites: 
+Prerequisites:\
 False approved alien entries/ disapproved human entries x times
 
-Events: 
+Events:\
 Died immediately- killed on the spot by superior (will be warning prior to this event)
 
 ##### 2) Died in incompetence
