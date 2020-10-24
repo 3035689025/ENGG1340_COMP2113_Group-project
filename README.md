@@ -7,7 +7,51 @@ Team members: Lian Ho Yeung (3035714260), Luk Chin Kiu (3035689025)
 _a game inspired by Papers Please_
 
 #### Game description:
-...
+Officer is a story-based RPG (role-playing game) based on the game “Papers please”. Although we have borrowed concepts such as checking documents and secret missions from the original game, the gameplay and story of “Officer” is completely original.
+
+In this game, players take up the position of a border officer to Earth, where it is opened after 30 years of isolation. By cross-referencing the documents presented by visitors and data provided by your superior, players have to approve or disapprove visitors’ entry to the recently opened Earth. As the difficulty rises (weeks elapsed), more details will need to be inspected by the players and more events (secret missions) will be prompted. The following is an example of a passport from a visitor:
+__________________________________________________________
+────────▓▓▓▓▓▓▓────────────▒▒▒▒▒▒
+──────▓▓▒▒▒▒▒▒▒▓▓────────▒▒░░░░░░▒▒
+────▓▓▒▒▒▒▒▒▒▒▒▒▒▓▓────▒▒░░░░░░░░░▒▒▒
+───▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▒▒░░░░░░░░░░░░░░▒
+──▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░▒
+──▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░▒
+─▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░▒
+▓▓▒▒▒▒▒▒░░░░░░░░░░░▒▒░░▒▒▒▒▒▒▒▒▒▒▒░░░░░░▒
+▓▓▒▒▒▒▒▒▀▀▀▀▀███▄▄▒▒▒░░░▄▄▄██▀▀▀▀▀░░░░░░▒
+▓▓▒▒▒▒▒▒▒▄▀████▀███▄▒░▄████▀████▄░░░░░░░▒
+▓▓▒▒▒▒▒▒█──▀█████▀─▌▒░▐──▀█████▀─█░░░░░░▒
+▓▓▒▒▒▒▒▒▒▀▄▄▄▄▄▄▄▄▀▒▒░░▀▄▄▄▄▄▄▄▄▀░░░░░░░▒
+─▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░▒
+──▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░▒
+───▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▀▀░░░░░░░░░░░░░░▒
+────▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░▒▒
+─────▓▓▒▒▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▄░░░░░░░░▒▒
+──────▓▓▒▒▒▒▒▒▒▄▀▀▀▀▀▀▀▀▀▀▀▄░░░░░▒▒
+───────▓▓▒▒▒▒▒▀▒▒▒▒▒▒░░░░░░░▀░░░▒▒
+────────▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░▒▒
+──────────▓▓▒▒▒▒▒▒▒▒▒░░░░░░░░▒▒
+───────────▓▓▒▒▒▒▒▒▒▒░░░░░░░▒▒
+─────────────▓▓▒▒▒▒▒▒░░░░░▒▒
+───────────────▓▓▒▒▒▒░░░░▒▒
+────────────────▓▓▒▒▒░░░▒▒
+──────────────────▓▓▒░▒▒
+───────────────────▓▒░▒
+────────────────────▓▒
+
+Name: Arthur Holiweek
+Gender: Heart
+Date of birth: 09/08/1502
+Date of issue: 11/21/2070
+Country: The Heartlands (Mars)
+Passport number: 3689 4567 8991
+__________________________________________________________
+
+Players will be provided with related information, such as years till expiration and planets to disprove,  to cross-reference against this passport. As more weeks have passed, there may be more than one document to check, so players will have to input “A” or “B” to access (print out) different documents. This function can also be used to access the data/documents provided by the superior.
+
+After each week, players’ performance will be evaluated by the time spent and the accuracy of approvals. Players are incentivized to reach a high mark as our rare condition (caused by The Infected blood) requires an expensive medicine (although money will evanually run out no matter how well we perform) and food will take up a majority of our paycheck (starvation can be one of the endings).
+
 
 #### Endings:
 ##### 1) Died in disgrace(1)
