@@ -82,7 +82,7 @@ For this situation, the player may consider to  disapprove of its entry. (60% Tr
 
 Array of integers will be used to store the game status. \
 The array will store:\
-(1) Gameday\
+(1) Gameweek\
 (2) Money\
 (3) Number of times of disapproving human entries\
 (4) Number of times of false approved alien entries\
@@ -95,9 +95,9 @@ The array will store:\
 Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameday.
 
 For example,
-1. Earth officials will go to earth only on game-day 5
-and thus the variable - Number of times of approving earth officials to Earth, will be declared on day5.
-2. The gameday variable in the array will be declared after the player starts the game or loads the save.
+1. Earth officials will go to earth only on game-week 5
+and thus the variable - Number of times of approving earth officials to Earth, will be declared on week5.
+2. The gameweek variable in the array will be declared after the player starts the game or loads the save.
 
 Therefore, the program will request for memory if needed (when the game come to a particular gameday or step)
 
@@ -105,22 +105,28 @@ Therefore, the program will request for memory if needed (when the game come to 
 
 ###### Requirement 4- File input/output (e.g., for loading/saving game status)
 
-For the end of each day, players can save their gamestatus in the menu.\
+For the end of each week, players can save their gamestatus in the menu.\
 The save will be stored into a text format file. The format of the game save is “Description, Value” in each line.\
 It is designed not to encrypt deliberately so that the players can get a particular ending of the game. \
-Easter egg endings are also designed for players who modify the money data, gameday.\
+Easter egg endings are also designed for players who modify the money data, gameweek.\
 \
 Format of the game save is as follow:\
 \
-Gameday, 7
+Gameweek, 7
 Money, 999999\
 Number of times of disapproving human entries, 3\
 Number of times of false approved alien entries, 5
 
 ###### Requirement 5- Program codes in multiple files
-\
-The program codes will be saved in multiple files based on the different functions.\
-\
-Main file for programming the functions of the main function including start(), exit() when executing the game program.\
-Gameplay file for programming the main game-play and including the dialogues that provides the introduction and different special rules each day.\
-Event file for programming some special event that may happen on a particular gameday. Those event functions will be called on particular gamedays.
+
+The program codes will be saved in multiple files based on the different functions.
+Main file for programming the functions of the main function including start(), exit() when executing the game program.
+
+1. Gameplay file for programming the main game-play and including the dialogues that provides the introduction and different special rules each dayweek.
+
+2. Event file for programming some special event that may happen on a particular gamedayweek. Those event functions will be called on particular gameday-weeks.
+
+3. Ending file stores different endings of the game and the functions inside the ending files will be called when the player meets all the prerequisites of the ending.
+
+4. Saving Load files will involve the saving and loading function of the game status.
+
