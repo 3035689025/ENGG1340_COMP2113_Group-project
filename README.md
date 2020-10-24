@@ -55,6 +55,7 @@ Country: The Heartlands (Mars)\
 Passport number: 3689 4567 8991
 __________________________________________________________
 
+##### Basic game rules:
 Players will be provided with related information, such as years till expiration and planets to disprove,  to cross-reference against this passport. As more weeks have passed, there may be more than one document to check, so players will have to input “A” or “B” to access (print out) different documents. This function can also be used to access the data/documents provided by the superior.
 
 After each week, players’ performance will be evaluated by the time spent and the accuracy of approvals. Players are incentivized to reach a high mark as our rare condition (caused by The Infected blood) requires an expensive medicine (although money will evanually run out no matter how well we perform) and food will take up a majority of our paycheck (starvation can be one of the endings).
@@ -171,7 +172,6 @@ Died after relieved from duty- killed by superior (treason)
 Players may struggle to pick a stand or wish to play out differnet scienarios/endings, so we believe our game has a compelling story and high replayablity. Our game also has different elements of programming that meets the requirements as explained as follows.
 
 
-#### Basic game rules:
 
 #### List of features
 
