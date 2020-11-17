@@ -21,6 +21,7 @@ int main()
     fin.open(save.txt);
     if (fin.fail()) {
         cout << "Error opening save file." <<endl;
+        //a default all "0" txt file is required
         return 0;
     }
     else {
@@ -38,7 +39,21 @@ int main()
         spiesapproved = tem;
         delete tem;
     }
-    
+    //rng cases
+    int right = 0, wrong = 0;
+    switch (day){
+        //when the game has not been played / reset after the game is finished
+        case 0: day1rng( int & right, int & wrong ); break;
+        case 1: day2rng( int & right, int & wrong ); break;
+        case 2: day3rng( int & right, int & wrong ); break;
+        case 3: day4rng( int & right, int & wrong ); break;
+        case 4: day5rng( int & right, int & wrong ); break;
+        default break;
+    }
+    //special events for each day
+    switch (day){
+        case
+    }
     fin.close();
     switch ()
     return 0;
