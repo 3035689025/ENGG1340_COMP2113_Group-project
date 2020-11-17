@@ -1,1 +1,45 @@
 #include <iostream>
+#include <limits>
+#include <iomanip>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int main() 
+{
+    //no of day, money, wrong attempts previously, no of entries approving spies, accept invite?> 5
+    const int numofitemsinsave =  5
+
+    //insert variables for stored data here
+    int day, money, wrongattempts, spiesapproved;
+    bool finalday = true;
+    string line
+
+    //opening save file
+    ifstream fin;
+    fin.open(save.txt);
+    if (fin.fail()) {
+        cout << "Error opening save file." <<endl;
+        return 0;
+    }
+    else {
+        getline(fin, line))
+        isstringstream iss(line);
+         string new tem;
+        //loop through different saves
+        iss >> tem;
+        day = tem;
+        iss >> tem;
+        money = tem;
+        iss >> tem;
+        wrongattempts = tem;
+        iss >> tem;
+        spiesapproved = tem;
+        delete tem;
+    }
+    
+    fin.close();
+    switch ()
+    return 0;
+}
