@@ -14,17 +14,17 @@ using namespace std;
 //Photo
 //Note
 //Cat
-int main() 
+int main() //void printicon(str icon){ //accept a parameter icon (E.G. Sword) and then print that respecitive ASCII art.
 {
-	string icon = "Sword";
+	string icon = "Sword"; //For testing
 
 
 	if (icon == "Human - Female") 
 	{
-		srand(time(0));
-		int v1 = rand() % 2;
+		srand(time(0)); //seed random number generator based on current time of the computer
+		int v1 = rand() % 2; 
 
-		if (v1 == 0) 
+		if (v1 == 0) // 50%
 		{
 			cout << " /////////////\\\\\\\\\ \n";
 			cout << " (((((((((((((( \\\\\\\ \n";
@@ -44,7 +44,7 @@ int main()
 			cout << "        | | | \n";
 			cout << "       _|_|_|_ \n";
 		}
-		else if (v1 == 1) 
+		else if (v1 == 1) // 50%
 		{
 			cout << "    \\\\\\|||/// \n";
 			cout << "  .  =======  \n";
