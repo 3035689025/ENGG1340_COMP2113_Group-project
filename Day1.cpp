@@ -9,9 +9,9 @@ using namespace std;
 /////////////////icon個function
 
 ////////////////void week1(int& week, int& money, int& wrongattempts, int& spiesapproved, struct個array) { //start newgame既話要declare曬佢地係0先 再唔係唔知可唔可以default係0
-//pack everything in the week1 function?
+
 int main(){
-	cout << "The year is 2077. Earth is opening after 30 years if self-isolation. You are Border Officer, B-263-54, working at the Earth Border. Your job is to
+	cout << "The year is 2077. Earth is opening after 30 years of self-isolation. You are the Border Officer, B-263-54, working at the Earth Border. Your job is to
 		protect Earth from unwanted visitors. Follow the guidelines, approve or disapprove accordingly." << endl << endl;
 	cout << "Press enter to continue" << endl;
 	cin.get();
