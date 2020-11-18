@@ -9,11 +9,13 @@ using namespace std;
 /////////////////icon個function
 
 ////////////////void week1(int& week, int& money, int& wrongattempts, int& spiesapproved, struct個array) { //start newgame既話要declare曬佢地係0先 再唔係唔知可唔可以default係0
-int main()
-{
-	cout << "背景" << endl << endl; /////////////////////////////////////////////////////////////////背景未填
+//pack everything in the week1 function?
+int main(){
+	cout << "The year is 2077. Earth is opening after 30 years if self-isolation. You are Border Officer, B-263-54, working at the Earth Border. Your job is to
+		protect Earth from unwanted visitors. Follow the guidelines, approve or disapprove accordingly." << endl << endl;
 	cout << "Press enter to continue" << endl;
 	cin.get();
+	//include the headings <stdlib. h> or <cstdlib>
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
 
 	cout << setw(53) << "Income statement (Expected) after week 1" << endl << endl;
@@ -32,6 +34,9 @@ int main()
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
 
 	cout << "Your duty this week:" << endl << endl;
+	//print the icon of your superior
+	//cout << icon
+	//cout << "Officer aaa:
 	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty未填
 	cout << "Press enter to continue" << endl;
 	cin.get();
