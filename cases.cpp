@@ -46,7 +46,7 @@ int main(){
 	record[0].PP_name = "Lian Ho Yeung, Michael";
 	record[0].PP_gender = "Human - Male";
 	record[0].PP_birth = "1998-04-22";
-	record[0].PP_issue = "2022-09-31";
+	record[0].PP_issue = "2043-09-31";
 	record[0].PP_country = "Earth - China";
 	record[0].PP_number = "3035714260";
 	record[0].EP_name = "Lian Ho Yeung, Michael";
@@ -59,7 +59,7 @@ int main(){
 	record[1].PP_name = "Chan Ho Fung, Michael";
 	record[1].PP_gender = "Human - Male";
 	record[1].PP_birth = "1998-04-22";
-	record[1].PP_issue = "2022-09-31";
+	record[1].PP_issue = "2053-09-31";
 	record[1].PP_country = "Earth - China";
 	record[1].PP_number = "3035612345";
 	record[1].EP_name = "Chan Ho Fung, Michael";
@@ -72,7 +72,7 @@ int main(){
 	record[2].PP_name = "Luk Chin Kiu, Brian";
 	record[2].PP_gender = "Human - Male";
 	record[2].PP_birth = "2000-01-01";
-	record[2].PP_issue = "2031-02-03";
+	record[2].PP_issue = "2064-02-03";
 	record[2].PP_country = "Earth - China";
 	record[2].PP_number = "3035689025";
 	record[2].EP_name = "Luk Chin Kiu, Brian";
@@ -85,7 +85,7 @@ int main(){
 	record[3].PP_name = "Andy Lau Tak-woh";
 	record[3].PP_gender = "Human - Female";
 	record[3].PP_birth = "2030-05-22";
-	record[3].PP_issue = "2034-05-22";
+	record[3].PP_issue = "2067-05-22";
 	record[3].PP_country = "Earth - United Kingdom";
 	record[3].PP_number = "6590432";
 	record[3].EP_name = "Andy Lau Tak-woh";
@@ -98,7 +98,7 @@ int main(){
 	record[4].PP_name = "Lady Nana";
 	record[4].PP_gender = "Human - Female";
 	record[4].PP_birth = "1990-01-23";
-	record[4].PP_issue = "2020-04-23";
+	record[4].PP_issue = "2074-04-23";
 	record[4].PP_country = "Earth - United States";
 	record[4].PP_number = "4514112";
 	record[4].EP_name = "Lady Nana";
@@ -111,7 +111,7 @@ int main(){
 	record[5].PP_name = "Juliet Shea";
 	record[5].PP_gender = "Human - Female";
 	record[5].PP_birth = "2002-03-03";
-	record[5].PP_issue = "2004-05-06";
+	record[5].PP_issue = "2050-05-06";
 	record[5].PP_country = "Earth - United States";
 	record[5].PP_number = "3431431";
 	record[5].EP_name = "Juliet Shea";
@@ -124,7 +124,7 @@ int main(){
 	record[6].PP_name = "Aleena Scott";
 	record[6].PP_gender = "Human - Female"; //Female Gender
 	record[6].PP_birth = "2003-02-23";
-	record[6].PP_issue = "2006-04-05";
+	record[6].PP_issue = "2032-04-05";
 	record[6].PP_country = "Earth - United Kingdom";
 	record[6].PP_number = "36549334";
 	record[6].EP_name = "Alleena Scott"; 
@@ -138,7 +138,7 @@ int main(){
 	record[7].PP_name = "Mary Jane";
 	record[7].PP_gender = "Human - Female";
 	record[7].PP_birth = "2003-14-23"; // Invaild date - month 14
-	record[7].PP_issue = "2003-02-11";
+	record[7].PP_issue = "2043-02-11";
 	record[7].PP_country = "Earth - China";
 	record[7].PP_number = "451321";
 	record[7].EP_name = "Mary Jane";
@@ -152,7 +152,7 @@ int main(){
 	record[8].PP_name = "Hanry Potter";
 	record[8].PP_gender = "Human - Male";
 	record[8].PP_birth = "2003-02-03";
-	record[8].PP_issue = "2004-05-06";
+	record[8].PP_issue = "2054-05-06";
 	record[8].PP_country = "Earth - United Kingdom";
 	record[8].PP_number = "423234";
 	record[8].EP_name = "March";
@@ -166,7 +166,7 @@ int main(){
 	record[9].PP_name = "Kennedy Town";
 	record[9].PP_gender = "Human - Male";
 	record[9].PP_birth = "2001-12-31";
-	record[9].PP_issue = "2003-23-31"; // Invaild date - month 23
+	record[9].PP_issue = "2043-23-31"; // Invaild date - month 23
 	record[9].PP_country = "Earth - Papua New Guinea";
 	record[9].PP_number = "21321312";
 	record[9].EP_name = "Kennedy Town";
@@ -174,13 +174,13 @@ int main(){
 	record[9].EP_birth = "2001-12-31";
 	record[9].EP_country = "Earth - Papua New Guinea";
 	record[9].vailidity = false;
-	record[9].explanation = "Fake passport (invaild Issue date 2003-23-31)";
+	record[9].explanation = "Fake passport (invaild Issue date 2043-23-31)";
 
 	record[10].icon = "Sword";
 	record[10].PP_name = "Excalibur";
 	record[10].PP_gender = "Sword";
 	record[10].PP_birth = "2003-01-03";
-	record[10].PP_issue = "2005-02-03";
+	record[10].PP_issue = "2055-02-03";
 	record[10].PP_country = "Planet S-23";
 	record[10].PP_number = "32654654";
 	record[10].EP_name = "Excalibur";
@@ -271,8 +271,8 @@ int main(){
 	record[17].icon = "Smiley";
 	record[17].PP_name = "Haha";
 	record[17].PP_gender = "Smiley";
-	record[17].PP_birth = "2003-04-03";
-	record[17].PP_issue = "2000-04-03"; //Issue < birth 
+	record[17].PP_birth = "2053-04-03";
+	record[17].PP_issue = "2050-04-03"; //Issue < birth 
 	record[17].PP_country = "Smiley World";
 	record[17].PP_number = "23123216678";
 	record[17].EP_name = "Haha";
