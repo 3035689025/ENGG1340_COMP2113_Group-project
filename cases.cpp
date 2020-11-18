@@ -308,7 +308,7 @@ int main(){
 	record[19].EP_birth = "1943-02-03";
 	record[19].EP_country = "Planet B612";
 	record[19].vailidity = false; 
-	record[18].explanation = "Planet not on approved list";
+	record[19].explanation = "Planet not on approved list";
 
 	record[20].icon =
 	record[20].PP_name =
