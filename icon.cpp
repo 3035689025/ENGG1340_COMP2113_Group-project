@@ -16,13 +16,12 @@ using namespace std;
 //Note
 //Cat
 
-void icon(string icon) //accept a parameter icon (E.G. Sword) and then print that respecitive ASCII art.
+void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and then print that respecitive ASCII art.
 {
 
 	if (icon == "Human - Female")
 	{
-		srand(time(0)); //seed random number generator based on current time of the computer
-		int v1 = rand() % 2;
+		int v1 = lenght % 2;
 
 		if (v1 == 0) // 50%
 		{
@@ -65,8 +64,7 @@ void icon(string icon) //accept a parameter icon (E.G. Sword) and then print tha
 
 	else if (icon == "Human - Male")
 	{
-		srand(time(0));
-		int v1 = rand() % 2;
+		int v1 = lenght % 2;
 
 		if (v1 == 0)
 		{
