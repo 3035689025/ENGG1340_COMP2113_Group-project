@@ -654,7 +654,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       }
       else 
       {
-        cout << "Visitor: I see my two friends have returned, thank you for your service officer."
+        cout << "Visitor: I see my two friends have returned, thank you for your service officer." << endl      
       }
       
       cout << "Passport information" << endl;
@@ -670,9 +670,9 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       //ADD ENTRY PASS INFO HERE!!!!!!!!!!!!
 	  
       cout << endl << endl;
-	    cout << "[1] Check approved countries (Earth)" << endl;
-	    cout << "[2] Check aproved planets" << endl;
-	    cout << "[3] Scanner (For checking gender) " << endl;
+      cout << "[1] Check approved countries (Earth)" << endl;
+      cout << "[2] Check aproved planets" << endl;
+      cout << "[3] Scanner (For checking gender) " << endl;
     	cout << "[Y] Aprrove entry " << endl;
     	cout << "[N] Disapprove entry " << endl;
       cout << endl << "Input:";
@@ -680,10 +680,10 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N"  && userinput != "y" && userinput != "n")
       {
-	     cout << "Invalid input, Try again" << endl;
-	     cout << "[1] Check approved countries (Earth)" << endl;
-	     cout << "[2] Check aproved planets" << endl;
-	     cout << "[3] Scanner (For checking gender) " << endl;
+	 cout << "Invalid input, Try again" << endl;
+         cout << "[1] Check approved countries (Earth)" << endl;
+	 cout << "[2] Check aproved planets" << endl;
+	 cout << "[3] Scanner (For checking gender) " << endl;
     	 cout << "[Y] Aprrove entry " << endl;
     	 cout << "[N] Disapprove entry " << endl;
     	 cout << endl << "Input:";
@@ -762,7 +762,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cin.get();
        system("CLS"); //or clear
        //thoughts from "you"
-       cout << "I'm not wrong. Just fulfilling my duties. Right...?"
+       cout << "I'm not wrong. Just fulfilling my duties. Right...?" << endl;
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
