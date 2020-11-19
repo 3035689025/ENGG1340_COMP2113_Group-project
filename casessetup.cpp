@@ -273,5 +273,284 @@ void casessetup(cases record[])
 	record[19].EP_country = "Planet B612";
 	record[19].vailidity = false;
 	record[19].explanation = "Planet not on approved list";
+	
+		//20-25: human correct , 26-29: human wrong
+	//30-35: alien wrong , 36-3-: alien wrong
+
+	//approved countries: Gotham City, United Kingdome, United States, China, Australia
+	//approved planets: Planet S-23, Planet Razer, Planet Music, Zootopia, Planet 1117, Planet Smiley Face, Smiley world
+
+	//human correct cases
+	record[20].icon = "Human - Male";
+	record[20].PP_name = "Thomas Wayne";
+        record[20].PP_gender = "Human - Male";
+        record[20].PP_birth = "1997-05-17";
+        record[20].PP_issue = "2031-09-18";
+        record[20].PP_country = "Earth - Gotham City";
+        record[20].PP_number = "097594725";
+        record[20].EP_name = "Thomas Wayne";
+        record[20].EP_gender = "Human - Male";
+        record[20].EP_birth = "1997-05-17";
+        record[20].EP_country = "Earth - Gotham City";
+        record[20].EP_vailidity = true;
+
+	record[21].icon = "Human - Female";
+        record[21].PP_name = "Selena Jordan";
+        record[21].PP_gender = "Human - Female";
+        record[21].PP_birth = "2002-07-25";
+            record[21].PP_issue = "2030-01-02";
+        record[21].PP_country = "Earth - China";
+        record[21].PP_number = "856992175";
+        record[21].EP_name = "Selena Jordan";
+        record[21].EP_gender = "Human - Female";
+        record[21].EP_birth = "2002-07-25";
+        record[21].EP_country = "Earth - China";
+        record[21].EP_vailidity = true;
+
+	record[22].icon = "Human - Male";
+        record[22].PP_name = "Christopher Murray";
+        record[22].PP_gender = "Human - Male";
+        record[22].PP_birth = "2003-04-26";
+        record[22].PP_issue = "2029-11-29";
+        record[22].PP_country = "Earth - Australia";
+        record[22].PP_number = "087755291";
+        record[22].EP_name = "Christopher Murray";
+        record[22].EP_gender = "Human - Male";
+        record[22].EP_birth = "2003-04-26";
+        record[22].EP_country = "2029-11-29";
+        record[22].EP_vailidity = true;
+
+	record[23].icon = "Human - Male";
+	record[23].PP_name = "Barack Obama";
+	record[23].PP_gender = "Human - Male";
+	record[23].PP_birth = "2003-07-03";
+	record[23].PP_issue = "2039-10-11";
+	record[23].PP_country = "Earth - United Kingdom";
+	record[23].PP_number = "097635288";
+	record[23].EP_name = "Barack Obama";
+	record[23].EP_gender = "Human - Male";
+	record[23].EP_birth = "2003-07-03";
+	record[23].EP_country = "Earth - United Kingdom";
+	record[23].vailidity = true;
+
+	record[24].icon = "Human - Female";
+	record[24].PP_name = "Serena Williams";
+	record[24].PP_gender = "Human - Female";
+	record[24].PP_birth = "1999-03-07";
+	record[24].PP_issue = "2038-09-18";
+	record[24].PP_country = "Earth - China";
+	record[24].PP_number = "996432793";
+	record[24].EP_name = "Serena Williams";
+	record[24].EP_gender = "Human - Female";
+	record[24].EP_birth = "1999-03-07";
+	record[24].EP_country = "Earth - China";
+	record[24].vailidity = true;
+
+	record[25].icon = "Human - Male";
+	record[25].PP_name = "Chad Simpson";
+	record[25].PP_gender = "Human - Male";
+	record[25].PP_birth = "2000-01-01";
+	record[25].PP_issue = "2039-11-07";
+	record[25].PP_country = "Earth - United States";
+	record[25].PP_number = "548957334";
+	record[25].EP_name = "Chad Simpson";
+	record[25].EP_gender = "Human - Male";
+	record[25].EP_birth = "2000-01-01";
+	record[25].EP_country = "Earth - United States";
+	record[25].vailidity = true;
+
+	record[26].icon = "Human - Female";
+	record[26].PP_name = "Karen Chan";
+	record[26].PP_gender = "Human - Female";
+	record[26].PP_birth = "1998-02-25";
+	record[26].PP_issue = "2038-10-05";
+	record[26].PP_country = "Earth - China";
+	record[26].PP_number = "598761423";
+	record[26].EP_name = "Karen Chan";
+	record[26].EP_gender = "Human - Female";
+	record[26].EP_birth = "1998-02-25";
+	record[26].EP_country = "Earth - China";
+	record[26].vailidity = true;
+
+	//human wrong cases
+
+	record[27].icon = "Human - Male";
+	record[27].PP_name = "Michael Jackson Jr.";
+	record[27].PP_gender = "Human - Male";
+	record[27].PP_birth = "2001-08-10";
+	record[27].PP_issue = "2038-04-22";
+	record[27].PP_country = "Planet A-10";
+	record[27].PP_number = "135597482";
+	record[27].EP_name = "Michael Jackson Jr.";
+	record[27].EP_gender = "Human - Male";
+	record[27].EP_birth = "2001-08-10";
+	record[27].EP_country = "Earth - Sweden";
+	record[27].vailidity = false;
+	record[27].explanation = "Country not on approved list";
+
+	record[28].icon = "Human - Female";
+	record[28].PP_name = "Amanda Nunes";
+	record[28].PP_gender = "Human - Female";
+	record[28].PP_birth = "2037-10-10";
+	record[28].PP_issue = "2037-09-01";
+	record[28].PP_country = "Earth - United States";
+	record[28].PP_number = "967518932";
+	record[28].EP_name = "Amanda Nunes";
+	record[28].EP_gender = "Human - Female";
+	record[28].EP_birth = "2037-10-10";
+	record[28].EP_country = "Earth - United States";
+	record[28].vailidity = false;
+	record[28].explanation = "Fake passport (Issue date earlier than birthday)";
+
+	record[29].icon = "Car";
+	record[29].PP_name = "Fogell Mc'Lovin";
+	record[29].PP_gender = "Human - Male";
+	record[29].PP_birth = "2001-08-30";
+	record[29].PP_issue = "2038-03-10";
+	record[29].PP_country = "Earth - United States";
+	record[29].PP_number = "786246786";
+	record[29].EP_name = "Fogell Mc'Lovin";
+	record[29].EP_gender = "Human - Male";
+	record[29].EP_birth = "2001-08-30";
+	record[29].EP_country = "Earth - United States";
+	record[29].vailidity = false;
+	record[29].explanation = "Fake passport (invalid photo)";
+
+	//alien correct cases
+
+	record[30].icon = "Dog";
+	record[30].PP_name = "Snoop Dogg";
+	record[30].PP_gender = "Dog";
+	record[30].PP_birth = "1997-06-19";
+	record[30].PP_issue = "2031-10-21";
+	record[30].PP_country = "Zootopia";
+	record[30].PP_number = "156456895";
+	record[30].EP_name = "Snoop Dogg";
+	record[30].EP_gender = "Dog";
+	record[30].EP_birth = "1997-06-19";
+	record[30].EP_country = "Zootopia";
+	record[30].vailidity = true;
+
+	record[31].icon = "Note";
+	record[31].PP_name = "Heavy Metal";
+	record[31].PP_gender = "Note";
+	record[31].PP_birth = "2010-09-15";
+	record[31].PP_issue = "2029-07-04";
+	record[31].PP_country = "Planet S-23";
+	record[31].PP_number = "123654789";
+	record[31].EP_name = "Heavy Metal";
+	record[31].EP_gender = "Note";
+	record[31].EP_birth = "2010-09-15";
+	record[31].EP_country = "Planet S-23";
+	record[31].vailidity = true;
+
+	record[32].icon = "Car";
+	record[32].PP_name = "Model S";
+	record[32].PP_gender = "Car";
+	record[32].PP_birth = "2009-12-26";
+	record[32].PP_issue = "2039-10-14";
+	record[32].PP_country = "Planet 1117";
+	record[32].PP_number = "856369745";
+	record[32].EP_name = "Model S";
+	record[32].EP_gender = "Car";
+	record[32].EP_birth = "2009-12-26";
+	record[32].EP_country = "Planet 1117";
+	record[32].vailidity = true;
+
+	record[33].icon = "Smiley";
+	record[33].PP_name = "Creepy Smirk";
+	record[33].PP_gender = "Smiley";
+	record[33].PP_birth = "2017-08-12";
+	record[33].PP_issue = "2029-03-28";
+	record[33].PP_country = "Smiley World";
+	record[33].PP_number = "852314997";
+	record[33].EP_name = "Creepy Smirk";
+	record[33].EP_gender = "Smiley";
+	record[33].EP_birth = "2017-08-12";
+	record[33].EP_country = "Smiley World";
+	record[33].vailidity = true;
+
+	record[34].icon = "Mouse";
+	record[34].PP_name = "Logitech The Imposter";
+	record[34].PP_gender = "Mouse";
+	record[34].PP_birth = "2011-04-18";
+	record[34].PP_issue = "2030-01-13";
+	record[34].PP_country = "Planet Razer";
+	record[34].PP_number = "502502502";
+	record[34].EP_name = "Logitech The Imposter";
+	record[34].EP_gender = "Mouse";
+	record[34].EP_birth = "2011-04-18";
+	record[34].EP_country = "Planet Razer";
+	record[34].vailidity = true;
+
+	record[35].icon = "Sword";
+	record[35].PP_name = "Butcher Knife";
+	record[35].PP_gender = "Sword";
+	record[35].PP_birth = "2002-04-22";
+	record[35].PP_issue = "2030-07-16";
+	record[35].PP_country = "Planet S-23";
+	record[35].PP_number = "789564289";
+	record[35].EP_name = "Butcher Knife";
+	record[35].EP_gender = "Sword";
+	record[35].EP_birth = "2002-04-22";
+	record[35].EP_country = "Planet S-23";
+	record[35].vailidity = true;
+
+	record[36].icon = "Sword";
+	record[36].PP_name = "Lightsaber Darkside";
+	record[36].PP_gender = "Sword";
+	record[36].PP_birth = "2001-02-04";
+	record[36].PP_issue = "2030-09-08";
+	record[36].PP_country = "Planet S-23";
+	record[36].PP_number = "987441568";
+	record[36].EP_name = "Lightsaber Darkside";
+	record[36].EP_gender = "Sword";
+	record[36].EP_birth = "2001-02-04";
+	record[36].EP_country = "Planet S-23";
+	record[36].vailidity = true;
+
+	// alien wrong cases
+
+	record[37].icon = "Book";
+	record[37].PP_name = "Dune";
+	record[37].PP_gender = "Book";
+	record[37].PP_birth = "1965-08-01";
+	record[37].PP_issue = "2030-11-12";
+	record[37].PP_country = "Planet 1117";
+	record[37].PP_number = "854261337";
+	record[37].EP_name = "Dune";
+	record[37].EP_gender = "Book";
+	record[37].EP_birth = "2030-11-12";
+	record[37].EP_country = "Planet 1117";
+	record[37].vailidity = false;
+	record[37].explanation = "Invalid entry pass (wrong birthdate)";
+
+	record[38].icon = "Apple";
+	record[38].PP_name = "Hayden Triss";
+	record[38].PP_gender = "Human - Female";
+	record[38].PP_birth = "2001-09-21";
+	record[38].PP_issue = "2029-09-14";
+	record[38].PP_country = "Planet Music";
+	record[38].PP_number = "485169189";
+	record[38].EP_name = "Hayden Triss"
+	record[38].EP_gender = "Human - Female";
+	record[38].EP_birth = "2001-09-21";
+	record[38].EP_country = "Planet Music";
+	record[38].vailidity = false;
+	record[38].explanation = "Fake passport (photo)";
+
+	record[39].icon = "Car";
+	record[39].PP_name = "Ghost Super 2.0";
+	record[39].PP_gender = "Car";
+	record[39].PP_birth = "2012-04-13";
+	record[39].PP_issue = "2031-09-12";
+	record[39].PP_country = "Planet Zootopia";
+	record[39].PP_number = "744874569";
+	record[39].EP_name = "Ghost Super 2.0";
+	record[39].EP_gender = "Car";
+	record[39].EP_birth = "2012-04-13";
+	record[39].EP_country = "Planet Zootopia";
+	record[39].vailidity = false;
+	record[39].explanation = "Planet not on approved list";
 
 }
