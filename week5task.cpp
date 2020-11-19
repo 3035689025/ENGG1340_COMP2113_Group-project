@@ -39,7 +39,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   cout << "You: Passport and entry pass please!" << endl;
   
   string userinput = "";
-  while (userinput != "Y" && userinput != "N")
+  while (userinput != "Y" && userinput != "N" && userinput !="y" && userinput !="n")
   {
       // Print passport as long as the input is not Y nor N
       cout << endl;
