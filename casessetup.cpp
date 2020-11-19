@@ -6,6 +6,24 @@ using namespace std;
 
 void casessetup(cases record[]) 
 {
+	//Approved earth country:
+	//China
+	//United Kingdom
+	//United States
+	//Papua New Guinea
+
+	//Approve Planet:
+	//Planet S-23
+	//Planet Razer
+	//Planet Music
+	//Zootopia
+	//Planet 1117
+	//Planet Smiley Face
+	//Smiley world
+	
+	// 0 - 5 Humane True cases
+	// 6 - 9 Human False cases
+	
 	record[0].icon = "Human - Male";
 	record[0].PP_name = "Lian Ho Yeung, Michael";
 	record[0].PP_gender = "Human - Male";
@@ -274,7 +292,7 @@ void casessetup(cases record[])
 	record[19].vailidity = false;
 	record[19].explanation = "Planet not on approved list";
 	
-		//20-25: human correct , 26-29: human wrong
+	//20-25: human correct , 26-29: human wrong
 	//30-35: alien wrong , 36-3-: alien wrong
 
 	//approved countries: Gotham City, United Kingdome, United States, China, Australia
