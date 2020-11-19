@@ -11,10 +11,12 @@ using namespace std;
 
 void week1task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
 {
-	cout << "背景" << endl << endl; /////////////////////////////////////////////////////////////////背景未填
+	cout << "The year is 2077. Earth is opening after 30 years of self-isolation. You are the Border Officer, B-263-54, working at the Earth Border. Your job is to"
+	     <<  "protect Earth from unwanted visitors. Follow the guidelines, approve or disapprove accordingly." << endl << endl;
 	cout << "Press enter to continue" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+	//include the headings <stdlib. h> or <cstdlib>
+	system("CLS"); //or clear
 
 	cout << setw(53) << "Income statement (Expected) after week 1" << endl << endl;
 	cout << setw(25) << "Item" << " |" << setw(20) << "Fee" << endl;
@@ -30,9 +32,30 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	cout << "Press enter to continue" << endl;
 	cin.get();
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+	
+	//Your superior Officer Kim telling you your duties for this week
+	//icon of Officer Kim
+	cout << "                       ________________"            << endl;
+	cout << "                      \\      __      /         __"  << endl;
+	cout << "                       \\_____()_____/         /  )" << endl;
+	cout << "                       '============`        /  /"  << endl;
+	cout << "                        #---\\  /---#        /  /"   << endl;
+	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	cout << "                        \\   (_)   /       /  /"     << endl;
+	cout << "                        |\\ '---` /|      /  /"      << endl;
+	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	cout << "           |    '              ||  --)    \\     |"  << endl;
+	cout << "           |___________________||  --)     \\    / " << endl;
+	cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	cout << "                |            |          | "         << endl;
+	cout << endl << endl;
 
-	cout << "Your duty this week:" << endl << endl;
-	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty未填
+	cout << "Officer Kim: Only allow humans with valid passports to enter this week. The safety of our planet is in your hands!" << endl << endl; 
 	cout << "Press enter to continue" << endl;
 	cin.get();
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
@@ -65,7 +88,9 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 			cout << "Gender: " << record[case_index].PP_gender << endl;
 			cout << "Birthday: " << record[case_index].PP_birth << endl;
 			cout << "Issue date: " << record[case_index].PP_issue << endl;
-			cout << "Country: " << record[case_index].PP_country << endl; ///////////////////////Nationality?
+			cout << "Country: " << record[case_index].PP_country << endl; ///////////////////////Nationality? 
+			//B: I guess we can print "Planet:"? since we have to planets and country later.
+			
 			cout << "Passport Number: " << record[case_index].PP_number << endl;
 			cout << "-------------------------" << endl;
 
@@ -99,7 +124,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					system("CLS"); ///////////LINUX 好似係用clear rather than CLS
 					cout << "Approved country list" << endl;
 					cout << "--------------------------------------" << endl;
-					cout << "E.G. China" << endl; //////////////////////////////////////////Not yet completed
+					cout << "Australia \n China \n Gotham City \n Papua New Guinea \n United Kingdome \n United States \n" << endl; //////////////////////////////////////////Not yet completed
 					cout << endl;
 					cout << "Press enter to continue" << endl;
 					cin.get();
