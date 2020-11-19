@@ -206,6 +206,25 @@ void icon(string icon) //accept a parameter icon (E.G. Sword) and then print tha
 		cout << "( o.o )" << endl;
 		cout << " > ^ <" << endl;
 	}
+	
+	else if (icon == "Owl")
+	{
+		cout << " /\_/\ " <<endl;
+                cout << "((@v@))" <<endl;
+                cout << "():::()" <<endl;
+                cout << " VV-VV " <<endl;
+	}
+	
+	else if (icon == "Deer")
+	{
+		cout << "(             ) " << endl;
+                cout << " `--(_   _)--'  " << endl;
+                cout << "      Y-Y       " << endl;
+                cout << "     /@@ \      " << endl;
+                cout << "    /     \     " << endl;
+                cout << "    `--'.  \             ," << endl;
+                cout << "        |   `.__________/) " << endl;
+	}
 
 	else if (icon == "Dog")
 	{
