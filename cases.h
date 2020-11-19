@@ -13,14 +13,14 @@ struct cases { // Stored into struct cases.h
 	std::string PP_country;
 	std::string PP_number;
 
-	//EP = entry-pass
+	//EP = entry pass
 	std::string EP_name;
 	std::string EP_gender;
 	std::string EP_birth;
 	std::string EP_country;
 	std::string explanation;
 
-	//Return true if no erros occurs in the EP and PP
+	//Return true if no erros occurs in the EP and PP (consistent information)
 	bool vailidity;
 };
 
