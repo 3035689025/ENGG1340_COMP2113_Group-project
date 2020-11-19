@@ -87,8 +87,8 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 				cout << "[1] Check approved countries (Earth)" << endl;
 				cout << "[2] Check approved planets" << endl;
 				cout << "[3] Scanner (For checking gender) " << endl;
-				cout << "[Y] Aprrove (Permit to enter) " << endl;
-				cout << "[N] Disapprove (Not permit to enter) " << endl;
+				cout << "[Y] Aprrove entry " << endl;
+				cout << "[N] Disapprove entry " << endl;
 				cout << endl << "Input:";
 				cin >> userinput;
 			}
