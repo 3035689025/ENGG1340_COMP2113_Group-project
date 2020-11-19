@@ -4,6 +4,7 @@
 #include <chrono>
 #include <cstdlib>
 #include <windows.h>
+#include <ctime>
 #include "cases.h"
 #include "icon.h"
 #include "week1task.h"
@@ -78,7 +79,8 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 		while (userinput != "Y" && userinput != "N")
 		{
 			cout << endl;
-			icon(record[case_index].icon);
+			int lenght = record[case_index].PP_name.length();
+			icon(record[case_index].icon, lenght);
 			cout << endl << "Visitor: Hello! Here is my passport" << endl << endl;
 
 			// Print passport
@@ -88,8 +90,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 			cout << "Gender: " << record[case_index].PP_gender << endl;
 			cout << "Birthday: " << record[case_index].PP_birth << endl;
 			cout << "Issue date: " << record[case_index].PP_issue << endl;
-			cout << "Country: " << record[case_index].PP_country << endl; ///////////////////////Nationality? 
-			//B: I guess we can print "Planet:"? since we have to planets and country later.
+			cout << "Planet: " << record[case_index].PP_country << endl; 
 			
 			cout << "Passport Number: " << record[case_index].PP_number << endl;
 			cout << "-------------------------" << endl;
@@ -99,14 +100,14 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 			cout << "[1] Check approved countries (Earth)" << endl;
 			cout << "[2] Check approved planets" << endl;
 			cout << "[3] Scanner (For checking gender) " << endl;
-			cout << "[Y] Aprrove (Permit to enter) " << endl;
-			cout << "[N] Disapprove (Not permit to enter) " << endl;
+			cout << "[Y] Aprrove entry " << endl;
+			cout << "[N] Disapprove entry " << endl;
 			cout << endl << "input: ";
 			cin >> userinput;
 			
 
 
-			while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N")
+			while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput !="y" && userinput !="n")
 			{
 				cout << "Invalid input, Try again" << endl;
 				cout << "[1] Check approved countries (Earth)" << endl;
@@ -172,7 +173,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 							cout << "Warning letter" << endl;
 							cout << "--------------------------------------" << endl;
 							cout << "Your choice was wrong due to the following reasons: " << endl; 
-							cout << record[case_index].explanation << endl << endl << endl;
+							cout << "Allien is not allowed to enter" << endl << endl << endl;
 							cout << "Press enter to continue" << endl;
 							cin.get();
 							cin.get();
@@ -183,16 +184,31 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					//Wrong aprrved 
 					if (record[case_index].vailidity == false)
 					{
-						system("CLS"); ///////////LINUX 好似係用clear rather than CLS
-						wrongattempts++;
-						cout << "Warning letter" << endl;
-						cout << "--------------------------------------" << endl;
-						cout << "Your choice was wrong due to the following reasons: " << endl; 
-						cout << record[case_index].explanation << endl << endl << endl
-						cout <<"Press enter to continue" << endl;
-						cin.get();
-						cin.get();
-						system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+						if (record[case_index].icon != "Human - Male" || record[case_index].icon != "Human - Female")
+						{
+							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							wrongattempts++;
+							cout << "Warning letter" << endl;
+							cout << "--------------------------------------" << endl;
+							cout << "Your choice was wrong due to the following reasons: " << endl; 
+							cout << "Allien is not allowed to enter" << endl << endl << endl;
+							cout << "Press enter to continue" << endl;
+							cin.get();
+							cin.get();
+							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+						}
+						else{
+							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							wrongattempts++;
+							cout << "Warning letter" << endl;
+							cout << "--------------------------------------" << endl;
+							cout << "Your choice was wrong due to the following reasons: " << endl; 
+							cout << record[case_index].explanation << endl << endl << endl;
+							cout <<"Press enter to continue" << endl;
+							cin.get();
+							cin.get();
+							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+						}
 					}
 				}
 
@@ -212,7 +228,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 						cout << "Warning letter" << endl;
 						cout << "--------------------------------------" << endl;
 						cout << "Your choice was wrong due to the following reasons: " << endl; 
-						cout << record[case_index].explanation << endl << endl << endl
+						cout << record[case_index].explanation << endl << endl << endl;
 						cout <<"Press enter to continue" << endl;
 						cin.get();
 						cin.get();
