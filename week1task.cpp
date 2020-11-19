@@ -11,10 +11,10 @@ using namespace std;
 
 void week1task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
 {
-	cout << "­I´º" << endl << endl; /////////////////////////////////////////////////////////////////­I´º¥¼¶ñ
+	cout << "èƒŒæ™¯" << endl << endl; /////////////////////////////////////////////////////////////////èƒŒæ™¯æœªå¡«
 	cout << "Press enter to continue" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+	system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 
 	cout << setw(53) << "Income statement (Expected) after week 1" << endl << endl;
 	cout << setw(25) << "Item" << " |" << setw(20) << "Fee" << endl;
@@ -29,13 +29,13 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	cout << endl << endl;
 	cout << "Press enter to continue" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+	system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 
 	cout << "Your duty this week:" << endl << endl;
-	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty¥¼¶ñ
+	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////dutyæœªå¡«
 	cout << "Press enter to continue" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+	system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 
 	//Time counter
 	auto current = std::chrono::system_clock::now();
@@ -56,7 +56,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 		{
 			cout << endl;
 			icon(record[case_index].icon);
-			cout << endl << "Visitor: Hello, Here is my passport" << endl << endl;
+			cout << endl << "Visitor: Hello! Here is my passport" << endl << endl;
 
 			// Print passport
 			cout << "Passport information" << endl;
@@ -96,7 +96,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 
 				if (userinput == "1")
 				{	
-					system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+					system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 					cout << "Approved country list" << endl;
 					cout << "--------------------------------------" << endl;
 					cout << "E.G. China" << endl; //////////////////////////////////////////Not yet completed
@@ -104,12 +104,12 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					cout << "Press enter to continue" << endl;
 					cin.get();
 					cin.get();
-					system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+					system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 				}
 
 				else if (userinput == "2")
 				{
-					system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+					system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 					cout << "Approved planet list" << endl;
 					cout << "--------------------------------------" << endl;
 					cout << "Empty" << endl;
@@ -117,16 +117,16 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					cout << "Press enter to continue" << endl;
 					cin.get();
 					cin.get();
-					system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+					system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 				}
 
 				else if (userinput == "3")
 				{
-					system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+					system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 					cout << "Scanner result: " << record[case_index].icon << endl;
 					cin.get();
 					cin.get();
-					system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS (¥i¥H¯d¨ì³Ì§À¥ý§ï)
+					system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS (å¯ä»¥ç•™åˆ°æœ€å°¾å…ˆæ”¹)
 				}
 
 				else if (userinput == "Y" || userinput == "y")
@@ -136,36 +136,36 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					{
 						if (record[case_index].icon == "Human - Male" || record[case_index].icon == "Human - Female")
 						{
-							system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+							system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 							salary += 5;
 						}
 
 						else
 						{
-							system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+							system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 							wrongattempts++;
 							cout << "Warning letter" << endl;
 							cout << "--------------------------------------" << endl;
-							cout << "Warning letter ¤º®e" << endl; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////¥¼¶ñ(À³¸Ó­ø¤ñ¤J ¦ý§å¥ªÊ\¤J)
+							cout << "Warning letter å…§å®¹" << endl; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////æœªå¡«(æ‡‰è©²å””æ¯”å…¥ ä½†æ‰¹å·¦ä½¢å…¥)
 							cout << "Press enter to continue" << endl;
 							cin.get();
 							cin.get();
-							system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+							system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 						}
 					}
 
 					//Wrong aprrved 
 					if (record[case_index].vailidity == false)
 					{
-						system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+						system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 						wrongattempts++;
 						cout << "Warning letter" << endl;
 						cout << "--------------------------------------" << endl;
-						cout << "Warning letter ¤º®e" << endl; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////¥¼¶ñ(À³¸Ó­ø¤ñ¤J ¦ý§å¥ªÊ\¤J)
+						cout << "Warning letter å…§å®¹" << endl; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////æœªå¡«(æ‡‰è©²å””æ¯”å…¥ ä½†æ‰¹å·¦ä½¢å…¥)
 						cout << "Press enter to continue" << endl;
 						cin.get();
 						cin.get();
-						system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+						system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 					}
 				}
 
@@ -175,20 +175,20 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 				{
 					if (record[case_index].icon != "Human - Female" || record[case_index].icon != "Human - Male")
 					{
-						system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+						system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 						salary += 5;
 					}
 					else if (record[case_index].vailidity == true)
 					{
-						system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+						system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 						wrongattempts++;
 						cout << "Warning letter" << endl;
 						cout << "--------------------------------------" << endl;
-						cout << "Warning letter ¤º®e" << endl;///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////¥¼¶ñ(À³¸Ó¤ñ¤J ¦ýµL§åÊ\¤J)
+						cout << "Warning letter å…§å®¹" << endl;///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////æœªå¡«(æ‡‰è©²æ¯”å…¥ ä½†ç„¡æ‰¹ä½¢å…¥)
 						cout << "Press enter to continue" << endl;
 						cin.get();
 						cin.get();
-						system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+						system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 					}
 				}
 		}
