@@ -3,6 +3,6 @@
 
 #include <string>
 
-void icon (std::string icon);
+void icon (std::string icon, int lenght);
 
 #endif
