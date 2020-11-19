@@ -88,7 +88,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	system("CLS"); //or clear
      	cout << "Approved country list" << endl;
      	cout << "--------------------------------------" << endl;
-     	cout << "Australia \n China \n Gotham City \n Papua New Guinea \n United Kingdome \n United States \n" << endl; //////////////////////////////////////////Not yet completed
+     	cout << "Australia \n China \n Gotham City \n Papua New Guinea \n United Kingdome \n United States \n" << endl;
      	cout << endl;
      	cout << "Press enter to continue" << endl;
      	cin.get();
