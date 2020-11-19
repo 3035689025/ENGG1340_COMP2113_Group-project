@@ -171,7 +171,8 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 							wrongattempts++;
 							cout << "Warning letter" << endl;
 							cout << "--------------------------------------" << endl;
-							cout << "Warning letter 內容" << endl; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////未填(應該唔比入 但批左佢入)
+							cout << "Your choice was wrong due to the following reasons: " << endl; 
+							cout << record[case_index].explanation << endl << endl << endl;
 							cout << "Press enter to continue" << endl;
 							cin.get();
 							cin.get();
@@ -186,8 +187,9 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 						wrongattempts++;
 						cout << "Warning letter" << endl;
 						cout << "--------------------------------------" << endl;
-						cout << "Warning letter 內容" << endl; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////未填(應該唔比入 但批左佢入)
-						cout << "Press enter to continue" << endl;
+						cout << "Your choice was wrong due to the following reasons: " << endl; 
+						cout << record[case_index].explanation << endl << endl << endl
+						cout <<"Press enter to continue" << endl;
 						cin.get();
 						cin.get();
 						system("CLS"); ///////////LINUX 好似係用clear rather than CLS
@@ -209,8 +211,9 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 						wrongattempts++;
 						cout << "Warning letter" << endl;
 						cout << "--------------------------------------" << endl;
-						cout << "Warning letter 內容" << endl;///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////未填(應該比入 但無批佢入)
-						cout << "Press enter to continue" << endl;
+						cout << "Your choice was wrong due to the following reasons: " << endl; 
+						cout << record[case_index].explanation << endl << endl << endl
+						cout <<"Press enter to continue" << endl;
 						cin.get();
 						cin.get();
 						system("CLS"); ///////////LINUX 好似係用clear rather than CLS
