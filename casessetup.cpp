@@ -456,7 +456,7 @@ void casessetup(cases record[])
 	record[31].PP_issue = "2029-07-04";
 	record[31].PP_country = "Zootopia";
 	record[31].PP_number = "123654789";
-	record[31].EP_name = "Rudolphl";
+	record[31].EP_name = "Rudolph";
 	record[31].EP_gender = "Deer";
 	record[31].EP_birth = "2010-09-15";
 	record[31].EP_country = "Planet S-23";
