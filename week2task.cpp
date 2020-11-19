@@ -11,19 +11,39 @@ using namespace std;
 
 void week2task(int& week, int& money, int& wrongattempts, cases record[], int& salary)
 {
-	///////Duty (Officer Kim)????
-	cout << "Your duty this week:" << endl << endl;
-	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty¥¼¶ñ(¥~¬P¤H¤J±o)
-	cout << "Press enter to start your work this week" << endl;
-	cin.get();
-	system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+	//Your superior Officer Kim telling you your duties for this week
+	//icon of Officer Kim
+	cout << "                       ________________"            << endl;
+	cout << "                      \\      __      /         __"  << endl;
+	cout << "                       \\_____()_____/         /  )" << endl;
+	cout << "                       '============`        /  /"  << endl;
+	cout << "                        #---\\  /---#        /  /"   << endl;
+	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	cout << "                        \\   (_)   /       /  /"     << endl;
+	cout << "                        |\\ '---` /|      /  /"      << endl;
+	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	cout << "           |    '              ||  --)    \\     |"  << endl;
+	cout << "           |___________________||  --)     \\    / " << endl;
+	cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	cout << "                |            |          | "         << endl;
+	cout << endl << endl;
 
-	//Time counter /////////////////­n§ïtimer ¦³bug
+	cout << "Officer Kim: Humans AND aliens are allowed to enter Earth starting from this week. Make sure the information in their passports is consistent." << endl << endl;
+        cout << "Press enter to start your work this week" << endl;
+	cin.get();
+	system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
+
+	//Time counter /////////////////è¦æ”¹timer æœ‰bug
 	auto current = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - current;
 
-	while (elapsed_seconds.count() < 1) /////////////////­n§ïtimer ¦³bug 
+	while (elapsed_seconds.count() < 1) /////////////////è¦æ”¹timer æœ‰bug 
 	{
 		randomcases(week, record, salary, wrongattempts);
 		auto end = std::chrono::system_clock::now();
@@ -59,11 +79,11 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "\n \n";
 	cout << "You: Sorry! It is closed." << endl << endl;
 	cout << "Visitor: Read it and return to me immediately." << endl;
-	//////////////wait 5seconds «á¸É
+	//////////////wait 5seconds å¾Œè£œ
 	cout << "\n \n \n \n";
 	cout << "(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)" << endl << endl; /////////////////////////////////////////////////////////not completed
 	cout << "Press enter to return the letter";
 
-	//result_roundup_and_ending() <-- ¥¼¾ã¦n­Ófunction
+	//result_roundup_and_ending() <-- æœªæ•´å¥½å€‹function
 
 }
