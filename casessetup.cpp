@@ -449,15 +449,15 @@ void casessetup(cases record[])
 	record[30].EP_country = "Zootopia";
 	record[30].vailidity = true;
 
-	record[31].icon = "Note";
-	record[31].PP_name = "Heavy Metal";
-	record[31].PP_gender = "Note";
+	record[31].icon = "Deer";
+	record[31].PP_name = "Rudolph";
+	record[31].PP_gender = "Deer";
 	record[31].PP_birth = "2010-09-15";
 	record[31].PP_issue = "2029-07-04";
-	record[31].PP_country = "Planet S-23";
+	record[31].PP_country = "Zootopia";
 	record[31].PP_number = "123654789";
-	record[31].EP_name = "Heavy Metal";
-	record[31].EP_gender = "Note";
+	record[31].EP_name = "Rudolphl";
+	record[31].EP_gender = "Deer";
 	record[31].EP_birth = "2010-09-15";
 	record[31].EP_country = "Planet S-23";
 	record[31].vailidity = true;
@@ -543,7 +543,7 @@ void casessetup(cases record[])
 	record[37].vailidity = false;
 	record[37].explanation = "Invalid entry pass (wrong birthdate)";
 
-	record[38].icon = "Apple";
+	record[38].icon = "Owl";
 	record[38].PP_name = "Hayden Triss";
 	record[38].PP_gender = "Human - Female";
 	record[38].PP_birth = "2001-09-21";
