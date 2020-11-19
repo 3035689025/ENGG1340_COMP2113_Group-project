@@ -14,7 +14,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 	srand(time(0));
 	int case_index = rand() % 40;
 
-	while (userinput != "Y" && userinput != "N")
+	while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput !="n")
 	{
 
 		cout << endl;
@@ -43,7 +43,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 		cout << "Birth-day: " << record[case_index].EP_birth << endl;
 		cout << "Planet: " << record[case_index].EP_country << endl;
 
-		//////////////©O¨ì¥i¥HÂà¤@Âà switch(case) print­ø¦P³¥ E.G. Wanted list µ¥°}¦A¶É¤U
+		//////////////å‘¢åˆ°å¯ä»¥è½‰ä¸€è½‰ switch(case) printå””åŒé‡ E.G. Wanted list ç­‰é™£å†å‚¾ä¸‹
 		/////// ////////////if (week == 2 || week == 3){}
 		cout << "\n \n \n \n";
 		cout << "Your action:" << endl;
@@ -56,7 +56,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 		cin >> userinput;
 
 
-		///////////////©O¨ì¥i¥HÂà¤@Âà switch(case) print­ø¦P³¥ E.G. Wanted list µ¥°}¦A¶É¤U
+		///////////////å‘¢åˆ°å¯ä»¥è½‰ä¸€è½‰ switch(case) printå””åŒé‡ E.G. Wanted list ç­‰é™£å†å‚¾ä¸‹
 		/////////////// if (week == 2 || week == 3){}
 		while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
 		{
@@ -74,7 +74,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 
 		if (userinput == "1")
 		{
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			cout << "Approved country list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "E.G. China" << endl; //////////////////////////////////////////Not yet completed
@@ -82,12 +82,12 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 		}
 
 		else if (userinput == "2")
 		{
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			cout << "Approved planet list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "Empty" << endl; //////////Not yet completed
@@ -95,16 +95,16 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 		}
 
 		else if (userinput == "3")
 		{
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			cout << "Scanner result: " << record[case_index].icon << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS (¥i¥H¯d¨ì³Ì§À¥ı§ï)
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS (å¯ä»¥ç•™åˆ°æœ€å°¾å…ˆæ”¹)
 		}
 
 		else if (userinput == "Y" || userinput == "y")
@@ -114,7 +114,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 			//True cases
 			if (record[case_index].vailidity == true) //No problem found in passport and entry-pass
 			{
-				system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+				system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 				salary += 5;
 			}
 
@@ -122,7 +122,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 			//Wrong cases
 			else if (record[case_index].vailidity == false)
 			{
-				system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+				system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 				wrongattempts++;
 				cout << "Warning letter" << endl;
 				cout << "--------------------------------------" << endl;
@@ -131,7 +131,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 				cout << "Press enter to continue" << endl;
 				cin.get();
 				cin.get();
-				system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+				system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			}
 		}
 
@@ -141,7 +141,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 		{
 			if (record[case_index].vailidity == true)
 			{
-				system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+				system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 				wrongattempts++;
 				cout << "Warning letter" << endl;
 				cout << "--------------------------------------" << endl;
@@ -150,7 +150,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts)
 				cout << "Press enter to continue" << endl;
 				cin.get();
 				cin.get();
-				system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+				system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			}
 		}
 	}
