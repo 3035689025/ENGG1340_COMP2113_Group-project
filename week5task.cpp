@@ -115,8 +115,33 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS (可以留到最尾先改)
      }
+    
+     //users should NOT choose Y
+     if (userinput == "Y" || userinput == "y")
+     {
+       system("CLS"); //or clear
+       cout << "Urgent note from Officer Kim" << endl;
+       cout << "--------------------------------------" << endl;
+       cout << "What are you doing?? You should not have approved her! How can the passport be issued before her birthdate?" << endl << endl;
+       cout << "I just heard from the higher-ups, three BIG officials are returning to EARTH this week. Put on your best performance or face the consequences!" << endl;
+       cout << endl << endl;
+       cout << "Press enter to continue" << endl;
+       cin.get();
+       system("CLS"); //or clear
+     }
+     else if (userinput == "N" || userinoput == "n")
+     {
+       system("CLS"); //or clear
+       cout << "Urgent note from Officer Kim" << endl;
+       cout << "--------------------------------------" << endl;
+       cout << "Nice work just now! Her passport was not valid. Now...I just heard from the higher-ups, three BIG officials are returning to EARTH this week. Put on your best performance or face the consequences!" << endl;
+       cout << endl << endl;
+       cout << "Press enter to continue" << endl;
+       cin.get();
+       system("CLS"); //or clear
    }
-	  
+	     
+}
 	  
 
   
