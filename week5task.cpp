@@ -403,7 +403,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   {
       // Print passport as long as the input is not Y nor N
 
-      //printing the icon of the first official
+      //printing the icon of the second official
       cout << "                   / \\"<<endl;
       cout << "                          ."<<endl;
       cout << "                   / \\"<<endl;
@@ -624,7 +624,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   {
       // Print passport as long as the input is not Y nor N
 
-      //printing the icon of the first official
+      //printing the icon of the third official
       cout << "     _.-----._" << endl;
       cout << "   _'    '    '_" << endl;
       cout << "   _'    '    '_" << endl;
@@ -769,7 +769,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        system("CLS"); //or clear
      }
   }
-
+	     
+//endings x3 
 
 
 
