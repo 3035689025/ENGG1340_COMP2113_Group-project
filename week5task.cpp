@@ -14,10 +14,12 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   //The test cases for the last day will be rigid, as the focus is on the events and endings 
   //Died in disgrace(1) and Died in incompetence will not occur in this week even if the requirements are fulfilled.
   //Died with honor (2) , Died in disgrace (2) and Hero’s journey will be the focus of this week.
+
   cout << "You: Should I stay in line and fulfill my duties? Or fight for my people and disapprove the officials? Decisions...Decisions..." << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
   system("CLS"); //clear for linux? since the programme should be tested in the environment of X2GO
+	
   //income statement should be printed after week 4 and before week 5.
   
   //duty for week 5
@@ -108,12 +110,15 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      else if (userinput == "3")
      {
      	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
-     	cout << "Scanner result: " << record[case_index].icon << endl;
+     	cout << "Scanner result: " << "Doll - Female" << endl;
      	cin.get();
      	cin.get();
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS (可以留到最尾先改)
      }
    }
+	  
+	  
+
   
   //1st Earth official here
   
