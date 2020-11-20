@@ -62,10 +62,10 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 		else
 		{
 			randomcases(week, record, salary, wrongattempts, timecount);
-			auto end = std::chrono::system_clock::now();
 			std::chrono::duration<double> elapsed_seconds = end - current;
 			wantlisttrigger++;
 		}
 	}
+	auto end = std::chrono::system_clock::now();
 	last_index=-1;
 }
