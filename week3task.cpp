@@ -16,22 +16,25 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 
 	///////Duty (Officer Kim)????
 	cout << "Your duty this week:" << endl << endl;
-	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty¥¼¶ñ(¥~¬P¤H¤J±o)
+	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////dutyæœªå¡«(å¤–æ˜Ÿäººå…¥å¾—)
 	cout << "Press enter to start your work this week" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+	system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 
-	//Time counter /////////////////­n§ïtimer ¦³bug
+	//Time counter /////////////////è¦æ”¹timer æœ‰bug
 	auto current = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - current;
 
-	while (elapsed_seconds.count() < 1) /////////////////­n§ïtimer ¦³bug 
+	int last_index = -1;
+	while (elapsed_seconds.count() < 1) /////////////////è¦æ”¹timer æœ‰bug 
 	{
-		randomcases(week, record, salary, wrongattempts);
+		randomcases(week, record, salary, wrongattempts, last_index);
 		auto end = std::chrono::system_clock::now();
 		std::chrono::duration<double> elapsed_seconds = end - current;
 	}
+	last_index = -1;
+	
 	//// wait 5s...
 	cout << "                    dS$$S$S$S$S$S$S$$Sb                   " << endl;
 	cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
@@ -59,15 +62,15 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "MMOMMMMOMMMOMMOOMMbT8bTSSSSSSSSSPd8OPdOOOMMMMOOMMMMOMMMOOMM" << endl;
 	cout << "MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM" << endl;
 	
-	///////////////////////////////¹ï¥Õ
+	///////////////////////////////å°ç™½
 	cout << "\n \n";
 	cout << "You: You again?." << endl << endl;
 	cout << "Visitor: Read it and return to me immediately." << endl;
-	//////////////wait 5seconds «á¸É
+	//////////////wait 5seconds å¾Œè£œ
 	cout << "\n \n \n \n";
 	cout << "(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)" << endl << endl; /////////////////////////////////////////////////////////not completed
 	cout << "Press enter to return the letter";
 
-	//result_roundup_and_ending() <-- ¥¼¾ã¦n­Ófunction +++++++++++++ ¸ì¸ï
+	//result_roundup_and_ending() <-- æœªæ•´å¥½å€‹function +++++++++++++ è³„è³‚
 
 }
