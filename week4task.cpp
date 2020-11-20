@@ -39,16 +39,17 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	int wantedlist3 = 0;
 	int wantlisttrigger = 0; //Trigger for the visitor on wantedlist 
 	
-	//Time counter /////////////////要改timer 有bug
-	auto current = std::chrono::system_clock::now();
+	
+	//Time counter
+	auto start = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
-	std::chrono::duration<double> elapsed_seconds = end - current;
 	
 	int last_index = -1;
 	
 
-	while (elapsed_seconds.count() < 1) /////////////////要改timer 有bug 
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60) /////////////////要改timer 有bug 
 	{
+		int timecount = std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
 		srand(time(0));
 		wantlisttrigger += rand() % 5;
 		if ((wantedlist1 == 0 || wantedlist2 == 0 || wantedlist3 == 0) && wantlisttrigger >= 35)
@@ -60,7 +61,7 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 		}
 		else
 		{
-			randomcases(week, record, salary, wrongattempts);
+			randomcases(week, record, salary, wrongattempts, timecount);
 			auto end = std::chrono::system_clock::now();
 			std::chrono::duration<double> elapsed_seconds = end - current;
 			wantlisttrigger++;
