@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	int week, money, wrongattempts, salary;
-	cases record[40];
+	cases record[43];
 	casessetup(record);
 
 	// New game
