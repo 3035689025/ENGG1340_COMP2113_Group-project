@@ -64,12 +64,18 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	auto current = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - current;
-
+	
+	int las_index=-1;
 	while (elapsed_seconds.count() < 1)
 	{
 		string userinput = "";
-		srand(time(0));
-		int case_index = rand() % 20;
+		int case_index =0;
+		do
+		{
+			srand(time(0));
+			case_index = rand() % 20;
+		} while (last_index == case_index);
+		last_index = case_index;
 
 		cout << endl << endl << "You: Passport please!" << endl;
 		Sleep(6);
