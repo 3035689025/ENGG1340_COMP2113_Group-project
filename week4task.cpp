@@ -66,6 +66,6 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 			wantlisttrigger++;
 		}
 	}
-	auto end = std::chrono::system_clock::now();
+	end = std::chrono::system_clock::now();
 	last_index=-1;
 }
