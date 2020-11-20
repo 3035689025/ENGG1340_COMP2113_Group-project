@@ -2,12 +2,14 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+#include <chrono>
+#include <iomanip>
 #include "icon.h"
 #include "cases.h"
 #include "randomcases.h"
 using namespace std;
 
-void randomcases(int week, cases record[], int &salary, int &wrongattempts, int &last_index) 
+void randomcases(int week, cases record[], int &salary, int &wrongattempts, int &last_index, int timecount) 
 {
 	int case_index = 0;
 	string userinput="";
@@ -18,12 +20,20 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 	} while (last_index == case_index);
 	
 	last_index = case_index;
+	
+	//Time counter
+	auto start = std::chrono::system_clock::now()
 
 	while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput !="n")
 	{
 
 		cout << endl;
 		int namelenght = record[case_index].PP_name.length(); //For random draw of the icon
+		
+		auto end = std::chrono::system_clock::now(); //For time count usege
+		cout << setw(99) << "Wrong attempts: " << wrongattempts << endl;
+		cout << setw(99) << "Salary: " << salary << endl;
+		cout << setw(99) << "Time left: " << 60 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() - timecount << endl;
 
 		icon(record[case_index].icon, namelenght);
 
