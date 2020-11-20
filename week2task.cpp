@@ -47,7 +47,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 
 	while (elapsed_seconds.count() < 1) /////////////////要改timer 有bug 
 	{
-		randomcases(week, record, salary, wrongattempts);
+		randomcases(week, record, salary, wrongattempts, last_index);
 		auto end = std::chrono::system_clock::now();
 		std::chrono::duration<double> elapsed_seconds = end - current;
 	}
