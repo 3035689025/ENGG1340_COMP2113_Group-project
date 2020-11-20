@@ -817,7 +817,7 @@ if (official_count == 3)
   cin.get();
   system("CLS") //clear
 
-  cout << "You: Hard work does paid off, even if it's not in the form of money..." << endl << endl;
+  cout << "You: Hard work does pay off, even if it's not in the form of money..." << endl << endl;
   cout << "...what...is...happ...ening...to...me?" << endl;
   cout << endl << endl;
   cout << "Press enter to continue" << endl;
@@ -843,8 +843,8 @@ if (official_count == 3)
 	cout << "                |           o|   ''''   |   \\__/ "  << endl;
 	cout << "                |            |          | "         << endl;
 	cout << endl << endl;
-  cout << "Officer Kim: Officer B-263-54, thank you for your service. Unforunately, we cannot take the risk of having a breach in our system, considering you've been in contact with The Infected. ";
-  cout << "I'm sure you'll understand. Your planet will forever be grateful for you sacrifice!" << endl;
+  cout << "Officer Kim: Officer B-263-54, thank you for your service. Unforunately, considering you've been in contact with The Infected, we cannot take the risk of having a breach in our system. ";
+  cout << "I'm sure you'll understand. Your planet will forever be grateful for your sacrifice!" << endl;
   cout << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
