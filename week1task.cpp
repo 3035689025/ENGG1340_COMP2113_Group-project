@@ -61,12 +61,13 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
 
 	//Time counter
-	auto current = std::chrono::system_clock::now();
+	auto start = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
-	std::chrono::duration<double> elapsed_seconds = end - current;
 	
-	int las_index=-1;
-	while (elapsed_seconds.count() < 1)
+	//For indicating the index of last case to avoid the same case show right after the last case
+	int last_index=-1;
+	
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60))
 	{
 		string userinput = "";
 		int case_index =0;
@@ -81,8 +82,12 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 		Sleep(6);
 
 
-		while (userinput != "Y" && userinput != "N")
+		while (userinput != "Y" && userinput != "N" && userinput !="y" && useinput!="n")
 		{
+			end = std::chrono::system_clock::now();
+			cout << setw(99) << "Wrong Attempts: " << wrongattempts << endl; //Wrong attempts
+			cout << setw(99) << "Time left: " << 30 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() << "s" << endl; //Time left
+			
 			cout << endl;
 			int lenght = record[case_index].PP_name.length();
 			icon(record[case_index].icon, lenght);
@@ -241,8 +246,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					}
 				}
 		}
-		auto end = std::chrono::system_clock::now();
-		std::chrono::duration<double> elapsed_seconds = end - current;
+		end = std::chrono::system_clock::now();
 	}
 		
 }
