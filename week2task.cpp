@@ -42,6 +42,8 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	auto current = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - current;
+	
+	int last_index=-1;
 
 	while (elapsed_seconds.count() < 1) /////////////////要改timer 有bug 
 	{
@@ -49,6 +51,8 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 		auto end = std::chrono::system_clock::now();
 		std::chrono::duration<double> elapsed_seconds = end - current;
 	}
+	
+	last_index = -1;
 	//// wait 5s...
 	cout << "                    dS$$S$S$S$S$S$S$$Sb                   " << endl;
 	cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
