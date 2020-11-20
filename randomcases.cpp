@@ -16,6 +16,8 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 		srand(time(0));
 		case_index = rand() % 40;
 	} while (last_index == case_index);
+	
+	last_index = case_index;
 
 	while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput !="n")
 	{
