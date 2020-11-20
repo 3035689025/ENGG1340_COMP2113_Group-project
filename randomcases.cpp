@@ -7,12 +7,15 @@
 #include "randomcases.h"
 using namespace std;
 
-void randomcases(int week, cases record[], int &salary, int &wrongattempts) 
+void randomcases(int week, cases record[], int &salary, int &wrongattempts, int &last_index) 
 {
+	int case_index = 0;
 	string userinput="";
-
-	srand(time(0));
-	int case_index = rand() % 40;
+	do 
+	{
+		srand(time(0));
+		case_index = rand() % 40;
+	} while (last_index == case_index);
 
 	while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput !="n")
 	{
