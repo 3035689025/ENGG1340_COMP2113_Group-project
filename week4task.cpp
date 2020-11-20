@@ -28,24 +28,26 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 
 	///////Duty (Officer Kim)????
 	cout << "Your duty this week:" << endl << endl;
-	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty¥¼¶ñ(¥~¬P¤H¤J±o)
+	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////dutyæœªå¡«(å¤–æ˜Ÿäººå…¥å¾—)
 	cout << "Press enter to start your work this week" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+	system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 
 	// For indicate the occurance of the visotr on wanted list.
 	int wantedlist1 = 0;
 	int wantedlist2 = 0;
 	int wantedlist3 = 0;
 	int wantlisttrigger = 0; //Trigger for the visitor on wantedlist 
-
-	//Time counter /////////////////­n§ïtimer ¦³bug
+	
+	//Time counter /////////////////è¦æ”¹timer æœ‰bug
 	auto current = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - current;
 	
+	int last_index = -1;
+	
 
-	while (elapsed_seconds.count() < 1) /////////////////­n§ïtimer ¦³bug 
+	while (elapsed_seconds.count() < 1) /////////////////è¦æ”¹timer æœ‰bug 
 	{
 		srand(time(0));
 		wantlisttrigger += rand() % 5;
@@ -64,4 +66,5 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 			wantlisttrigger++;
 		}
 	}
+	last_index=-1;
 }
