@@ -39,17 +39,16 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
 
 	//Time counter /////////////////要改timer 有bug
-	auto current = std::chrono::system_clock::now();
+	auto start = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
-	std::chrono::duration<double> elapsed_seconds = end - current;
 	
 	int last_index=-1;
 
-	while (elapsed_seconds.count() < 1) /////////////////要改timer 有bug 
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60)) //Time count for 60s
 	{
-		randomcases(week, record, salary, wrongattempts, last_index);
-		auto end = std::chrono::system_clock::now();
-		std::chrono::duration<double> elapsed_seconds = end - current;
+		int timecount = std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
+		randomcases(week, record, salary, wrongattempts, last_index, timecount);
+		end = std::chrono::system_clock::now();
 	}
 	
 	last_index = -1;
@@ -83,11 +82,9 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "\n \n";
 	cout << "You: Sorry! It is closed." << endl << endl;
 	cout << "Visitor: Read it and return to me immediately." << endl;
-	//////////////wait 5seconds 後補
 	cout << "\n \n \n \n";
 	cout << "(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)" << endl << endl; /////////////////////////////////////////////////////////not completed
 	cout << "Press enter to return the letter";
 
-	//result_roundup_and_ending() <-- 未整好個function
 
 }
