@@ -3,6 +3,7 @@
 
 #include "cases.h"
 
-void wantedlist(int& wantedlist1, int& wantedlist2, int& wantedlist3, cases record[], int& salary, int& wrongattempts);
+void wantedlist(int& wantedlist1, int& wantedlist2, int& wantedlist3, cases record[], int& salary, int& wrongattempts, int timecount);
+
 
 #endif
