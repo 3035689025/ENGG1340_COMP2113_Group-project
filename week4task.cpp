@@ -55,7 +55,7 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 		if ((wantedlist1 == 0 || wantedlist2 == 0 || wantedlist3 == 0) && wantlisttrigger >= 35)
 		{
 				{
-					wantedlist(wantedlist1, wantedlist2, wantedlist3, record, salary, wrongattempts);
+					wantedlist(wantedlist1, wantedlist2, wantedlist3, record, salary, wrongattempts, timecount);
 					wantlisttrigger = 0;
 				}
 		}
