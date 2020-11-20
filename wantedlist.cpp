@@ -2,12 +2,13 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+#include <chrono>
 #include "icon.h"
 #include "cases.h"
 #include "wantedlist.h"
 using namespace std;
 
-void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases record[], int& salary, int& wrongattempts)
+void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases record[], int& salary, int& wrongattempts, int timecount)
 {
 	string userinput = "";
 	int case_index;
@@ -28,10 +29,17 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 		case_index = 42;
 		wantedlist3 = 1;
 	}
+	
+	//Time counter
+	auto start = std::chrono::system_clock::now();
 
 	while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput !="n")
 	{
-
+		auto end = std::chrono::system_clock::now(); //For time count usege
+		cout << setw(99) << "Wrong attempts: " << wrongattempts << endl;
+		cout << setw(99) << "Salary: " << salary << endl;
+		cout << setw(99) << "Time left: " << 60 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() - timecount << endl;
+		
 		cout << endl;
 		int namelenght = record[case_index].PP_name.length(); //For random draw of the icon
 
@@ -58,7 +66,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 		cout << "Birth-day: " << record[case_index].EP_birth << endl;
 		cout << "Planet: " << record[case_index].EP_country << endl;
 
-		//////////////©O¨ì¥i¥HÂà¤@Âà switch(case) print­ø¦P³¥ E.G. Wanted list µ¥°}¦A¶É¤U
+		//////////////å‘¢åˆ°å¯ä»¥è½‰ä¸€è½‰ switch(case) printå””åŒé‡ E.G. Wanted list ç­‰é™£å†å‚¾ä¸‹
 		/////// ////////////if (week == 2 || week == 3){}
 		cout << "\n \n \n \n";
 		cout << "Your action:" << endl;
@@ -71,7 +79,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 		cin >> userinput;
 
 
-		///////////////©O¨ì¥i¥HÂà¤@Âà switch(case) print­ø¦P³¥ E.G. Wanted list µ¥°}¦A¶É¤U
+		///////////////å‘¢åˆ°å¯ä»¥è½‰ä¸€è½‰ switch(case) printå””åŒé‡ E.G. Wanted list ç­‰é™£å†å‚¾ä¸‹
 		/////////////// if (week == 2 || week == 3){}
 		while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
 		{
@@ -89,7 +97,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 
 		if (userinput == "1")
 		{
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			cout << "Approved country list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "E.G. China" << endl; //////////////////////////////////////////Not yet completed
@@ -97,12 +105,12 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 		}
 
 		else if (userinput == "2")
 		{
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			cout << "Approved planet list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "Empty" << endl; //////////Not yet completed
@@ -110,21 +118,21 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 		}
 
 		else if (userinput == "3")
 		{
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			cout << "Scanner result: " << record[case_index].icon << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS (¥i¥H¯d¨ì³Ì§À¥ı§ï)
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS (å¯ä»¥ç•™åˆ°æœ€å°¾å…ˆæ”¹)
 		}
 
 		else if (userinput == "Y" || userinput == "y")
 		{	
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			wrongattempts++;
 			cout << "Warning letter" << endl;
 			cout << "--------------------------------------" << endl;
@@ -133,7 +141,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 		}
 
 		else if (userinput == "N" || userinput == "n")
