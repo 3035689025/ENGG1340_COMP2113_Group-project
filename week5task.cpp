@@ -768,9 +768,186 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cin.get();
        system("CLS"); //or clear
      }
-  }
-	     
-//endings x3 
+  
+//3 endings here
+
+
+
+  
+//Died with honor (2)
+/*Events: 
+Awarded medal of honor in week 6
+Died in week 7(final week) by starvation */
+if (official_count == 3)
+{
+
+  cout << "                       ________________"            << endl;
+	cout << "                      \\      __      /         __"  << endl;
+	cout << "                       \\_____()_____/         /  )" << endl;
+	cout << "                       '============`        /  /"  << endl;
+	cout << "                        #---\\  /---#        /  /"   << endl;
+	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	cout << "                        \\   (_)   /       /  /"     << endl;
+	cout << "                        |\\ '---` /|      /  /"      << endl;
+	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	cout << "           |    '              ||  --)    \\     |"  << endl;
+	cout << "           |___________________||  --)     \\    / " << endl;
+	cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	cout << "                |            |          | "         << endl;
+	cout << endl << endl;
+  cout << "Officer Kim: Officer B-263-54, you have done well. We have received intelligence the certain extremists have planning to infiltrate our planet. ";
+  cout << "However, we have just discovered their plans of assasinating the Earth officials and stopped them in time. You have played an important role in this believe it or not!"<< endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << "News:" <<endl;
+  cout << "___________________________________________________________________" << endl << endl;
+  cout << "The terrorist group formally known as The Infected was finally dissolved after the efforts of our brave officers at the boarder. ";
+  cout << "The Officer, B-263-54, was rewarded the Medal of Honor as he bravely protected the Officials, King Henry IV, Genghis Khan XIV and George Washington ";
+  cout << "from an assasination attempt from The Infected." << endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << "You: Hard work does paid off, even if it's not in the form of money..." << endl << endl;
+  cout << "...what...is...happ...ening...to...me?" << endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << "                       ________________"            << endl;
+	cout << "                      \\      __      /         __"  << endl;
+	cout << "                       \\_____()_____/         /  )" << endl;
+	cout << "                       '============`        /  /"  << endl;
+	cout << "                        #---\\  /---#        /  /"   << endl;
+	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	cout << "                        \\   (_)   /       /  /"     << endl;
+	cout << "                        |\\ '---` /|      /  /"      << endl;
+	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	cout << "           |    '              ||  --)    \\     |"  << endl;
+	cout << "           |___________________||  --)     \\    / " << endl;
+	cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	cout << "                |            |          | "         << endl;
+	cout << endl << endl;
+  cout << "Officer Kim: Officer B-263-54, thank you for your service. Unforunately, we cannot take the risk of having a breach in our system, considering you've been in contact with The Infected. ";
+  cout << "I'm sure you'll understand. Your planet will forever be grateful for you sacrifice!" << endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << endl << endl;
+  cout << "Ending: Died with honor (2)" << endl;
+  cout << endl << endl;
+  cout << "-THE END-" <<endl;
+  cin.get();
+  system("CLS") //clear
+
+  //insert empty string into the storage file here and end the game
+}
+
+
+//Died in disgrace (2)
+/*Events:
+Officials were ambushed in space by assassins
+Died when week 6 ended- killed by superior */
+else if (official_count != 3 && official_count != 0)
+{
+  cout << "News:" <<endl;
+  cout << "___________________________________________________________________" << endl << endl;
+  cout << "The Infected strikes again! Officials dead! Who is to blame? Sources say it's Officer B-263-54, a boarder officer at the Earth boarder." << endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << "You: OH DA-" << endl;
+  cout << endl << endl << endl;
+  cout << "* BANG *"
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << "                       ________________"            << endl;
+	cout << "                      \\      __      /         __"  << endl;
+	cout << "                       \\_____()_____/         /  )" << endl;
+	cout << "                       '============`        /  /"  << endl;
+	cout << "                        #---\\  /---#        /  /"   << endl;
+	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	cout << "                        \\   (_)   /       /  /"     << endl;
+	cout << "                        |\\ '---` /|      /  /"      << endl;
+	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	cout << "           |    '              ||  --)    \\     |"  << endl;
+	cout << "           |___________________||  --)     \\    / " << endl;
+	cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	cout << "                |            |          | "         << endl;
+	cout << endl << endl;
+  cout << "Officer Kim: No one gets away with treason! Rot in hell!" << endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << endl << endl;
+  cout << "Died in disgrace (2)" << endl;
+  cout << endl << endl;
+  cout << "-THE END-" <<endl;
+  cin.get();
+  system("CLS") //clear
+
+  //insert empty string into the storage file here
+}
+
+//Hero’s journey
+/*Events:
+All 3 officials were ambushed in space by assassins
+Ruling party was overthrown
+Rebellion was a success
+Became a hero*/
+else if (official_count == 0)
+{
+  cout << "News:" <<endl;
+  cout << "___________________________________________________________________" << endl << endl;
+  cout << "Glory to the Arstotzkan race! The human totalitarian government has been overthrown. The truth has finally been revealed! ";
+  cout << "We need not hide in the dark anymore! Humans will treat us as equals and give us the respect we very much deserve!" << endl << endl;
+  cout << "In other news, Officer Greg (formally known as Officer B-263-54) was awarded the Medal of Glory for his unselfish contribution during the rebellion. ";
+  cout << "His actions allowed us to take the fallen \"government\"by surprise. Greg, to you: " << endl << endl;
+  cout << "You are a true hero and we will forever be grateful for you!"
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
+  cin.get();
+  system("CLS") //clear
+
+  cout << endl << endl;
+  cout << "Ending: Hero’s journey" << endl;
+  cout << endl << endl;
+  cout << "-THE END-" <<endl;
+  cin.get();
+  system("CLS") //clear
+
+  //insert empty string into the storage file here
+
+  return;	     
+ 
 
 
 
