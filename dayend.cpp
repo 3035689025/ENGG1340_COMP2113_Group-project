@@ -1,17 +1,17 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
-#include "dayend.h"
+#include "weekend.h"
 using namespace std;
 
-int dayend(int &week, int &money, int &wrongattempts, int &salary, int &gameover)
+int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameover)
 {
 	//Return 1 when the game is over
 	//Return 0 to keep continue the game
 	if (week == 3) 
 	{
 		system("CLS");
-		cout << "Email from spies"; //////////////////////// ¸ì¸ï ------needa type
+		cout << "Email from spies"; //////////////////////// è³„è³‚ ------needa type
 		cout << endl << endl;
 		cout << "Your action:" << endl;
 		cout << "[Y] Accept money" << endl;
@@ -25,7 +25,7 @@ int dayend(int &week, int &money, int &wrongattempts, int &salary, int &gameover
 			if (week3userinput == "Y" || week3userinput == "y") 
 			{
 				system("CLS");
-				cout << "Died in xxxxxxxxxxxxxxxxx" << endl; //////////////////////////////// Ending Y - died in ¨ü¸ì ------- needa type
+				cout << "Died in xxxxxxxxxxxxxxxxx" << endl; //////////////////////////////// Ending Y - died in å—è³„ ------- needa type
 				cout << endl;
 				cout << "Press enter to continue" << endl;
 				cin.get();
@@ -79,7 +79,7 @@ int dayend(int &week, int &money, int &wrongattempts, int &salary, int &gameover
 			cout << endl;
 			cout << "Press enter to continue" << endl;
 			cin.get();
-			system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+			system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 			return 1;
 		}
 
@@ -133,7 +133,7 @@ int dayend(int &week, int &money, int &wrongattempts, int &salary, int &gameover
 
 
 		cin.get();
-		system("CLS"); ///////////LINUX ¦n¦ü«Y¥Îclear rather than CLS
+		system("CLS"); ///////////LINUX å¥½ä¼¼ä¿‚ç”¨clear rather than CLS
 		return 0;
 	}
 }
