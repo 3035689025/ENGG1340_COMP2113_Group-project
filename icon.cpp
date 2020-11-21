@@ -30,8 +30,8 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 
 		if (*p1 == 0) // 50%
 		{
-			cout << " /////////////\\\\\\\\\ \n ";
-			cout << " (((((((((((((( \\\\\\\ \n ";
+			cout << " /////////////\\\\\\\\ \n ";
+			cout << " (((((((((((((( \\\\\\ \n ";
 			cout << " ))) ~~      ~~  ((( \n";
 			cout << " ((( (*)     (*) ))) \n";
 			cout << " )))     <       ((( \n";
