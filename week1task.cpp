@@ -16,7 +16,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	cout << "Press enter to continue" << endl;
 	cin.get();
 	//include the headings <stdlib. h> or <cstdlib>
-	system("CLS"); //or clear
+	system("clear");
 
 	cout << setw(53) << "Income statement (Expected) after week 1" << endl << endl;
 	cout << setw(25) << "Item" << " |" << setw(20) << "Fee" << endl;
@@ -31,7 +31,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	cout << endl << endl;
 	cout << "Press enter to continue" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+	system("clear");
 	
 	//Your superior Officer Kim telling you your duties for this week
 	//icon of Officer Kim
@@ -58,7 +58,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	cout << "Officer Kim: Only allow humans with valid passports to enter this week. The safety of our planet is in your hands!" << endl << endl; 
 	cout << "Press enter to continue" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+	system("clear");
 
 	//Time counter
 	auto start = std::chrono::system_clock::now();
