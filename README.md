@@ -189,13 +189,43 @@ For this situation, the player may consider to  disapprove of its entry. (60% Tr
 
 ###### Requirement 2- Data structures for storing game status
 
-Array of integers will be used to store the game status. \
-The array will store:\
-(1) Gameweek\
-(2) Money\
-(3) Number of times of disapproving human entries\
-(4) Number of times of false approved alien entries\
-(5) Number of times of approving earth officials to Earth
+Array and struct will be used for storing the random cases.
+
+E.G.
+
+struct cases { // Stored into struct cases.h
+	//PP = passport
+	std::string icon;
+	std::string PP_name;
+	std::string PP_gender;
+	std::string PP_birth;
+	std::string PP_issue;
+	std::string PP_country;
+	std::string PP_number;
+
+	//EP = entry pass
+	std::string EP_name;
+	std::string EP_gender;
+	std::string EP_birth;
+	std::string EP_country;
+	std::string explanation; //For invalid passport or entry-pass
+
+	//Return true if no erros occurs in the EP and PP (consistent information)
+	bool vailidity;
+};
+
+record[0].icon = "Human - Male";
+record[0].PP_name = "Lian Ho Yeung, Michael";
+record[0].PP_gender = "Human - Male";
+record[0].PP_birth = "1998-04-22";
+record[0].PP_issue = "2043-09-31";
+record[0].PP_country = "Earth - China";
+record[0].PP_number = "3035714260";
+record[0].EP_name = "Lian Ho Yeung, Michael";
+record[0].EP_gender = "Human - Male";
+record[0].EP_birth = "1998-04-22";
+record[0].EP_country = "Earth - China";
+record[0].vailidity = true;
 
 
 
@@ -214,17 +244,15 @@ Therefore, the program will request for memory if needed (when the game come to 
 
 ###### Requirement 4- File input/output (e.g., for loading/saving game status)
 
-For the end of each week, players can save their gamestatus in the menu.\
-The save will be stored into a text format file. The format of the game save is “Description, Value” in each line.\
+For the end of each week, players can save their gamestatus\
+The save will be stored into a text format file. The format of the game save is “week money wrongattempts” in a line.\
 It is designed not to encrypt deliberately so that the players can get a particular ending of the game. \
 Easter egg endings are also designed for players who modify the money data, gameweek.\
 \
 Format of the game save is as follow:\
 \
-Gameweek, 7
-Money, 999999\
-Number of times of disapproving human entries, 3\
-Number of times of false approved alien entries, 5
+5 0 10
+(Week, Money, Wrongattempts)
 
 ###### Requirement 5- Program codes in multiple files
 
