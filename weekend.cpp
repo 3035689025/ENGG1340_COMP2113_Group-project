@@ -210,7 +210,6 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
                                         cin.get();
                                         system("clear");
 
-					system("clear");
 					cout << "-GAME OVER-" << endl << endl;
 					cout << "Press enter to continue" << endl;
 			                cin.get();
