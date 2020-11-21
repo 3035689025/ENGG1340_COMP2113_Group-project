@@ -166,6 +166,10 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 				cin.get();
 				system("clear");
 			}
+			else
+			{
+				system("clear");
+			}
 		}
 	}
 }
