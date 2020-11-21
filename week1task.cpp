@@ -3,7 +3,6 @@
 #include <iomanip>
 #include <chrono>
 #include <cstdlib>
-#include <windows.h>
 #include <ctime>
 #include "cases.h"
 #include "icon.h"
