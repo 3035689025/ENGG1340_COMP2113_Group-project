@@ -54,7 +54,7 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	auto end = std::chrono::system_clock::now();
 
 	int last_index = -1;
-	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60)) //要改timer 有bug 
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 90)) //要改timer 有bug 
 	{
 		int timecount = std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
 		randomcases(week, record, salary, wrongattempts, last_index, timecount);
