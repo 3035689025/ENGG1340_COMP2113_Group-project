@@ -89,7 +89,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 
 		if (userinput == "1")
 		{
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			cout << "Approved country list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "E.G. China" << endl; //////////////////////////////////////////Not yet completed
@@ -97,12 +97,12 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 		}
 
 		else if (userinput == "2")
 		{
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			cout << "Approved planet list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "Empty" << endl; //////////Not yet completed
@@ -110,16 +110,16 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 		}
 
 		else if (userinput == "3")
 		{
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			cout << "Scanner result: " << record[case_index].icon << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS (可以留到最尾先改)
+			system("clear");
 		}
 
 		else if (userinput == "Y" || userinput == "y")
@@ -129,7 +129,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 			//True cases
 			if (record[case_index].vailidity == true) //No problem found in passport and entry-pass
 			{
-				system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+				system("clear");
 				salary += 5;
 			}
 
@@ -137,7 +137,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 			//Wrong cases
 			else if (record[case_index].vailidity == false)
 			{
-				system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+				system("clear");
 				wrongattempts++;
 				cout << "Warning letter" << endl;
 				cout << "--------------------------------------" << endl;
@@ -146,7 +146,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 				cout << "Press enter to continue" << endl;
 				cin.get();
 				cin.get();
-				system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+				system("clear");
 			}
 		}
 
@@ -156,7 +156,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 		{
 			if (record[case_index].vailidity == true)
 			{
-				system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+				system("clear");
 				wrongattempts++;
 				cout << "Warning letter" << endl;
 				cout << "--------------------------------------" << endl;
@@ -165,7 +165,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 				cout << "Press enter to continue" << endl;
 				cin.get();
 				cin.get();
-				system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+				system("clear");
 			}
 		}
 	}
