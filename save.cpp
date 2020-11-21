@@ -118,7 +118,7 @@ void save(int &week, int money, int wrongattempts)
 		else if (input == "3") //Save as save3
 		{
 			ofstream save3;
-			save3.open("save2.txt");
+			save3.open("save3.txt");
 			if (save3.fail())
 			{
 				cout << "Save error, please try again" << endl;
