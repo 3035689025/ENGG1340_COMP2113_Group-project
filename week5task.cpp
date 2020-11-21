@@ -322,6 +322,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
+       cin.get();
        system("clear");
        //thoughts from "you"
        cout << "You: Gotta look after myself first...Can't get myself killed. You only live once. Hehe!";
@@ -375,7 +376,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
     cin >> userinput;
 
     //user can only move forward if they choose Yes
-    while ( userinput != "Y" || userinput != "y")
+    while ( !(userinput == "Y" || userinput == "y"))
     {
       //for invalid input
       if ( userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
@@ -392,6 +393,9 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
         system("clear");
         cout << "No? I won't take that as an answer! I have a gun in my pocket. If you don't let me through this instant, I'll kill you right here right now!" << endl << endl;
         cout << "This is bigger than both of us!" <<endl;
+  	cout << "[Y] Aprrove entry " << endl;
+  	cout << "[N] Disapprove entry " << endl;
+     	cout << "Input: ";
         cin >> userinput;
       }
     }
