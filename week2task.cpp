@@ -53,6 +53,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	
 	last_index = -1;
 	
+	//spy introducing us to the rebellion
 	cout << "                    dS$$S$S$S$S$S$S$$Sb                   " << endl;
 	cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
 	cout << "                  SSP   `^$S$S$^'   TSS                   " << endl;
@@ -80,11 +81,18 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM" << endl;
 
 	cout << "\n \n";
-	cout << "You: Sorry! It is closed." << endl << endl;
-	cout << "Visitor: Read it and return to me immediately." << endl;
+	cout << "You: Sorry! The border is closed." << endl << endl;
+	cout << "Visitor: Read it and return it to me immediately." << endl;
 	cout << "\n \n \n \n";
-	cout << "(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)" << endl << endl; /////////////////////////////////////////////////////////not completed
+	cout << "The Resistance" << endl;
+	cout << "___________________________________________________________________" << endl;
+	cout << "Humans took our land! It's time to fight back, Greg! Join the resistance and fight for the glory of Arstotzka!" << endl;
 	cout << "Press enter to return the letter";
-
-
+	cin.get();
+	system("clear");
+	
+	cout << "You: Our? Arstotzka? And why does he know my name? What's going on?..." << endl;
+	cout << "Press enter to continue";
+	cin.get();
+	system("clear");
 }
