@@ -246,8 +246,8 @@ Easter egg endings are also designed for players who modify the money data, game
 \
 Format of the game save is as follow:\
 \
-5 0 10
-(Week, Money, Wrongattempts)
+5 0 10 
+(Week, Money, Wrongattempts) in save1.txt
 
 ###### Requirement 5- Program codes in multiple files
 
