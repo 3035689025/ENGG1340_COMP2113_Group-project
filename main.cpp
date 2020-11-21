@@ -44,7 +44,7 @@ int main()
 		cout << "   |  /_.-\\     /-._\\  |" << endl;
 		cout << "    \\|/    '--;'    \\|/" << endl;
 		cout << "      |  /     \\    |" << endl;
-		cout << "      |  `\\'.___\   |" << endl;
+		cout << "      |  `\\'.___\\   |" << endl;
 		cout << "      ;    \\   |    ;" << endl;
 		cout << "       \\    \\'-\\   /" << endl;
 		cout << "        \\    '--' /" << endl;
@@ -73,7 +73,7 @@ int main()
 		if (userinput == "2") // Load
 		{
 			load(week, money, wrongattempts);
-			system("clear")
+			system("clear");
 		}
 
 		if (userinput == "1") // Start game
