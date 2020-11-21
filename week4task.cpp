@@ -75,12 +75,12 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	int last_index = -1;
 	
 
-	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60) /////////////////要改timer 有bug 
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60)) // Timer 60s 
 	{
 		int timecount = std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
 		srand(time(0));
 		wantlisttrigger += rand() % 5;
-		if ((wantedlist1 == 0 || wantedlist2 == 0 || wantedlist3 == 0) && wantlisttrigger >= 35) //There is a probability that the visitors on wanted list shows
+		if ((wantedlist1 == 0 || wantedlist2 == 0 || wantedlist3 == 0) && wantlisttrigger >= 35)
 		{
 				{
 					wantedlist(wantedlist1, wantedlist2, wantedlist3, record, salary, wrongattempts, timecount);
@@ -89,10 +89,10 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 		}
 		else
 		{
-			randomcases(week, record, salary, wrongattempts, timecount);
-			wantlisttrigger++; //The probability of wantlist visitors increase everyround
+			randomcases(week, record, salary, wrongattempts, last_index, timecount);
+			wantlisttrigger++;
 		}
 		end = std::chrono::system_clock::now();
 	}
-	last_index=-1;
+	last_index = -1;
 }
