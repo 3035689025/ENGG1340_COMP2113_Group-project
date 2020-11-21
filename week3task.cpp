@@ -121,6 +121,7 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 
 	cout << "Press enter to burn the letter";
 	cin.get();
+	cin.get();
 	system("clear");
 	
 	
