@@ -14,6 +14,7 @@ using namespace std;
 
 int main()
 {
+	system("clear");
 	int week = 0, money = 0, wrongattempts = 0, salary = 0;
 	string userinput = "";
 	cases record[43];
