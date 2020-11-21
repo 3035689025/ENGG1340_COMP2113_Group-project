@@ -241,7 +241,7 @@ Main file for programming the functions of the main function including start(), 
 
 ##### How to play
 
-1)Use the "make main" command in the terminal to make main
+1)Use the "make main" command in the terminal to make main\
 2)Then use the "./main" command to start playing in terminal!
 
 To delete the unnecessary files after playing, use the "make clean" command.
