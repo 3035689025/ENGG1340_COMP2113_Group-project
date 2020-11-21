@@ -14,18 +14,15 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 	int case_index;
 	if (wantedlist1 == 0) 
 	{
-		cout << "warning41";
 		case_index = 40;
 		wantedlist1 = 1;
 	}
 	else if (wantedlist2 == 0) 
 	{
-		cout << "warning42";
 		case_index = 41;
 		wantedlist2 = 1;
 	}
 	else{
-		cout << "warning43";
 		case_index = 42;
 		wantedlist3 = 1;
 	}
@@ -79,8 +76,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 		cin >> userinput;
 
 
-		///////////////呢到可以轉一轉 switch(case) print唔同野 E.G. Wanted list 等陣再傾下
-		/////////////// if (week == 2 || week == 3){}
+
 		while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
 		{
 
@@ -130,7 +126,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			system("clear");
 		}
 
-		else if (userinput == "Y" || userinput == "y")
+		else if (userinput == "Y" || userinput == "y") //Approve visitors on wanted list
 		{	
 			system("clear");
 			wrongattempts++;
@@ -144,7 +140,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			system("clear");
 		}
 
-		else if (userinput == "N" || userinput == "n")
+		else if (userinput == "N" || userinput == "n") //Disapprove visitors on wanted list
 		{
 
 		}
