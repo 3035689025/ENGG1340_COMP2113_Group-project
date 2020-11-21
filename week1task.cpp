@@ -9,6 +9,10 @@
 #include "week1task.h"
 using namespace std;
 
+//This function will print the background and the gameplay of the game in week1
+//It will randomly draw the cases from record [1-20]
+//It is little bit difference from the randomcases function based on some features in week1 (Allien not allow) while randomcases only check the truth on passport and entry pass.
+
 
 //for week 1 only humans are allowed to enter
 void week1task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
@@ -233,12 +237,12 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 				{
 					if (record[case_index].icon != "Human - Female" || record[case_index].icon != "Human - Male")
 					{
-						system("clear"); ///////////LINUX 好似係用clear rather than CLS
+						system("clear"); 
 						salary += 5;
 					}
 					else if (record[case_index].vailidity == true)
 					{
-						system("clear"); ///////////LINUX 好似係用clear rather than CLS
+						system("clear");
 						wrongattempts++;
 						cout << "Warning letter" << endl;
 						cout << "--------------------------------------" << endl;
@@ -247,7 +251,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 						cout <<"Press enter to continue" << endl;
 						cin.get();
 						cin.get();
-						system("clear"); ///////////LINUX 好似係用clear rather than CLS
+						system("clear"); 
 					}
 				}
 		}
