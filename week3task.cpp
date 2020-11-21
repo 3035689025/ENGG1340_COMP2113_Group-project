@@ -11,8 +11,10 @@ using namespace std;
 
 void week3task(int& week, int& money, int& wrongattempts, cases record[], int& salary)
 {
+	system("clean")
 	cout << "You: New week incoming... I have to focus on my work here first! No distractions!" << endl;
 	cout << "Press enter to continue" << endl;
+	cin.get();
 	cin.get();
 	system("clear");
 
