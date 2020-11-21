@@ -20,6 +20,7 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "has claimed responsibility for this attack." << endl << endl;
 	cout << "Press enter to continue" << endl;
 	cin.get();
+	cin.get();
 	system("clear");
 	
 
