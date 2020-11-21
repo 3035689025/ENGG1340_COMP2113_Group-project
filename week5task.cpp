@@ -3,7 +3,6 @@
 #include <iomanip>
 #include <chrono>
 #include <cstdlib>
-#include <windows.h>
 #include "cases.h"
 #include "icon.h"
 #include "week1task.h"
@@ -11,10 +10,11 @@ using namespace std;
 
 void week5task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
 {
+
   //The test cases for the last day will be rigid, as the focus is on the events and endings 
   //Died in disgrace(1) and Died in incompetence will not occur in this week even if the requirements are fulfilled.
   //Died with honor , Died in disgrace (2) and Hero’s journey will be the focus of this week.
-
+  system("clear");
   cout << "You: Should I stay in line and fulfill my duties? Or fight for my people and disapprove the officials? Decisions...Decisions..." << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
