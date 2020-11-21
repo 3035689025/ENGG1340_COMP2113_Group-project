@@ -38,7 +38,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cin.get();
 	system("clear");
 
-	//Time counter /////////////////要改timer 有bug
+	//Time counter
 	auto start = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
 	
@@ -52,7 +52,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	}
 	
 	last_index = -1;
-	//// wait 5s...
+	
 	cout << "                    dS$$S$S$S$S$S$S$$Sb                   " << endl;
 	cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
 	cout << "                  SSP   `^$S$S$^'   TSS                   " << endl;
