@@ -132,20 +132,20 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 
 				if (userinput == "1")
 				{	
-					system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+					system("clear");
 					cout << "Approved country list" << endl;
 					cout << "--------------------------------------" << endl;
-					cout << "Australia \n China \n Gotham City \n Papua New Guinea \n United Kingdome \n United States \n" << endl; //////////////////////////////////////////Not yet completed
+					cout << "Australia \n China \n Gotham City \n Papua New Guinea \n United Kingdome \n United States \n" << endl; 
 					cout << endl;
 					cout << "Press enter to continue" << endl;
 					cin.get();
 					cin.get();
-					system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+					system("clear");
 				}
 
 				else if (userinput == "2")
 				{
-					system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+					system("clear"); 
 					cout << "Approved planet list" << endl;
 					cout << "--------------------------------------" << endl;
 					cout << "Empty" << endl;
@@ -153,16 +153,16 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					cout << "Press enter to continue" << endl;
 					cin.get();
 					cin.get();
-					system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+					system("clear");
 				}
 
 				else if (userinput == "3")
 				{
-					system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+					system("clear");
 					cout << "Scanner result: " << record[case_index].icon << endl;
 					cin.get();
 					cin.get();
-					system("CLS"); ///////////LINUX 好似係用clear rather than CLS (可以留到最尾先改)
+					system("clear");
 				}
 
 				else if (userinput == "Y" || userinput == "y")
@@ -172,13 +172,13 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					{
 						if (record[case_index].icon == "Human - Male" || record[case_index].icon == "Human - Female")
 						{
-							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							system("clear");
 							salary += 5;
 						}
 
 						else
 						{
-							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							system("clear"); 
 							wrongattempts++;
 							cout << "Warning letter" << endl;
 							cout << "--------------------------------------" << endl;
@@ -187,7 +187,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 							cout << "Press enter to continue" << endl;
 							cin.get();
 							cin.get();
-							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							system("clear");
 						}
 					}
 
@@ -196,7 +196,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 					{
 						if (record[case_index].icon != "Human - Male" || record[case_index].icon != "Human - Female")
 						{
-							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							system("clear"); ///////////LINUX 好似係用clear rather than CLS
 							wrongattempts++;
 							cout << "Warning letter" << endl;
 							cout << "--------------------------------------" << endl;
@@ -205,10 +205,10 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 							cout << "Press enter to continue" << endl;
 							cin.get();
 							cin.get();
-							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							system("clear"); ///////////LINUX 好似係用clear rather than CLS
 						}
 						else{
-							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							system("clear"); ///////////LINUX 好似係用clear rather than CLS
 							wrongattempts++;
 							cout << "Warning letter" << endl;
 							cout << "--------------------------------------" << endl;
@@ -217,7 +217,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 							cout <<"Press enter to continue" << endl;
 							cin.get();
 							cin.get();
-							system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+							system("clear"); ///////////LINUX 好似係用clear rather than CLS
 						}
 					}
 				}
@@ -228,12 +228,12 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 				{
 					if (record[case_index].icon != "Human - Female" || record[case_index].icon != "Human - Male")
 					{
-						system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+						system("clear"); ///////////LINUX 好似係用clear rather than CLS
 						salary += 5;
 					}
 					else if (record[case_index].vailidity == true)
 					{
-						system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+						system("clear"); ///////////LINUX 好似係用clear rather than CLS
 						wrongattempts++;
 						cout << "Warning letter" << endl;
 						cout << "--------------------------------------" << endl;
@@ -242,7 +242,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 						cout <<"Press enter to continue" << endl;
 						cin.get();
 						cin.get();
-						system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+						system("clear"); ///////////LINUX 好似係用clear rather than CLS
 					}
 				}
 		}
