@@ -4,9 +4,9 @@
 #include "save.h"
 using namespace std;
 
-//Return 0 - Exit game after saving
-//Return 1 - Continue game after saving
-int save(int week, int money, int wrongattempts)
+//Week will be changed to 0 when the pleayer exit game and then they will be bakced to the main value
+//Return nth when the player decide continue the game (Even after saving the game)
+void save(int &week, int money, int wrongattempts)
 {
 	cout << "Save game" << endl;
 	cout << "--------------------------------" << endl << endl;
@@ -133,7 +133,7 @@ int save(int week, int money, int wrongattempts)
 
 		else if (input == "Y" || input == "y") //Continue the game
 		{
-			return 1;
+			return;
 		}
 
 		else
@@ -162,10 +162,11 @@ int save(int week, int money, int wrongattempts)
 	}
 	if (quitinput == "Y" || quitinput == "y")
 	{
-		return 0;
+		week = 0;
+		return;
 	}
 	else if (quitinput =="N" || quitinput == "n")
 	{
-		return 1;
+		return;
 	}
 }
