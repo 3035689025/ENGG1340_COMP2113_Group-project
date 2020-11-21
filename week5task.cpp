@@ -848,7 +848,7 @@ if (official_count == 3)
 
   cout << "News:" <<endl;
   cout << "___________________________________________________________________" << endl << endl;
-  cout << "The terrorist group formally known as The Infected was finally dissolved after the efforts of our brave officers at the boarder. ";
+  cout << "The terrorist group formally known as The Infected was finally dissolved after the efforts of our brave officers at the border. ";
   cout << "The Officer, B-263-54, was rewarded the Medal of Honor as he bravely protected the Officials, King Henry IV, Genghis Khan XIV and George Washington ";
   cout << "from an assasination attempt from The Infected." << endl;
   cout << endl << endl;
@@ -910,7 +910,7 @@ else if (official_count != 3 && official_count != 0)
 {
   cout << "News:" <<endl;
   cout << "___________________________________________________________________" << endl << endl;
-  cout << "The Infected strikes again! Officials dead! Who is to blame? Sources say it's Officer B-263-54, a boarder officer at the Earth boarder." << endl;
+  cout << "The Infected strikes again! Officials dead! Who is to blame? Sources say it's Officer B-263-54, a border officer at the Earth border." << endl;
   cout << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
