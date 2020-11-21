@@ -29,11 +29,14 @@ week3task.o:	week3task.cpp week3task.h cases.h randomcases.h
 
 week4task.o:	week4task.cpp week4task.h cases.h randomcases.h wantedlist.h
 	g++ -c week4task.cpp
+	
+week5task.o:	week5task.cpp week5task.h cases.h icon.h 
+	g++ -c week5task.cpp
 
 weekend.o:	weekend.cpp weekend.h
 	g++ -c weekend.cpp
 
-main.o:	main.cpp cases.h casessetup.h week1task.h week2task.h week3task.h week4task.h weekend.h save.h load.h
+main.o:	main.cpp cases.h casessetup.h week1task.h week2task.h week3task.h week4task.h week5task.h weekend.h save.h load.h
 	g++ -c main.cpp
 
 main:	casessetup.o icon.o load.o randomcases.o save.o wantedlist.o week1task.o week2task.o week3task.o week4task.o weekend.o main.o
