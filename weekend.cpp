@@ -15,11 +15,11 @@ void week_end(int &week, int &money, int &wrongattempts, int &salary)
 		cout << "--------------------------------------";
 		cout << "In the briefcase, you will find $10000. Please accept it and fight alongside us. We need your help!" << endl;
 
-		system("clear");
+		cout << endl;
 		cout << "You: Should I accept it? If I do, I don't have to worry about money anymore. But if I get caught with this briefcase...it's certain death." << endl << endl;
 		cout <<"Even if I don't accept the money, I can still support the rebels. Decisions...Decisions..." << endl;
 
-		system("clear");
+		cout << endl;
 		cout << "Your action:" << endl;
 		cout << "[Y] Accept money" << endl;
 		cout << "[N] Burn the money and the letter" << endl;
@@ -57,6 +57,7 @@ void week_end(int &week, int &money, int &wrongattempts, int &salary)
                                 cout << endl << endl;
                                 cout << "Press enter to continue" << endl;
                                 cin.get();
+				cin.get();
                                 system("clear");
 
 				cout << "Ending: Died from greed" << endl;
