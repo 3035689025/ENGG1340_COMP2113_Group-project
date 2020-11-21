@@ -1,3 +1,5 @@
+#for compiling main to actually play
+
 casessetup.o: casessetup.cpp casessetup.h cases.h
 	g++ -c casessetup.cpp
 
