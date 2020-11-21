@@ -34,7 +34,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 		cout << setw(99) << "Week: " << week << endl;
 		cout << setw(99) << "Wrong attempts: " << wrongattempts << endl;
 		cout << setw(99) << "Salary: " << salary << endl;
-		cout << setw(99) << "Time left: " << 60 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() - timecount << endl;
+		cout << setw(99) << "Time left: " << 90 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() - timecount << endl;
 
 		icon(record[case_index].icon, namelenght);
 
