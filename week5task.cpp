@@ -316,10 +316,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        system("clear");
      }
   }
-  
-  //random case(s) here!!!!! time or amount of cases?
-  randomcases(week, record, salary, wrongattempts); //please correct me if I'm using the function wrong
-  
+	  
+	  
   //alien spy here
   cout << "You: Passport and entry pass please!" << endl << endl;
   cout << "..." << endl;
