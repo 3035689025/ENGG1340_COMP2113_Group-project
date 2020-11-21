@@ -9,6 +9,10 @@
 #include "week4task.h"
 
 using namespace std;
+//This function is for user to play the week4 of the game
+//It will use randomcases function to randomly draw the case from the record
+//It will print the background and other plot of the game in week4
+//Moreover, the visitors on wantedlist (will not be draw from the randomcase function)will randomly be drawn for players to disapprve he/she's entry
 
 
 //for week 4 a wanted list will be printed for the user to remember 
