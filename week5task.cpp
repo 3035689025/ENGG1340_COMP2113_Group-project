@@ -8,6 +8,7 @@
 #include "week5task.h"
 using namespace std;
 
+//for week 5 description below
 void week5task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
 {
 
