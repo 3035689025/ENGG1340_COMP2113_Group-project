@@ -9,6 +9,9 @@
 
 using namespace std;
 
+
+//for week 3 humans and aliens are allowed to enter 
+//letter from mother will come at the end
 void week3task(int& week, int& money, int& wrongattempts, cases record[], int& salary)
 {
 	system("clean");
