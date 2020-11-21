@@ -9,6 +9,8 @@
 #include "week1task.h"
 using namespace std;
 
+
+//for week 1 only humans are allowed to enter
 void week1task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
 {
 	system("clear");
