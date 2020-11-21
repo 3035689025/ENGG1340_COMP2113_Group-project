@@ -97,7 +97,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 
 		if (userinput == "1")
 		{
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			cout << "Approved country list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "E.G. China" << endl; //////////////////////////////////////////Not yet completed
@@ -105,12 +105,12 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 		}
 
 		else if (userinput == "2")
 		{
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			cout << "Approved planet list" << endl;
 			cout << "--------------------------------------" << endl;
 			cout << "Empty" << endl; //////////Not yet completed
@@ -118,21 +118,21 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 		}
 
 		else if (userinput == "3")
 		{
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			cout << "Scanner result: " << record[case_index].icon << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS (可以留到最尾先改)
+			system("clear");
 		}
 
 		else if (userinput == "Y" || userinput == "y")
 		{	
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			wrongattempts++;
 			cout << "Warning letter" << endl;
 			cout << "--------------------------------------" << endl;
@@ -141,7 +141,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 		}
 
 		else if (userinput == "N" || userinput == "n")
