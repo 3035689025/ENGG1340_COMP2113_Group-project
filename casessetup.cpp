@@ -4,6 +4,8 @@
 #include "casessetup.h"
 using namespace std;
 
+
+//for setting up all the cases (humans / aliens / wanted list rebels) for the user to check during gameplay
 void casessetup(cases record[]) 
 {
 	//Approved earth country:
