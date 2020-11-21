@@ -16,6 +16,8 @@ using namespace std;
 //Note
 //Cat
 
+
+//for saving different icons to print
 void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and then print that respecitive ASCII art.
 {
 
