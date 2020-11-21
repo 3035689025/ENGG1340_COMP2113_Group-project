@@ -19,6 +19,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   cout << "You: Should I stay in line and fulfill my duties? Or fight for my people and disapprove the officials? Decisions...Decisions..." << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
+  cin.get();
   system("clear");
 
   //income statement should be printed after week 4 and before week 5.
