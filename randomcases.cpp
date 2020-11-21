@@ -22,7 +22,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 	last_index = case_index;
 	
 	//Time counter
-	auto start = std::chrono::system_clock::now()
+	auto start = std::chrono::system_clock::now();
 
 	while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput !="n")
 	{
