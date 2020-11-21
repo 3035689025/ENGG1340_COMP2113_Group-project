@@ -31,6 +31,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 		int namelenght = record[case_index].PP_name.length(); //For random draw of the icon
 		
 		auto end = std::chrono::system_clock::now(); //For time count usege
+		cout << setw(99) << "Week: " << wrongattempts << endl;
 		cout << setw(99) << "Wrong attempts: " << wrongattempts << endl;
 		cout << setw(99) << "Salary: " << salary << endl;
 		cout << setw(99) << "Time left: " << 60 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() - timecount << endl;
