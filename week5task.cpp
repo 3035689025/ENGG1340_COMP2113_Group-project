@@ -213,14 +213,14 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N"  && userinput != "y" && userinput != "n")
       {
-	     cout << "Invalid input, Try again" << endl;
-	     cout << "[1] Check approved countries (Earth)" << endl;
-	     cout << "[2] Check aproved planets" << endl;
-	     cout << "[3] Scanner (For checking gender) " << endl;
-    	 cout << "[Y] Aprrove entry " << endl;
-    	 cout << "[N] Disapprove entry " << endl;
-    	 cout << endl << "Input:";
-       cin >> userinput;
+	cout << "Invalid input, Try again" << endl;
+	cout << "[1] Check approved countries (Earth)" << endl;
+	cout << "[2] Check aproved planets" << endl;
+	cout << "[3] Scanner (For checking gender) " << endl;
+    	cout << "[Y] Aprrove entry " << endl;
+    	cout << "[N] Disapprove entry " << endl;
+    	cout << endl << "Input:";
+        cin >> userinput;
       }
 
 
@@ -255,7 +255,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cout << "Scanner result: " << "Human - Male" << endl;
      	cin.get();
      	cin.get();
-              system("clear");
+        system("clear");
      }
 
      if (userinput == "N" || userinput == "n")
@@ -292,7 +292,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cin.get();
        system("clear");
        //thoughts from "you"
-           cout << "You: Should I have done that? Kinda a risky move...Oh well...What's done is done." << endl;
+       cout << "You: Should I have done that? Kinda a risky move...Oh well...What's done is done." << endl;
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
