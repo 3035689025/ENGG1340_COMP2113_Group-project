@@ -898,7 +898,7 @@ if (official_count == 3)
   cin.get();
   system("clear");
 
-  //insert empty string into the storage file here and end the game
+  return;
 }
 
 
@@ -957,7 +957,7 @@ else if (official_count != 3 && official_count != 0)
   cin.get();
   system("clear");
 
-  //insert empty string into the storage file here
+  return;
 }
 
 //Hero’s journey
@@ -989,7 +989,6 @@ else if (official_count == 0)
   cin.get();
   system("clear");
 
-  //insert empty string into the storage file here
 
   return;	     
  
