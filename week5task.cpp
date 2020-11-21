@@ -881,6 +881,8 @@ if (official_count == 3)
   cout << "Ending: Died with honor (2)" << endl;
   cout << endl << endl;
   cout << "-THE END-" <<endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
   cin.get();
   system("clear");
 
@@ -938,6 +940,8 @@ else if (official_count != 3 && official_count != 0)
   cout << "Died in disgrace (2)" << endl;
   cout << endl << endl;
   cout << "-THE END-" <<endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
   cin.get();
   system("clear");
 
@@ -968,6 +972,8 @@ else if (official_count == 0)
   cout << "Ending: Hero’s journey" << endl;
   cout << endl << endl;
   cout << "-THE END-" <<endl;
+  cout << endl << endl;
+  cout << "Press enter to continue" << endl;
   cin.get();
   system("clear");
 
