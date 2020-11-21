@@ -434,6 +434,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
     cout << endl << "Press enter to continue" << endl;
     cin.get();
     cin.get();
+    system("clear");
 
   }
 
