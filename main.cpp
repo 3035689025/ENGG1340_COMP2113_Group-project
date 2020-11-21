@@ -30,7 +30,30 @@ int main()
 
 	while (userinput != "3")
 	{
-		cout << setw(45) << "Officer \n \n \n \n \n \n " << endl;
+		cout << "      ___Officer___" << endl << endl << endl;
+		cout << "          _\\...._" << endl;
+		cout << "      .-\"         \"-." << endl;
+		cout << "    |  ._         _.  |" << endl;
+		cout << "    |  \\   \"\"\"\"\"\"\"  /  |" << endl;
+		cout << "    \\  |           |  /" << endl;
+		cout << "    ;  |  /     \\  |  ;" << endl;
+		cout << "    |  |  _     _  |  |" << endl;
+		cout << "    |  | / |   | \\ |  |" << endl;
+		cout << "    _\\/  \\0|   |0/  \\/_" << endl;
+		cout << "   / \\    .-----.    / \\" << endl;
+		cout << "   |  /_.-\\     /-._\\  |" << endl;
+		cout << "    \\|/    '--;'    \\|/" << endl;
+		cout << "      |  /     \\    |" << endl;
+		cout << "      |  `\\'.___\   |" << endl;
+		cout << "      ;    \\   |    ;" << endl;
+		cout << "       \\    \\'-\\   /" << endl;
+		cout << "        \\    '--' /" << endl;
+		cout << "         \\       /" << endl;
+		cout << "      ____\\_   _/____" << endl;
+		cout << "     '._    \\ /    _.'" << endl;
+		cout << "        '-,  ^  ,-'" << endl;
+		cout << "         /  ___  \\"  << endl;
+		cout << "        /   ---   \\"  << endl;
 		cout << " [1] Start new game" << endl;
 		cout << " [2] Load save " << endl;
 		cout << " [3] Exit" << endl;
