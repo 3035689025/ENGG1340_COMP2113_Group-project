@@ -36,7 +36,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "Officer Kim: Humans AND aliens are allowed to enter Earth starting from this week. Make sure the information in their passports is consistent." << endl << endl;
         cout << "Press enter to start your work this week" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+	system("clear");
 
 	//Time counter /////////////////要改timer 有bug
 	auto start = std::chrono::system_clock::now();
