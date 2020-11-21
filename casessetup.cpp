@@ -591,7 +591,7 @@ void casessetup(cases record[])
 	record[41].PP_name = "Patricia Aniston";
 	record[41].PP_gender = "Human - Female";
 	record[41].PP_birth = "1990-09-01";
-	record[41].PP_issue = "2030-07-14;
+	record[41].PP_issue = "2030-07-14";
 	record[41].PP_country = "Planet Music";
 	record[41].PP_number = "582971874";
 	record[41].EP_name = "Patricia Aniston";
