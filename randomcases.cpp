@@ -55,7 +55,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 		cout << "-------------------------" << endl;
 		cout << "Name: " << record[case_index].EP_name << endl;
 		cout << "Gender: " << record[case_index].EP_gender << endl;
-		cout << "Birth-day: " << record[case_index].EP_birth << endl;
+		cout << "Birthday: " << record[case_index].EP_birth << endl;
 		cout << "Planet: " << record[case_index].EP_country << endl;
 
 		//////////////呢到可以轉一轉 switch(case) print唔同野 E.G. Wanted list 等陣再傾下
