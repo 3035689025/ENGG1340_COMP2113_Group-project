@@ -75,7 +75,7 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	int last_index = -1;
 	
 
-	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60)) // Timer 60s 
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 90)) // Timer 60s 
 	{
 		int timecount = std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
 		srand(time(0));
