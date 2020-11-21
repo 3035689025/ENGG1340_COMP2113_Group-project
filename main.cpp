@@ -30,6 +30,7 @@ int main()
 
 	while (userinput != "3")
 	{
+		system("clear");
 		cout << "      ___Officer___" << endl << endl << endl;
 		cout << "          _\\...._" << endl;
 		cout << "      .-\"         \"-." << endl;
