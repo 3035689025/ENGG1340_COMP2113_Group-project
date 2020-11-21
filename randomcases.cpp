@@ -97,7 +97,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 			system("clear");
 			cout << "Approved country list" << endl;
 			cout << "--------------------------------------" << endl;
-			cout << "E.G. China" << endl; //////////////////////////////////////////Not yet completed
+			cout << "Australia \n China \n Gotham City \n Papua New Guinea \n United Kingdome \n United States \n" << endl; 
 			cout << endl;
 			cout << "Press enter to continue" << endl;
 			cin.get();
@@ -110,7 +110,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 			system("clear");
 			cout << "Approved planet list" << endl;
 			cout << "--------------------------------------" << endl;
-			cout << "Empty" << endl; //////////Not yet completed
+			cout << "Planet S-23 \n Planet Razer \n Planet Music \n Zootopia \n Planet 1117 \n Planet Smiley Face \n Smiley world \n" << endl;
 			cout << endl;
 			cout << "Press enter to continue" << endl;
 			cin.get();
