@@ -230,14 +230,10 @@ record[0].vailidity = true; \
 
 ###### Requirement 3- Dynamic memory management
 
-Dynamic array structure will be used to store the game status. As some of the game status data will only exist when the game comes to a particular gameweek.
+Dynamic array structure will be used to store the probability of the random cases. As some of the game status data will only exist when drawing the cases.
 
-For example,
-1. Earth officials will go to earth only on game-week 5
-and thus the variable - Number of times of approving earth officials to Earth, will be declared on week5.
-2. The gameweek variable in the array will be declared after the player starts the game or loads the save.
-
-Therefore, the program will request for memory if needed (when the game come to a particular gameweek or step)
+E.G. The p1 variables in icon function , which is a probaility to decide which icon to be printed in the icon function.
+After using the p1 variables, it will be deleted and release the memory.
 
 
 
