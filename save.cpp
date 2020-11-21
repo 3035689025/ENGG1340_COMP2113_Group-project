@@ -3,9 +3,11 @@
 #include <string>
 #include "save.h"
 using namespace std;
+//The save function allows players to save their game progress
+//There are 3 location for the player to save
+//Save will be save as "save1.txt" "save2.txt" "save3.txt" in the same directory.
 
 //Week will be changed to 0 when the pleayer exit game and then they will be bakced to the main value
-//Return nth when the player decide continue the game (Even after saving the game)
 void save(int &week, int money, int wrongattempts)
 {
 	cout << "Save game" << endl;
