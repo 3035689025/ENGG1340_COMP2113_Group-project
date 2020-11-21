@@ -1,0 +1,7 @@
+References
+
+Papers Please (the game we drew inspiration from)
+
+https://stackoverflow.com/questions/2525352/problem-of-using-cin-twice (for reading nothing as input)
+
+https://stackoverflow.com/ (for general debugging and program inspirations)
