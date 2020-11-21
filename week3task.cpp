@@ -19,7 +19,7 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty未填(外星人入得)
 	cout << "Press enter to start your work this week" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+	system("clear");
 
 	//Time counter /////////////////要改timer 有bug
 	auto current = std::chrono::system_clock::now();
