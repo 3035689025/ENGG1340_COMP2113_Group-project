@@ -160,7 +160,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 				cout << "Warning letter" << endl;
 				cout << "--------------------------------------" << endl;
 				cout << "Your choice was wrong due to the following reasons: " << endl;
-				cout << record[case_index].explanation << endl << endl << endl;
+				cout << "The information of the visitors is correct" << endl << endl << endl;
 				cout << "Press enter to continue" << endl;
 				cin.get();
 				cin.get();
