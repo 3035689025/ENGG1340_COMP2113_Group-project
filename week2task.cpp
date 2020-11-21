@@ -7,6 +7,10 @@
 #include "randomcases.h"
 #include "week2task.h"
 
+//This function is for user to play the week2 of the game
+//It will use randomcases function to randomly draw the case from the record
+//It will print the background and other plot of the game in week2
+
 using namespace std;
 
 
