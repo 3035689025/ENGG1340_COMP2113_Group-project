@@ -5,6 +5,9 @@
 using namespace std;
 
 //This function allows user to load their save
+//It will read the save file "save1.txt" "save2.txt" "save3.txt" in file
+//It file not exist, it will print save - not exist and not allow them to load the save
+
 //Variable week will be changed based on their save
 //If the save load unsuccessfully, the variable will remain unchanged(suppose it will remain as week 0)
 
