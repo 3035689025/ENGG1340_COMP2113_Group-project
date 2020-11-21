@@ -83,7 +83,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 		
 
 
-		while (userinput != "Y" && userinput != "N" && userinput !="y" && useinput!="n")
+		while (userinput != "Y" && userinput != "N" && userinput !="y" && userinput!="n")
 		{
 			cout << endl << endl << "You: Passport please!" << endl;
 			end = std::chrono::system_clock::now();
