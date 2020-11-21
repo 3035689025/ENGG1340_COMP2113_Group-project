@@ -79,16 +79,16 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
       {
-	     cout << "Invalid input, Try again" << endl;
-	     cout << "[1] Check approved countries (Earth)" << endl;
-	     cout << "[2] Check aproved planets" << endl;
-	     cout << "[3] Scanner (For checking gender) " << endl;
+	 cout << "Invalid input, Try again" << endl;
+	 cout << "[1] Check approved countries (Earth)" << endl;
+	 cout << "[2] Check aproved planets" << endl;
+	 cout << "[3] Scanner (For checking gender) " << endl;
     	 cout << "[Y] Aprrove entry " << endl;
     	 cout << "[N] Disapprove entry " << endl;
     	 cout << endl << "Input:";
-       cin >> userinput;
-      }
-
+         cin >> userinput;
+     
+	         
 
      if (userinput == "1")     
      {	
@@ -203,11 +203,11 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
 	  
       cout << endl << endl;
-	    cout << "[1] Check approved countries (Earth)" << endl;
-	    cout << "[2] Check aproved planets" << endl;
-	    cout << "[3] Scanner (For checking gender) " << endl;
-    	cout << "[Y] Aprrove entry " << endl;
-    	cout << "[N] Disapprove entry " << endl;
+      cout << "[1] Check approved countries (Earth)" << endl;
+      cout << "[2] Check aproved planets" << endl;
+      cout << "[3] Scanner (For checking gender) " << endl;
+      cout << "[Y] Aprrove entry " << endl;
+      cout << "[N] Disapprove entry " << endl;
       cout << endl << "Input:";
       cin >> userinput;
       //for invalid input
@@ -255,7 +255,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cout << "Scanner result: " << "Human - Male" << endl;
      	cin.get();
      	cin.get();
-      system("clear");
+              system("clear");
      }
 
      if (userinput == "N" || userinput == "n")
@@ -267,32 +267,32 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cin.get();
        system("clear");
        //message from Officer Kim
-	     cout << "                       ________________"            << endl;
-	     cout << "                      \\      __      /         __"  << endl;
-	     cout << "                       \\_____()_____/         /  )" << endl;
-	     cout << "                       '============`        /  /"  << endl;
-	     cout << "                        #---\\  /---#        /  /"   << endl;
-	     cout << "                       (# @\\| |/@  #)      /  /"    << endl;
-	     cout << "                        \\   (_)   /       /  /"     << endl;
-	     cout << "                        |\\ '---` /|      /  /"      << endl;
-	     cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
-	     cout << "               /       \\  /     \\  /   / o_|"       << endl;
-	     cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-	     cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
-	     cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
-	     cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
-	     cout << "           |    '              ||  --)    \\     |"  << endl;
-	     cout << "           |___________________||  --)     \\    / " << endl;
-	     cout << "                |           o|   ''''   |   \\__/ "  << endl;
-	     cout << "                |            |          | "         << endl;
-	     cout << endl << endl;
+       cout << "                       ________________"            << endl;
+       cout << "                      \\      __      /         __"  << endl;
+       cout << "                       \\_____()_____/         /  )" << endl;
+       cout << "                       '============`        /  /"  << endl;
+       cout << "                        #---\\  /---#        /  /"   << endl;
+       cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+       cout << "                        \\   (_)   /       /  /"     << endl;
+       cout << "                        |\\ '---` /|      /  /"      << endl;
+       cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+       cout << "               /       \\  /     \\  /   / o_|"       << endl;
+       cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+       cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+       cout << "           |    '              ||  --)    \\     |"  << endl;
+       cout << "           |___________________||  --)     \\    / " << endl;
+       cout << "                |           o|   ''''   |   \\__/ "  << endl;
+       cout << "                |            |          | "         << endl;
+       cout << endl << endl;
        cout << "Officer Kim: What was that? Don't try that again! Approve the next two officials and we'll deal with this after this week!" << endl;
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
        //thoughts from "you"
-       cout << "You: Should I have done that? Kinda a risky move...Oh well...What's done is done." << endl;
+           cout << "You: Should I have done that? Kinda a risky move...Oh well...What's done is done." << endl;
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
@@ -329,49 +329,48 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
   {
     cout << "                    dS$$S$S$S$S$S$S$$Sb                   " << endl;
-	  cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
-	  cout << "                  SSP   `^$S$S$^'   TSS                   " << endl;
-	  cout << "                  $$       `\"'       $$                   " << endl;
-  	cout << "                _SS ,-           -  SS_                  " << endl;
-  	cout << "                :-.|  _    - .-   _  |.-;                 " << endl;
-  	cout << "                :\\(; ' \"-._.'._.-\" ` |)/;                 " << endl;
-  	cout << "                 \\`|  , o       o .  |'/                  " << endl;
-  	cout << "                  \":     -'   `-     ;\"                   " << endl;
-  	cout << "                    ;.              :                  " << endl;
-  	cout << "                    : `    ._.    ' ;                     " << endl;
+    cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
+    cout << "                  SSP   `^$S$S$^'   TSS                   " << endl;
+    cout << "                  $$       `\"'       $$                   " << endl;
+    cout << "                _SS ,-           -  SS_                  " << endl;
+    cout << "                :-.|  _    - .-   _  |.-;                 " << endl;
+    cout << "                :\\(; ' \"-._.'._.-\" ` |)/;                 " << endl;
+    cout << "                 \\`|  , o       o .  |'/                  " << endl;
+    cout << "                  \":     -'   `-     ;\"                   " << endl;
+    cout << "                    ;.              :                  " << endl;
+    cout << "                    : `    ._.    ' ;                     " << endl;
     cout << "                  .sSb   ._____.   dSs.                   " << endl;
-  	cout << "              _.d8dSSb.   ._.   .SSbT8b._                " << endl;
-  	cout << "          _.oOPd88SSSS T.     .P SSSS888OOo.             " << endl;
-  	cout << "      _.mMMOOPd888SSSSb TSqqqSP dSSSS88OMOOOMm._         " << endl;
-  	cout << "   .oOMMMOMOOM8O8OSSSSSb TSSSP dSSSSS8OOMMOOMMOOOo._     " << endl;
-  	cout << "  .OOMMOOOMMOOMOOOO  \"^SSSTSSP dSSS^\"OOOOMMOOMMMOOMMMb.   " << endl;
-  	cout << "  dOOOMMMOMMOOOMOOOO      \"^SSSS^\"   :OOO8MMMOOMMOOMMOMMb  " << endl;
-  	cout << " :MMMOOMMOMMOOMMO8OS         `P      8O8OPdMMOOMMOMMOMMMM; " << endl;
+    cout << "              _.d8dSSb.   ._.   .SSbT8b._                " << endl;
+    cout << "          _.oOPd88SSSS T.     .P SSSS888OOo.             " << endl;
+    cout << "      _.mMMOOPd888SSSSb TSqqqSP dSSSS88OMOOOMm._         " << endl;
+    cout << "   .oOMMMOMOOM8O8OSSSSSb TSSSP dSSSSS8OOMMOOMMOOOo._     " << endl;
+    cout << "  .OOMMOOOMMOOMOOOO  \"^SSSTSSP dSSS^\"OOOOMMOOMMMOOMMMb.   " << endl;
+    cout << "  dOOOMMMOMMOOOMOOOO      \"^SSSS^\"   :OOO8MMMOOMMOOMMOMMb  " << endl;
+    cout << " :MMMOOMMOMMOOMMO8OS         `P      8O8OPdMMOOMMOMMOMMMM; " << endl;
     cout << " MMMMOOMMMMMOOMbTO8S;               :8888MMMMMOMMOMMOMMMMM " << endl;
-  	cout << " OMMMMOOMMMMOOOMMOOOS        S     :O8OPdMOMMMOMOMMOOMMMMO " << endl;
-  	cout << ":OMMMMOOMMOMMOOMbTObTb.     :S;   .PdOPdMOOMMMMMOMMOMMMMMO;" << endl;
-  	cout << "MOOMMMMOMMOMMOOMMMOObTSSg._.SSS._.PdOPdMOOMMMMOMMMMOMMMMOOM" << endl;
-  	cout << "MMOMMMMOMMMOMMOOMMbT8bTSSSSSSSSSPd8OPdOOOMMMMOOMMMMOMMMOOMM" << endl;
-  	cout << "MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM" << endl;
+    cout << " OMMMMOOMMMMOOOMMOOOS        S     :O8OPdMOMMMOMOMMOOMMMMO " << endl;
+    cout << ":OMMMMOOMMOMMOOMbTObTb.     :S;   .PdOPdMOOMMMMMOMMOMMMMMO;" << endl;
+    cout << "MOOMMMMOMMOMMOOMMMOObTSSg._.SSS._.PdOPdMOOMMMMOMMMMOMMMMOOM" << endl;
+    cout << "MMOMMMMOMMMOMMOOMMbT8bTSSSSSSSSSPd8OPdOOOMMMMOOMMMMOMMMOOMM" << endl;
+    cout << "MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM" << endl;
     cout << endl << endl;
     cout << "Visitor: Remember me? It's time to fight for our people. Let me through and show you're a part of us!" << endl;
     
 
     cout << "[Y] Aprrove entry " << endl;
-  	cout << "[N] Disapprove entry " << endl;
+    cout << "[N] Disapprove entry " << endl;
     cout << endl << "Input:";
     cin >> userinput;
 
     //user can only move forward if they choose Yes
     while ( userinput != "Y" || userinput != "y") 
     {
-      //for invalid input
-      if ( userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
+      //for invalid input          if ( userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
       {
         cout << "Invalid input, Try again" << endl;
         cout << "[Y] Aprrove entry " << endl;
-  	    cout << "[N] Disapprove entry " << endl;
-   	    cout << endl << "Input:";
+  	cout << "[N] Disapprove entry " << endl;
+   	cout << endl << "Input:";
         cin >> userinput;
       }
       //for choosing No
@@ -385,30 +384,30 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
     }
     system("clear");
     cout << "                    dS$$S$S$S$S$S$S$$Sb                   " << endl;
-	  cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
-	  cout << "                  SSP   `^$S$S$^'   TSS                   " << endl;
-	  cout << "                  $$       `\"'       $$                   " << endl;
-  	cout << "                _SS ,-           -  SS_                  " << endl;
-  	cout << "                :-.|  _    - .-   _  |.-;                 " << endl;
-  	cout << "                :\\(; ' \"-._.'._.-\" ` |)/;                 " << endl;
-  	cout << "                 \\`|  , o       o .  |'/                  " << endl;
-  	cout << "                  \":     -'   `-     ;\"                   " << endl;
-  	cout << "                    ;.              :                  " << endl;
-  	cout << "                    : `    ._.    ' ;                     " << endl;
+    cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
+    cout << "                  SSP   `^$S$S$^'   TSS                   " << endl;
+    cout << "                  $$       `\"'       $$                   " << endl;
+    cout << "                _SS ,-           -  SS_                  " << endl;
+    cout << "                :-.|  _    - .-   _  |.-;                 " << endl;
+    cout << "                :\\(; ' \"-._.'._.-\" ` |)/;                 " << endl;
+    cout << "                 \\`|  , o       o .  |'/                  " << endl;
+    cout << "                  \":     -'   `-     ;\"                   " << endl;
+    cout << "                    ;.              :                  " << endl;
+    cout << "                    : `    ._.    ' ;                     " << endl;
     cout << "                  .sSb   ._____.   dSs.                   " << endl;
-  	cout << "              _.d8dSSb.   ._.   .SSbT8b._                " << endl;
-  	cout << "          _.oOPd88SSSS T.     .P SSSS888OOo.             " << endl;
-  	cout << "      _.mMMOOPd888SSSSb TSqqqSP dSSSS88OMOOOMm._         " << endl;
-  	cout << "   .oOMMMOMOOM8O8OSSSSSb TSSSP dSSSSS8OOMMOOMMOOOo._     " << endl;
-  	cout << "  .OOMMOOOMMOOMOOOO  \"^SSSTSSP dSSS^\"OOOOMMOOMMMOOMMMb.   " << endl;
-  	cout << "  dOOOMMMOMMOOOMOOOO      \"^SSSS^\"   :OOO8MMMOOMMOOMMOMMb  " << endl;
-  	cout << " :MMMOOMMOMMOOMMO8OS         `P      8O8OPdMMOOMMOMMOMMMM; " << endl;
+    cout << "              _.d8dSSb.   ._.   .SSbT8b._                " << endl;
+    cout << "          _.oOPd88SSSS T.     .P SSSS888OOo.             " << endl;
+    cout << "      _.mMMOOPd888SSSSb TSqqqSP dSSSS88OMOOOMm._         " << endl;
+    cout << "   .oOMMMOMOOM8O8OSSSSSb TSSSP dSSSSS8OOMMOOMMOOOo._     " << endl;
+    cout << "  .OOMMOOOMMOOMOOOO  \"^SSSTSSP dSSS^\"OOOOMMOOMMMOOMMMb.   " << endl;
+    cout << "  dOOOMMMOMMOOOMOOOO      \"^SSSS^\"   :OOO8MMMOOMMOOMMOMMb  " << endl;
+    cout << " :MMMOOMMOMMOOMMO8OS         `P      8O8OPdMMOOMMOMMOMMMM; " << endl;
     cout << " MMMMOOMMMMMOOMbTO8S;               :8888MMMMMOMMOMMOMMMMM " << endl;
-  	cout << " OMMMMOOMMMMOOOMMOOOS        S     :O8OPdMOMMMOMOMMOOMMMMO " << endl;
-  	cout << ":OMMMMOOMMOMMOOMbTObTb.     :S;   .PdOPdMOOMMMMMOMMOMMMMMO;" << endl;
-  	cout << "MOOMMMMOMMOMMOOMMMOObTSSg._.SSS._.PdOPdMOOMMMMOMMMMOMMMMOOM" << endl;
-  	cout << "MMOMMMMOMMMOMMOOMMbT8bTSSSSSSSSSPd8OPdOOOMMMMOOMMMMOMMMOOMM" << endl;
-  	cout << "MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM" << endl;
+    cout << " OMMMMOOMMMMOOOMMOOOS        S     :O8OPdMOMMMOMOMMOOMMMMO " << endl;
+    cout << ":OMMMMOOMMOMMOOMbTObTb.     :S;   .PdOPdMOOMMMMMOMMOMMMMMO;" << endl;
+    cout << "MOOMMMMOMMOMMOOMMMOObTSSg._.SSS._.PdOPdMOOMMMMOMMMMOMMMMOOM" << endl;
+    cout << "MMOMMMMOMMMOMMOOMMbT8bTSSSSSSSSSPd8OPdOOOMMMMOOMMMMOMMMOOMM" << endl;
+    cout << "MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM" << endl;
     cout << endl << endl;
     cout << "Visitor: Remember who you are. Finish your mission!" << endl;
   }
@@ -416,7 +415,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   //2nd Earth official here
   cout << "You: Passport and entry pass please!" << endl;
   
-  string userinput = "";
+  str      ing userinput = "";
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
   {
       // Print passport as long as the input is not Y nor N
@@ -467,20 +466,20 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
 	  
       cout << endl << endl;
-	    cout << "[1] Check approved countries (Earth)" << endl;
-	    cout << "[2] Check aproved planets" << endl;
-	    cout << "[3] Scanner (For checking gender) " << endl;
-    	cout << "[Y] Aprrove entry " << endl;
-    	cout << "[N] Disapprove entry " << endl;
+      cout << "[1] Check approved countries (Earth)" << endl;
+      cout << "[2] Check aproved planets" << endl;
+      cout << "[3] Scanner (For checking gender) " << endl;
+      cout << "[Y] Aprrove entry " << endl;
+      cout << "[N] Disapprove entry " << endl;
       cout << endl << "Input:";
       cin >> userinput;
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N"  && userinput != "y" && userinput != "n")
       {
-	     cout << "Invalid input, Try again" << endl;
-	     cout << "[1] Check approved countries (Earth)" << endl;
-	     cout << "[2] Check aproved planets" << endl;
-	     cout << "[3] Scanner (For checking gender) " << endl;
+	       cout << "Invalid input, Try again" << endl;
+	       cout << "[1] Check approved countries (Earth)" << endl;
+	       cout << "[2] Check aproved planets" << endl;
+	       cout << "[3] Scanner (For checking gender) " << endl;
     	 cout << "[Y] Aprrove entry " << endl;
     	 cout << "[N] Disapprove entry " << endl;
     	 cout << endl << "Input:";
@@ -561,25 +560,25 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   //update from Officer Kim here
   if (official_count == 2)
   {
-    	 cout << "                       ________________"            << endl;
-	     cout << "                      \\      __      /         __"  << endl;
-	     cout << "                       \\_____()_____/         /  )" << endl;
-	     cout << "                       '============`        /  /"  << endl;
-	     cout << "                        #---\\  /---#        /  /"   << endl;
-	     cout << "                       (# @\\| |/@  #)      /  /"    << endl;
-	     cout << "                        \\   (_)   /       /  /"     << endl;
-	     cout << "                        |\\ '---` /|      /  /"      << endl;
-	     cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
-	     cout << "               /       \\  /     \\  /   / o_|"       << endl;
-	     cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-	     cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
-	     cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
-	     cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
-	     cout << "           |    '              ||  --)    \\     |"  << endl;
-	     cout << "           |___________________||  --)     \\    / " << endl;
-	     cout << "                |           o|   ''''   |   \\__/ "  << endl;
-	     cout << "                |            |          | "         << endl;
-	     cout << endl << endl;
+       cout << "                       ________________"            << endl;
+       cout << "                      \\      __      /         __"  << endl;
+       cout << "                       \\_____()_____/         /  )" << endl;
+       cout << "                       '============`        /  /"  << endl;
+       cout << "                        #---\\  /---#        /  /"   << endl;
+       cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+       cout << "                        \\   (_)   /       /  /"     << endl;
+       cout << "                        |\\ '---` /|      /  /"      << endl;
+       cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+       cout << "               /       \\  /     \\  /   / o_|"       << endl;
+       cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+       cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+       cout << "           |    '              ||  --)    \\     |"  << endl;
+       cout << "           |___________________||  --)     \\    / " << endl;
+       cout << "                |           o|   ''''   |   \\__/ "  << endl;
+       cout << "                |            |          | "         << endl;
+       cout << endl << endl;
        cout << "Officer Kim: Good work! Keep it up! You'll be heavily compensated after this week." << endl;
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
@@ -590,24 +589,24 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   else if (official_count == 1)
   {
        cout << "                       ________________"            << endl;
-	     cout << "                      \\      __      /         __"  << endl;
-	     cout << "                       \\_____()_____/         /  )" << endl;
-	     cout << "                       '============`        /  /"  << endl;
-	     cout << "                        #---\\  /---#        /  /"   << endl;
-	     cout << "                       (# @\\| |/@  #)      /  /"    << endl;
-	     cout << "                        \\   (_)   /       /  /"     << endl;
-	     cout << "                        |\\ '---` /|      /  /"      << endl;
-	     cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
-	     cout << "               /       \\  /     \\  /   / o_|"       << endl;
-	     cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-	     cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
-	     cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
-	     cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
-	     cout << "           |    '              ||  --)    \\     |"  << endl;
-	     cout << "           |___________________||  --)     \\    / " << endl;
-	     cout << "                |           o|   ''''   |   \\__/ "  << endl;
-	     cout << "                |            |          | "         << endl;
-	     cout << endl << endl;
+       cout << "                      \\      __      /         __"  << endl;
+       cout << "                       \\_____()_____/         /  )" << endl;
+       cout << "                       '============`        /  /"  << endl;
+       cout << "                        #---\\  /---#        /  /"   << endl;
+       cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+       cout << "                        \\   (_)   /       /  /"     << endl;
+       cout << "                        |\\ '---` /|      /  /"      << endl;
+       cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+       cout << "               /       \\  /     \\  /   / o_|"       << endl;
+       cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+       cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+       cout << "           |    '              ||  --)    \\     |"  << endl;
+       cout << "           |___________________||  --)     \\    / " << endl;
+       cout << "                |           o|   ''''   |   \\__/ "  << endl;
+       cout << "                |            |          | "         << endl;
+       cout << endl << endl;
        cout << "Officer Kim: You missed one official. Someone will die from this mistake and it won't be me!" << endl;
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
@@ -617,24 +616,24 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   else if (official_count == 0)
   {
        cout << "                       ________________"            << endl;
-	     cout << "                      \\      __      /         __"  << endl;
-	     cout << "                       \\_____()_____/         /  )" << endl;
-	     cout << "                       '============`        /  /"  << endl;
-	     cout << "                        #---\\  /---#        /  /"   << endl;
-	     cout << "                       (# @\\| |/@  #)      /  /"    << endl;
-	     cout << "                        \\   (_)   /       /  /"     << endl;
-	     cout << "                        |\\ '---` /|      /  /"      << endl;
-	     cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
-	     cout << "               /       \\  /     \\  /   / o_|"       << endl;
-	     cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-	     cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
-	     cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
-	     cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
-	     cout << "           |    '              ||  --)    \\     |"  << endl;
-	     cout << "           |___________________||  --)     \\    / " << endl;
-	     cout << "                |           o|   ''''   |   \\__/ "  << endl;
-	     cout << "                |            |          | "         << endl;
-	     cout << endl << endl;
+       cout << "                      \\      __      /         __"  << endl;
+       cout << "                       \\_____()_____/         /  )" << endl;
+       cout << "                       '============`        /  /"  << endl;
+       cout << "                        #---\\  /---#        /  /"   << endl;
+       cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+       cout << "                        \\   (_)   /       /  /"     << endl;
+       cout << "                        |\\ '---` /|      /  /"      << endl;
+       cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+       cout << "               /       \\  /     \\  /   / o_|"       << endl;
+       cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+       cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+       cout << "           |    '              ||  --)    \\     |"  << endl;
+       cout << "           |___________________||  --)     \\    / " << endl;
+       cout << "                |           o|   ''''   |   \\__/ "  << endl;
+       cout << "                |            |          | "         << endl;
+       cout << endl << endl;
        cout << "Officer Kim: It's treason, then. You'll die painfully. I'll make sure of that." << endl;
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
@@ -709,20 +708,20 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "[1] Check approved countries (Earth)" << endl;
       cout << "[2] Check aproved planets" << endl;
       cout << "[3] Scanner (For checking gender) " << endl;
-    	cout << "[Y] Aprrove entry " << endl;
-    	cout << "[N] Disapprove entry " << endl;
+      cout << "[Y] Aprrove entry " << endl;
+      cout << "[N] Disapprove entry " << endl;
       cout << endl << "Input:";
       cin >> userinput;
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N"  && userinput != "y" && userinput != "n")
       {
-	       cout << "Invalid input, Try again" << endl;
-         cout << "[1] Check approved countries (Earth)" << endl;
-	      cout << "[2] Check aproved planets" << endl;
-	      cout << "[3] Scanner (For checking gender) " << endl;
-    	  cout << "[Y] Aprrove entry " << endl;
-    	  cout << "[N] Disapprove entry " << endl;
-    	  cout << endl << "Input:";
+	cout << "Invalid input, Try again" << endl;
+        cout << "[1] Check approved countries (Earth)" << endl;
+	cout << "[2] Check aproved planets" << endl;
+	cout << "[3] Scanner (For checking gender) " << endl;
+        cout << "[Y] Aprrove entry " << endl;
+        cout << "[N] Disapprove entry " << endl;
+        cout << endl << "Input:";
         cin >> userinput;
       }
 
@@ -822,24 +821,24 @@ if (official_count == 3)
 {
 
   cout << "                       ________________"            << endl;
-	cout << "                      \\      __      /         __"  << endl;
-	cout << "                       \\_____()_____/         /  )" << endl;
-	cout << "                       '============`        /  /"  << endl;
-	cout << "                        #---\\  /---#        /  /"   << endl;
-	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
-	cout << "                        \\   (_)   /       /  /"     << endl;
-	cout << "                        |\\ '---` /|      /  /"      << endl;
-	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
-	cout << "               /       \\  /     \\  /   / o_|"       << endl;
-	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
-	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
-	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
-	cout << "           |    '              ||  --)    \\     |"  << endl;
-	cout << "           |___________________||  --)     \\    / " << endl;
-	cout << "                |           o|   ''''   |   \\__/ "  << endl;
-	cout << "                |            |          | "         << endl;
-	cout << endl << endl;
+  cout << "                      \\      __      /         __"  << endl;
+  cout << "                       \\_____()_____/         /  )" << endl;
+  cout << "                       '============`        /  /"  << endl;
+  cout << "                        #---\\  /---#        /  /"   << endl;
+  cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+  cout << "                        \\   (_)   /       /  /"     << endl;
+  cout << "                        |\\ '---` /|      /  /"      << endl;
+  cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+  cout << "               /       \\  /     \\  /   / o_|"       << endl;
+  cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+  cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+  cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+  cout << "           |    '              ||  --)    \\     |"  << endl;
+  cout << "           |___________________||  --)     \\    / " << endl;
+  cout << "                |           o|   ''''   |   \\__/ "  << endl;
+  cout << "                |            |          | "         << endl;
+  cout << endl << endl;
   cout << "Officer Kim: Officer B-263-54, you have done well. We have received intelligence the certain extremists have planning to infiltrate our planet. ";
   cout << "However, we have just discovered their plans of assasinating the Earth officials and stopped them in time. You have played an important role in this believe it or not!"<< endl;
   cout << endl << endl;
@@ -865,24 +864,24 @@ if (official_count == 3)
   system("clear");
 
   cout << "                       ________________"            << endl;
-	cout << "                      \\      __      /         __"  << endl;
-	cout << "                       \\_____()_____/         /  )" << endl;
-	cout << "                       '============`        /  /"  << endl;
-	cout << "                        #---\\  /---#        /  /"   << endl;
-	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
-	cout << "                        \\   (_)   /       /  /"     << endl;
-	cout << "                        |\\ '---` /|      /  /"      << endl;
-	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
-	cout << "               /       \\  /     \\  /   / o_|"       << endl;
-	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
-	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
-	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
-	cout << "           |    '              ||  --)    \\     |"  << endl;
-	cout << "           |___________________||  --)     \\    / " << endl;
-	cout << "                |           o|   ''''   |   \\__/ "  << endl;
-	cout << "                |            |          | "         << endl;
-	cout << endl << endl;
+  cout << "                      \\      __      /         __"  << endl;
+  cout << "                       \\_____()_____/         /  )" << endl;
+  cout << "                       '============`        /  /"  << endl;
+  cout << "                        #---\\  /---#        /  /"   << endl;
+  cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+  cout << "                        \\   (_)   /       /  /"     << endl;
+  cout << "                        |\\ '---` /|      /  /"      << endl;
+  cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+  cout << "               /       \\  /     \\  /   / o_|"       << endl;
+  cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+  cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+  cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+  cout << "           |    '              ||  --)    \\     |"  << endl;
+  cout << "           |___________________||  --)     \\    / " << endl;
+  cout << "                |           o|   ''''   |   \\__/ "  << endl;
+  cout << "                |            |          | "         << endl;
+  cout << endl << endl;
   cout << "Officer Kim: Officer B-263-54, thank you for your service. Unforunately, considering you've been in contact with The Infected, we cannot take the risk of having a breach in our system. ";
   cout << "I'm sure you'll understand. Your planet will forever be grateful for your sacrifice!" << endl;
   cout << endl << endl;
@@ -925,24 +924,24 @@ else if (official_count != 3 && official_count != 0)
   system("clear");
 
   cout << "                       ________________"            << endl;
-	cout << "                      \\      __      /         __"  << endl;
-	cout << "                       \\_____()_____/         /  )" << endl;
-	cout << "                       '============`        /  /"  << endl;
-	cout << "                        #---\\  /---#        /  /"   << endl;
-	cout << "                       (# @\\| |/@  #)      /  /"    << endl;
-	cout << "                        \\   (_)   /       /  /"     << endl;
-	cout << "                        |\\ '---` /|      /  /"      << endl;
-	cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
-	cout << "               /       \\  /     \\  /   / o_|"       << endl;
-	cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-	cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
-	cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
-	cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
-	cout << "           |    '              ||  --)    \\     |"  << endl;
-	cout << "           |___________________||  --)     \\    / " << endl;
-	cout << "                |           o|   ''''   |   \\__/ "  << endl;
-	cout << "                |            |          | "         << endl;
-	cout << endl << endl;
+  cout << "                      \\      __      /         __"  << endl;
+  cout << "                       \\_____()_____/         /  )" << endl;
+  cout << "                       '============`        /  /"  << endl;
+  cout << "                        #---\\  /---#        /  /"   << endl;
+  cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+  cout << "                        \\   (_)   /       /  /"     << endl;
+  cout << "                        |\\ '---` /|      /  /"      << endl;
+  cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+  cout << "               /       \\  /     \\  /   / o_|"       << endl;
+  cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+  cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+  cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+  cout << "           |    '              ||  --)    \\     |"  << endl;
+  cout << "           |___________________||  --)     \\    / " << endl;
+  cout << "                |           o|   ''''   |   \\__/ "  << endl;
+  cout << "                |            |          | "         << endl;
+  cout << endl << endl;
   cout << "Officer Kim: No one gets away with treason! Rot in hell!" << endl;
   cout << endl << endl;
   cout << "Press enter to continue" << endl;
