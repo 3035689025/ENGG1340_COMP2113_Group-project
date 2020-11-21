@@ -44,7 +44,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	
 	int last_index=-1;
 
-	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60)) //Time count for 60s
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 90)) //Time count for 60s
 	{
 		int timecount = std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
 		randomcases(week, record, salary, wrongattempts, last_index, timecount);
