@@ -8,7 +8,9 @@
 #include "week3task.h"
 
 using namespace std;
-
+//This function is for user to play the week3 of the game
+//It will use randomcases function to randomly draw the case from the record
+//It will print the background and other plot of the game in week3
 
 //for week 3 humans and aliens are allowed to enter 
 //letter from mother will come at the end
