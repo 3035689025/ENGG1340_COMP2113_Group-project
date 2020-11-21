@@ -10,6 +10,7 @@ using namespace std;
 
 void load(int& week, int& money, int& wrongattempts) 
 {
+	system("clear");
 	cout << "Load game" << endl;
 	cout << "--------------------------------" << endl << endl;
 
