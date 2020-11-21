@@ -7,6 +7,7 @@
 #include "week2task.h"
 #include "week3task.h"
 #include "week4task.h"
+#include "week5task.h"
 #include "weekend.h"
 #include "save.h"
 #include "load.h"
@@ -96,6 +97,11 @@ int main()
 				week++;
 				save(week, money, wrongattempts);
 			}
+		}
+		
+		if (week == 5)
+		{
+			week5task(week, money, wrongattempts, record, salary);	
 		}
 	}
 }
