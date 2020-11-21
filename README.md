@@ -74,14 +74,14 @@ Only humans should be approved. \
 ##### Week 2)
 Only:\
 Humans \
-Aliens with passports from approved countries/ planets \
+Aliens with passports from approved countries/ planets with entry passes.\
 (A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)
 
 
 ##### Week 3)
 Only:\
 Humans with passports from approved planets\
-Aliens with passports from approved countries/ planets, with approved visas\
+Aliens with passports from approved countries/ planets with entry passes.\
 (The last case will be an encounter with a rebel.)
 
 A major twist is revealed by a letter from the player’s mother. 300 years ago, Earth was origainlly occupied by the alien species, The Infected, but was since taken away by humans. As victory is often written by the victors, history books has referred to  the deportation of “The Infected species”  in 1800s as a victory of humans defending their motherland against external aliens powers. Even the name “The Infected” is to associate the species with a negative stigma to further alienate them from Earth.
@@ -92,10 +92,9 @@ In the last part of the letter, it is also revealed that the player secretly bea
 ##### Week 4)
 Only:\
 Humans with passports from approved planets\
-Aliens with passports from approved countries/ planets, with approved visas\
+Aliens with passports from approved countries/ planets, with approved entry passes.\
 Name is not mentioned on ‘The Wanted” list\
-(The last case will be the encounter to introduce the Earth officials visit if the player fulfills the requirements)\
-After this week, our superior will announce a paycut to further put load on our financial situation.
+(The last case will be the encounter to introduce the Earth officials visit)\
 
 
 ##### Week 5)
@@ -122,23 +121,17 @@ Run out of money (poor grades in previous weekss- time, accuracy...)
 Events:\
 Starved in the next week
 
-##### 3) Died with honor(1)
-Prerequisites: \
-Did not encounter  “invitation from assassin” (x disapproved alien spies entries)
 
-Events:\
-Died in week 7(final week) by starvation/over-working (tbd)
-
-##### 4) Died with honor (2)
+##### 3) Died with honor
 Prerequisites:\
 a) Encounter “invitation from assassin” (x approved alien spies entries)\
 b) Approved all 3 (tbd) Earth officials to Earth
 
 Events:\
 Awarded medal of honor in week 6\
-Died in week 7(final week) by starvation/over-working (tbd)
+Died in week 7(final week). Killed by Office Kim. 
 
-##### 5) Died in disgrace (2)
+##### 4) Died in disgrace (2)
 Prerequisites:\
 a) Encounter “invitation from assassin” (x approved alien spies entries)\
 b) Did not approve all 3 (tbd) Earth officials to Earth
@@ -148,7 +141,7 @@ Officials were ambushed in space by assassins\
 Died when week 6 ended- killed by superior 
 
 
-##### 6) Hero’s journey
+##### 5) Hero’s journey
 Prerequisites:\
 a) Encounter “invitation from assassin” (x approved alien spies entries)\
 b) Disapproved all 3 (tbd) Earth officials to Earth
@@ -159,14 +152,20 @@ Ruling party was overthrown\
 Rebellion was a success\
 You were celebrated as a hero.
 
-##### 7) Early retirement 
+##### 6) Died from greed
 Prerequisites:\
-a) Survive week 3\
-b) Choose “retirement with retirement plan” at the end of a week 
+Accepted the bribey in week 3
 
-Events:\
-Continue living as a human\
-Died after relieved from duty- killed by superior (treason)
+Events:
+Killed by Officer Kim for treason.
+
+##### 7) You cheated... (Easter Egg event)
+Prerequisites:\
+The user manually changed the amount of money in the file (outside of the game).
+
+Events:
+Game over.
+
 
 \
 \
