@@ -17,7 +17,7 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	///////Duty (Officer Kim)????
 	cout << "Your duty this week:" << endl << endl;
 	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty未填(外星人入得)
-	cout << "Press enter to start your work this week" << endl;
+	cout << "Press enter to start your work this week";
 	cin.get();
 	system("clear");
 
@@ -68,6 +68,7 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "\n \n \n \n";
 	cout << "(A rebel,alien spy, introduces us to the existence of The Rebellion by handing us a pamphlet.)" << endl << endl; /////////////////////////////////////////////////////////not completed
 	cout << "Press enter to return the letter";
+	cin.get();
 
 
 }
