@@ -21,9 +21,12 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 
 	if (icon == "Human - Female")
 	{
-		int v1 = lenght % 2;
+		//dynamic variables (dynamic memory management)
+		int *p1;
+		p1 = new int;
+		*p1 = lenght % 2;
 
-		if (v1 == 0) // 50%
+		if (*p1 == 0) // 50%
 		{
 			cout << " /////////////\\\\\\\\\ \n ";
 			cout << " (((((((((((((( \\\\\\\ \n ";
@@ -43,7 +46,7 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 			cout << "        | | | \n";
 			cout << "       _|_|_|_ \n";
 		}
-		else if (v1 == 1) // 50%
+		else if (*p1 == 1) // 50%
 		{
 			cout << "    \\\\\\|||/// \n";
 			cout << "  .  =======  \n";
@@ -59,14 +62,19 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 			cout << " .#---'| |`----. \n";
 			cout << " `#----' `-----' \n";
 		}
+		delete p1;
+		p1 = 0;
 	}
 
 
 	else if (icon == "Human - Male")
 	{
-		int v1 = lenght % 2;
+		//dynamic variables (dynamic memory management)
+		int *p1;
+		p1 = new int;
+		*p1 = lenght % 2;
 
-		if (v1 == 0)
+		if (*p1 == 0)
 		{
 			cout << "      ////^\\\\\\ \n";
 			cout << "      | ^   ^ | \n";
@@ -84,7 +92,7 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 			cout << "  \\ \\ |________| / / \n";
 		}
 
-		else if (v1 == 1)
+		else if (*p1 == 1)
 		{
 			cout << "    \\\\\\|||/// \n";
 			cout << "  .  =======  \n";
@@ -100,6 +108,8 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 			cout << " .#---'| |`----. \n";
 			cout << " `#----' `-----' \n";
 		}
+		delete p1;
+		p1 = 0;
 	}
 
 	else if (icon == "Car")
@@ -238,9 +248,13 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 	else if (icon == "Sword")
 	{
 		srand(time(0));
-		int v1 = rand() % 2;
+		
+		//dynamic variables (dynamic memory management)
+		int *p1;
+		p1 = new int;
+		*p1 = rand() % 2;
 
-		if (v1 == 0)
+		if (*p1 == 0)
 		{
 			cout << "      )  |    )  " << endl;
 			cout << "    '   /|\\    `  " << endl;
@@ -269,7 +283,7 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 			cout << "       '---'  " << endl;
 		}
 
-		else if (v1 == 1)
+		else if (*p1 == 1)
 		{
 			cout << " ,." << endl;
 			cout << " \\%`." << endl;
@@ -287,5 +301,7 @@ void icon(string icon, int lenght) //accept a parameter icon (E.G. Sword) and th
 			cout << "                         `:/ ;" << endl;
 			cout << "                           `'" << endl;
 		}
+		delete p1;
+		p1 = 0;
 	}
 }
