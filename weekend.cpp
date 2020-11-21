@@ -4,7 +4,7 @@
 #include "weekend.h"
 using namespace std;
 
-int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameover)
+void week_end(int &week, int &money, int &wrongattempts, int &salary)
 {
 	//Return 1 when the game is over
 	//Return 0 to keep continue the game
@@ -67,7 +67,8 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 				cout << "Press enter to continue" << endl;
 				cin.get();
 				system("clear");
-				return 1;
+				week = 0;
+				return;
 			}
 			else if (!(week3userinput == "N" && week3userinput == "n"))
 			{
@@ -119,7 +120,8 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			system("clear");
-			return 1;
+			week=0;
+			return;
 		}
 
 		int Rent = 20, Food = 20, Electricity = 20;
@@ -130,9 +132,9 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 		cout << "-----------------------------------------------------------" << endl;
 		cout << setw(25) << "Savings" << " |" << setw(20)  << money << endl;
 		cout << setw(25) << "Salary" << " |" << setw(20)  << salary << endl;
-		cout << setw(25) << "Rent" << " |" << setw(20)  << Rent << endl;
-		cout << setw(25) << "Food" << " |" << setw(20)  << Food << endl;
-		cout << setw(25) << "Electricity" << " |" << setw(20) << Electricity << endl;
+		cout << setw(25) << "Rent" << " |" << setw(18)  << "-" << Rent << endl;
+		cout << setw(25) << "Food" << " |" << setw(18)  << "-" << Food << endl;
+		cout << setw(25) << "Electricity" << " |" << setw(18) << "-" << Electricity << endl;
 		cout << "-----------------------------------------------------------" << endl;
 		money = money + salary - Rent - Food - Electricity;
 		salary = 0;
@@ -161,7 +163,8 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 			cout << "Press enter to continue" << endl;
 			cin.get();
 			system("clear");
-			return 1;
+			week = 0;
+			return;
 		}
 
 		// Money > 0
@@ -220,7 +223,8 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 					cout << "Press enter to continue" << endl;
 					cin.get();
 					system("clear");
-					return 1;
+					week=0;
+					return;
 				}
 				else if (money < 3000)// Insufficient money
 				{
@@ -245,6 +249,6 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 
 		cin.get();
 		system("clear");
-		return 0;
+		return;
 	}
 }
