@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+//for creating the struct cases for later uses
 struct cases { // Stored into struct cases.h
 	//PP = passport
 	std::string icon;
