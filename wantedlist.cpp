@@ -9,6 +9,8 @@
 #include "wantedlist.h"
 using namespace std;
 
+
+//for the wanted list on week 4 
 void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases record[], int& salary, int& wrongattempts, int timecount)
 {
 	string userinput = "";
