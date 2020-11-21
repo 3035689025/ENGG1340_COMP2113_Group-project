@@ -4,10 +4,11 @@
 #include "load.h"
 using namespace std;
 
-//Return 1 = Successfully load the game
-//Return 0 = Unsuccessfully load the game
+//This function allows user to load their save
+//Variable week will be changed based on their save
+//If the save load unsuccessfully, the variable will remain unchanged(suppose it will remain as week 0)
 
-int load(int& week, int& money, int& wrongattempts) 
+void load(int& week, int& money, int& wrongattempts) 
 {
 	cout << "Load game" << endl;
 	cout << "--------------------------------" << endl << endl;
@@ -109,7 +110,7 @@ int load(int& week, int& money, int& wrongattempts)
 			save1 >> week >> money >> wrongattempts;
 			save1.close();
 
-			return 1;
+			return;
 		}
 
 		if (loadinput == "2" && save2_available == 1)
@@ -118,7 +119,7 @@ int load(int& week, int& money, int& wrongattempts)
 			save2 >> week >> money >> wrongattempts; // Load save1
 			save2.close();
 
-			return 1;
+			return;
 		}
 
 		if (loadinput == "3" && save3_available == 1)
@@ -127,11 +128,11 @@ int load(int& week, int& money, int& wrongattempts)
 			save3 >> week >> money >> wrongattempts; // Load save1
 			save3.close();
 
-			return 1;
+			return;
 		}
 		if (loadinput == "N" || loadinput == "n") 
 		{
-			return 0;
+			return;
 		}
 		else
 		{
