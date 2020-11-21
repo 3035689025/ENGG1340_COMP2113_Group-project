@@ -10,9 +10,17 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 	//Return 0 to keep continue the game
 	if (week == 3) 
 	{
-		system("CLS");
-		cout << "Email from spies"; //////////////////////// 賄賂 ------needa type
-		cout << endl << endl;
+		//bribery from The Infected
+		system("clear");
+		cout << "Urgent note from The Infected";
+		cout << "--------------------------------------";
+		cout << "In the briefcase, you will find $10000. Please accept it and fight alongside us. We need your help!" << endl;
+
+		system("clear");
+		cout << "You: Should I accept it? If I do, I don't have to worry about money anymore. But if I get caught with this briefcase...it's certain death." << endl << endl;
+		cout <<"Even if I don't accept the money, I can still support the rebels. Decisions...Decisions..." << endl;
+
+		system("clear");
 		cout << "Your action:" << endl;
 		cout << "[Y] Accept money" << endl;
 		cout << "[N] Burn the money and the letter" << endl;
@@ -24,12 +32,41 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 			cin >> week3userinput;
 			if (week3userinput == "Y" || week3userinput == "y") 
 			{
-				system("CLS");
-				cout << "Died in xxxxxxxxxxxxxxxxx" << endl; //////////////////////////////// Ending Y - died in 受賄 ------- needa type
-				cout << endl;
+				//died from greed (accepting the bribery)
+				system("clear");
+				cout << "                       ________________"            << endl;
+	            cout << "                      \\      __      /         __"  << endl;
+	            cout << "                       \\_____()_____/         /  )" << endl;
+	            cout << "                       '============`        /  /"  << endl;
+	            cout << "                        #---\\  /---#        /  /"   << endl;
+	            cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	            cout << "                        \\   (_)   /       /  /"     << endl;
+	            cout << "                        |\\ '---` /|      /  /"      << endl;
+	            cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	            cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	            cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	            cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	            cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	            cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	            cout << "           |    '              ||  --)    \\     |"  << endl;
+	            cout << "           |___________________||  --)     \\    / " << endl;
+	            cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	            cout << "                |            |          | "         << endl;
+	            cout << endl << endl;
+                cout << "Officer Kim: You think we won't notice a briefcase full of money lying around? You have no integrity! No loyalty!" << endl << endl;
+				cout << "* BANG *" << endl;
+                cout << endl << endl;
+                cout << "Press enter to continue" << endl;
+                cin.get();
+                system("clear");
+
+				cout << "Ending: Died from greed" << endl;
+				cout << endl << endl;
+				cout << "-THE END-" << endl;
+				cout << endl << endl;
 				cout << "Press enter to continue" << endl;
 				cin.get();
-				system("CLS");
+				system("clear");
 				return 1;
 			}
 			else if (!(week3userinput == "N" && week3userinput == "n"))
@@ -44,17 +81,47 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 
 	if (week == 1 || week == 2 || week == 3 || week == 4) //Evaluation every-week
 	{
-		if (wrongattempts > 10) { //Too much wrong attempts ending
-			cout << "Died in disgrace(1)" << endl; //////////////////////////////// Ending 1 - Died in disgrace(1) ------- needa type
-			cout << endl;
+		if (wrongattempts > 10) { //too many wrong attempts	
+			
+			//Died in disgrace (1) (too many wrong attempts)
+			system("clear");
+			cout << "                       ________________"            << endl;
+	        cout << "                      \\      __      /         __"  << endl;
+	        cout << "                       \\_____()_____/         /  )" << endl;
+	        cout << "                       '============`        /  /"  << endl;
+	        cout << "                        #---\\  /---#        /  /"   << endl;
+	        cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	        cout << "                        \\   (_)   /       /  /"     << endl;
+	        cout << "                        |\\ '---` /|      /  /"      << endl;
+	        cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	        cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	        cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	        cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	        cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	        cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	        cout << "           |    '              ||  --)    \\     |"  << endl;
+	        cout << "           |___________________||  --)     \\    / " << endl;
+	        cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	        cout << "                |            |          | "         << endl;
+	        cout << endl << endl;
+            cout << "Officer Kim: You are utterly incompetent! Your work is a disgrace to this beautiful planet! I've given you too many chances, now face the consequences!" << endl << endl;
+			cout << "* BANG *" << endl;
+            cout << endl << endl;
+            cout << "Press enter to continue" << endl;
+            cin.get();
+            system("clear");
+			cout << "Ending: Died in disgrace (1)" << endl;
+			cout << endl << endl;
+			cout << "-THE END-" << endl;
+			cout << endl << endl;
 			cout << "Press enter to continue" << endl;
 			cin.get();
-			system("CLS");
+			system("clear");
 			return 1;
 		}
 
 		int Rent = 20, Food = 20, Electricity = 20;
-		system("CLS"); //or clear
+		system("clear");
 		cout << endl << endl;
 		cout << setw(40) << "Income statement" << endl << endl;
 		cout << setw(25) << "Item" << " |" << setw(20) << "Fee" << endl;
@@ -70,16 +137,28 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 		cout << setw(47) << money << endl;
 		cout << endl << endl;
 
-		if (money < 0)
+		if (money < 0) //run out of money
 		{
+			//died in competence
+			system("clear");
+			cout << "You: After all the hard work, still...I haven't had a proper meal in weeks. I'm seriously overworked..." << endl << endl;
+			cout << "You: ...and now I've run out of money..." <<endl << endl;
 			cout << "Press enter to continue" << endl;
 			cin.get();
-			system("CLS");
-			cout << "Died in incompetence" << endl; ///////////////////////// Ending 2 - Died in incompetence --------needa typ
+			system("clear");
+
+			cout << "News:" <<endl;
+            cout << "___________________________________________________________________" << endl << endl;
+            cout << "Board officer starved to death. Officials say changes will be made in the near future, but the death was due to \"his own incompetence\"." << endl << endl;
+			cout << "Press enter to continue" << endl;
+			cin.get();
+			system("clear");
+
+			cout << "Ending: Died in incompetence" << endl;
 			cout << endl;
 			cout << "Press enter to continue" << endl;
 			cin.get();
-			system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+			system("clear");
 			return 1;
 		}
 
@@ -96,22 +175,53 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 		{
 			if (userinput == "N" || userinput == "n")
 			{
-				system("CLS");
+				system("clear");
 			}
 
 			else if (userinput == "Y" || userinput == "y")
 			{ // Buy house ending
 				if (money >= 3000)
 				{
-					system("CLS"); //or clear
-					cout << "Died in cheating" << endl; ///////// Ending X - Died in cheating (Mission impossible for money > 3000) --------- needa type
+					//ending for cheaters
+					system("clear");
+					cout << "                       ________________"            << endl;
+	                cout << "                      \\      __      /         __"  << endl;
+	                cout << "                       \\_____()_____/         /  )" << endl;
+	                cout << "                       '============`        /  /"  << endl;
+	                cout << "                        #---\\  /---#        /  /"   << endl;
+	                cout << "                       (# @\\| |/@  #)      /  /"    << endl;
+	                cout << "                        \\   (_)   /       /  /"     << endl;
+	                cout << "                        |\\ '---` /|      /  /"      << endl;
+	                cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
+	                cout << "               /       \\  /     \\  /   / o_|"       << endl;
+	                cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
+	                cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+	                cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
+	                cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
+	                cout << "           |    '              ||  --)    \\     |"  << endl;
+	                cout << "           |___________________||  --)     \\    / " << endl;
+	                cout << "                |           o|   ''''   |   \\__/ "  << endl;
+	                cout << "                |            |          | "         << endl;
+	                cout << endl << endl;
+                    cout << "Officer Kim: There is one thing I hate more than useless officers...CHEATERS!!!!!" << endl << endl;
+					cout << "Press enter to continue" << endl;
+			        cin.get();
+			        system("clear");
+
+					system("clear");
+					cout << "-GAME OVER-" << endl << endl;
+					cout << "Press enter to continue" << endl;
+			        cin.get();
+			        system("clear");
+
+					cout << "Ending: You cheated..." << endl;
 					cout << endl;
 					cout << "Press enter to continue" << endl;
 					cin.get();
-					system("CLS");
+					system("clear");
 					return 1;
 				}
-				else if (money < 3000)// Insufficient money (<3000)
+				else if (money < 3000)// Insufficient money
 				{
 					cout << endl;
 					cout << "Error: insufficient money" << endl << endl;
@@ -133,7 +243,7 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 
 
 		cin.get();
-		system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+		system("clear");
 		return 0;
 	}
 }
