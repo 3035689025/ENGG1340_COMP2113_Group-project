@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <>
 #include <iomanip>
 #include <chrono>
 #include <cstdlib>
@@ -155,7 +155,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   //1st Earth official here
   cout << "You: Passport and entry pass please!" << endl;
 
-  string userinput = "";
+  userinput = "";
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
   {
       // Print passport as long as the input is not Y nor N
@@ -475,10 +475,10 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N"  && userinput != "y" && userinput != "n")
       {
-	       cout << "Invalid input, Try again" << endl;
-	       cout << "[1] Check approved countries (Earth)" << endl;
-	       cout << "[2] Check aproved planets" << endl;
-	       cout << "[3] Scanner (For checking gender) " << endl;
+	 cout << "Invalid input, Try again" << endl;
+	 cout << "[1] Check approved countries (Earth)" << endl;
+	 cout << "[2] Check aproved planets" << endl;
+	 cout << "[3] Scanner (For checking gender) " << endl;
     	 cout << "[Y] Aprrove entry " << endl;
     	 cout << "[N] Disapprove entry " << endl;
     	 cout << endl << "Input:";
