@@ -9,6 +9,8 @@
 
 using namespace std;
 
+
+//for week 2 humans and aliens are allowed to enter
 void week2task(int& week, int& money, int& wrongattempts, cases record[], int& salary)
 {
 	//Your superior Officer Kim telling you your duties for this week
