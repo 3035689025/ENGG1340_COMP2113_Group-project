@@ -310,20 +310,20 @@ void casessetup(cases record[])
         record[20].EP_gender = "Human - Male";
         record[20].EP_birth = "1997-05-17";
         record[20].EP_country = "Earth - Gotham City";
-        record[20].EP_vailidity = true;
+        record[20].vailidity = true;
 
 	record[21].icon = "Human - Female";
         record[21].PP_name = "Selena Jordan";
         record[21].PP_gender = "Human - Female";
         record[21].PP_birth = "2002-07-25";
-            record[21].PP_issue = "2030-01-02";
+       	record[21].PP_issue = "2030-01-02";
         record[21].PP_country = "Earth - China";
         record[21].PP_number = "856992175";
         record[21].EP_name = "Selena Jordan";
         record[21].EP_gender = "Human - Female";
         record[21].EP_birth = "2002-07-25";
         record[21].EP_country = "Earth - China";
-        record[21].EP_vailidity = true;
+        record[21].vailidity = true;
 
 	record[22].icon = "Human - Male";
         record[22].PP_name = "Christopher Murray";
@@ -336,7 +336,7 @@ void casessetup(cases record[])
         record[22].EP_gender = "Human - Male";
         record[22].EP_birth = "2003-04-26";
         record[22].EP_country = "2029-11-29";
-        record[22].EP_vailidity = true;
+        record[22].vailidity = true;
 
 	record[23].icon = "Human - Male";
 	record[23].PP_name = "Barack Obama";
@@ -550,7 +550,7 @@ void casessetup(cases record[])
 	record[38].PP_issue = "2029-09-14";
 	record[38].PP_country = "Planet Music";
 	record[38].PP_number = "485169189";
-	record[38].EP_name = "Hayden Triss"
+	record[38].EP_name = "Hayden Triss";
 	record[38].EP_gender = "Human - Female";
 	record[38].EP_birth = "2001-09-21";
 	record[38].EP_country = "Planet Music";
