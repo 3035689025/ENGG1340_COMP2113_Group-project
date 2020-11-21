@@ -73,14 +73,22 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Gender: " << "Doll - Female" << endl;
       cout << "Birthday: " << "2045-09-12" << endl;
       cout << "Planet: " << "Planet S-23" << endl;
-
-
-
+   	
+	  
+	  
+      cout << endl;
+      cout << "[1] Check approved countries (Earth)" << endl;
+      cout << "[2] Check aproved planets" << endl;
+      cout << "[3] Scanner (For checking gender) " << endl;
+      cout << "[Y] Aprrove entry " << endl;
+      cout << "[N] Disapprove entry " << endl;
       cout << endl << "Input:";
+      cin >> userinput;
+      
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
       {
-	 cin >> userinput;
+	 
 	 cout << "Invalid input, Try again" << endl;
 	 cout << "[1] Check approved countries (Earth)" << endl;
 	 cout << "[2] Check aproved planets" << endl;
@@ -125,8 +133,9 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
        system("clear");
+       }
      }
-
+	  
      //users should NOT choose Y
      if (userinput == "Y" || userinput == "y")
      {
@@ -138,6 +147,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
+       cin.get()
+	    
        system("clear");
      }
      else if (userinput == "N" || userinput == "n")
@@ -149,9 +160,9 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
+       cin.get();
        system("clear");
      }
-  }
 
 
   //1st Earth official here
