@@ -6,8 +6,7 @@ using namespace std;
 
 void week_end(int &week, int &money, int &wrongattempts, int &salary)
 {
-	//Return 1 when the game is over
-	//Return 0 to keep continue the game
+	
 	if (week == 3) 
 	{
 		//bribery from The Infected
