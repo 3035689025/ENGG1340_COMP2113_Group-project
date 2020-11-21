@@ -3,15 +3,15 @@
 #include <iomanip>
 #include <chrono>
 #include <cstdlib>
-#include "cases.h"
-#include "icon.h"
-#include "week1task.h"
+//#include "cases.h"
+//#include "icon.h"
+//#include "week1task.h"
 using namespace std;
 
 void week5task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
 {
 
-  //The test cases for the last day will be rigid, as the focus is on the events and endings 
+  //The test cases for the last day will be rigid, as the focus is on the events and endings
   //Died in disgrace(1) and Died in incompetence will not occur in this week even if the requirements are fulfilled.
   //Died with honor , Died in disgrace (2) and Hero’s journey will be the focus of this week.
   system("clear");
@@ -19,24 +19,24 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   cout << "Press enter to continue" << endl;
   cin.get();
   system("clear");
-	
+
   //income statement should be printed after week 4 and before week 5.
-  
+
   //duty for week 5
   cout << "Your duty this week:" << endl << endl;
-  cout << "Officer B-263-54, follow the instructions from yesterday and wait for further updates." << endl << endl; 
+  cout << "Officer B-263-54, follow the instructions from yesterday and wait for further updates." << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
   system("clear");
-  
+
   //for storing how many are approved
   int official_count = 0;
-  
+
   //a total of X cases will happen in week 5
-  
+
   //1st case: alien (players should NOT approve this)
   cout << "You: Passport and entry pass please!" << endl;
-  
+
   string userinput = "";
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
   {
@@ -52,7 +52,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "     `~//~~~\\\\~' " << endl;
       cout << "      /_)   (_\\ "  << endl;
       cout << endl;
-    
+
       cout << "Visitor: Passport here! Please just let me pass, I'm in a hurry!!" << endl;
       cout << "Passport information" << endl;
       cout << "-------------------------" << endl;
@@ -62,8 +62,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Issue date: " << "2035-12-30" << endl;
       cout << "Planet: " << "Planet S-23" << endl;
       cout << "Passport Number: " << "465354987" << endl;
-      cout << "-------------------------" << endl << endl;	
-    
+      cout << "-------------------------" << endl << endl;
+
       // Print entry-pass
       cout << "Entry pass information" << endl;
       cout << "-------------------------" << endl;
@@ -71,9 +71,9 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Gender: " << "Doll - Female" << endl;
       cout << "Birthday: " << "2045-09-12" << endl;
       cout << "Planet: " << "Planet S-23" << endl;
-	  
-	  
-	  
+
+
+
       cout << endl << "Input:";
       cin >> userinput;
       //for invalid input
@@ -87,11 +87,11 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
     	 cout << "[N] Disapprove entry " << endl;
     	 cout << endl << "Input:";
          cin >> userinput;
-     
-	         
 
-     if (userinput == "1")     
-     {	
+
+
+     if (userinput == "1")
+     {
      	system("clear");
      	cout << "Approved country list" << endl;
      	cout << "--------------------------------------" << endl;
@@ -101,7 +101,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
      	system("clear");
-     }     
+     }
 
      else if (userinput == "2")
      {
@@ -115,7 +115,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	system("clear");
      }
-     
+
      else if (userinput == "3")
      {
      	system("clear");
@@ -124,7 +124,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
        system("clear");
      }
-    
+
      //users should NOT choose Y
      if (userinput == "Y" || userinput == "y")
      {
@@ -138,7 +138,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cin.get();
        system("clear");
      }
-     else if (userinput == "N" || userinoput == "n")
+     else if (userinput == "N" || userinput == "n")
      {
        system("clear");
        cout << "Urgent note from Officer Kim" << endl;
@@ -150,11 +150,11 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        system("clear");
      }
   }
-  
+
 
   //1st Earth official here
   cout << "You: Passport and entry pass please!" << endl;
-  
+
   string userinput = "";
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
   {
@@ -177,9 +177,9 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "\\     |  | |   | ``     | |" <<endl;
       cout << " |    \\  \\ |   |        | |" <<endl;
       cout << " |    |   |/   |        / /" <<endl;
-      cout << " |    |        |        | |" <<endl; 
+      cout << " |    |        |        | |" <<endl;
       cout << endl;
-    
+
       cout << "Visitor: Oh, hello officer! Hummm..." << endl << endl;
       cout << "Visitor: ...The smell of death and pollution. How nice it is to be back. " << endl << endl;
       cout << "Visitor: You should've known I'll be here, but here's my passport anyway. " << endl;
@@ -191,8 +191,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Issue date: " << "2039-07-14" << endl;
       cout << "Planet: " << "Earth - Wakanda" << endl;
       cout << "Passport Number: " << "123456789" << endl;
-      cout << "-------------------------" << endl;	
-    
+      cout << "-------------------------" << endl;
+
       // Print entry-pass
       cout << "Entry pass information" << endl;
       cout << "-------------------------" << endl;
@@ -201,7 +201,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Birthday: " << "1970-08-01" << endl;
       cout << "Planet: " << "Earth - Wakanda" << endl;
       cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
-	  
+
       cout << endl << endl;
       cout << "[1] Check approved countries (Earth)" << endl;
       cout << "[2] Check aproved planets" << endl;
@@ -224,8 +224,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       }
 
 
-     if (userinput == "1")     
-     {	
+     if (userinput == "1")
+     {
      	system("clear");
      	cout << "Approved country list" << endl;
      	cout << "--------------------------------------" << endl;
@@ -235,7 +235,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
      	system("clear");
-     }     
+     }
      else if (userinput == "2")
      {
      	system("clear");
@@ -248,7 +248,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	system("clear");
      }
-     
+
      else if (userinput == "3")
      {
      	system("clear");
@@ -261,7 +261,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      if (userinput == "N" || userinput == "n")
      {
        system("clear");
-       cout << "Visitor: Are you serious? Do you even know who I am? I will personally have you killed..."
+       cout << "Visitor: Are you serious? Do you even know who I am? I will personally have you killed...";
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
@@ -278,7 +278,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
        cout << "               /       \\  /     \\  /   / o_|"       << endl;
        cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;
        cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
        cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
        cout << "           |    '              ||  --)    \\     |"  << endl;
@@ -298,26 +298,26 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cin.get();
        system("clear");
      }
-     
-     else if (userinput == "Y" || userinoput == "y")
+
+     else if (userinput == "Y" || userinput == "y")
      {
        ++official_count;
        system("clear");
-       cout <<"Visitor: What took you so long?? Servants these days..."
+       cout <<"Visitor: What took you so long?? Servants these days...";
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
        //thoughts from "you"
-       cout << "You: Gotta look after myself first...Can't get myself killed. You only live once. Hehe!"
+       cout << "You: Gotta look after myself first...Can't get myself killed. You only live once. Hehe!";
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
      }
   }
-	  
-	  
+
+
   //alien spy here
   cout << "You: Passport and entry pass please!" << endl << endl;
   cout << "..." << endl;
@@ -353,7 +353,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
     cout << "MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM" << endl;
     cout << endl << endl;
     cout << "Visitor: Remember me? It's time to fight for our people. Let me through and show you're a part of us!" << endl;
-    
+
 
     cout << "[Y] Aprrove entry " << endl;
     cout << "[N] Disapprove entry " << endl;
@@ -361,9 +361,10 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
     cin >> userinput;
 
     //user can only move forward if they choose Yes
-    while ( userinput != "Y" || userinput != "y") 
+    while ( userinput != "Y" || userinput != "y")
     {
-      //for invalid input          if ( userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
+      //for invalid input
+      if ( userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
       {
         cout << "Invalid input, Try again" << endl;
         cout << "[Y] Aprrove entry " << endl;
@@ -372,7 +373,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
         cin >> userinput;
       }
       //for choosing No
-      else 
+      else
       {
         system("clear");
         cout << "No? I won't take that as an answer! I have a gun in my pocket. If you don't let me through this instant, I'll kill you right here right now!" << endl << endl;
@@ -412,8 +413,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
 
   //2nd Earth official here
   cout << "You: Passport and entry pass please!" << endl;
-  
-  str      ing userinput = "";
+
+  userinput = "";
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
   {
       // Print passport as long as the input is not Y nor N
@@ -453,7 +454,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Planet: " << "Earth - Asia" << endl;
       cout << "Passport Number: " << "666666666" << endl;
       cout << "-------------------------" << endl << endl;
-    
+
       // Print entry-pass
       cout << "Entry pass information" << endl;
       cout << "-------------------------" << endl;
@@ -462,7 +463,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Birthday: " << "1111-11-11" << endl;
       cout << "Planet: " << "Earth - Asia" << endl;
       cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
-	  
+
       cout << endl << endl;
       cout << "[1] Check approved countries (Earth)" << endl;
       cout << "[2] Check aproved planets" << endl;
@@ -485,8 +486,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       }
 
 
-     if (userinput == "1")     
-     {	
+     if (userinput == "1")
+     {
      	system("clear");
      	cout << "Approved country list" << endl;
      	cout << "--------------------------------------" << endl;
@@ -496,7 +497,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
      	system("clear");
-     }     
+     }
      else if (userinput == "2")
      {
      	system("clear");
@@ -507,9 +508,9 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cout << "Press enter to continue" << endl;
      	cin.get();
      	cin.get();
-     	system("clear"):
+     	system("clear");
      }
-     
+
      else if (userinput == "3")
      {
      	system("clear");
@@ -518,17 +519,17 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
        system("clear");
      }
-    
+
      //users should NOT choose Y
      if (userinput == "Y" || userinput == "y")
      {
        system("clear");
-       cout << "Visitor: This must be a joke. Probably Bezos...He's getting arrogant after taking over the interdimensional shipping business."
+       cout << "Visitor: This must be a joke. Probably Bezos...He's getting arrogant after taking over the interdimensional shipping business.";
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
-       
+
        //thoughts from "you"
        cout << "You: At least he didn't blame me. One more to go!" << endl;
        cout << endl << endl;
@@ -537,17 +538,17 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        system("clear");
 
      }
-     else if (userinput == "N" || userinoput == "n")
+     else if (userinput == "N" || userinput == "n")
      {
        ++official_count;
        system("clear");
-       cout <<"Visitor: Tsk! Just let me through next time. "
+       cout <<"Visitor: Tsk! Just let me through next time. ";
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
        //thoughts from "you"
-       cout << "You: Last one to go!"
+       cout << "You: Last one to go!";
        cout << endl << endl;
        cout << "Press enter to continue" << endl;
        cin.get();
@@ -569,7 +570,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
        cout << "               /       \\  /     \\  /   / o_|"       << endl;
        cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;
        cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
        cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
        cout << "           |    '              ||  --)    \\     |"  << endl;
@@ -582,7 +583,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
-   
+
   }
   else if (official_count == 1)
   {
@@ -597,7 +598,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
        cout << "               /       \\  /     \\  /   / o_|"       << endl;
        cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;
        cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
        cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
        cout << "           |    '              ||  --)    \\     |"  << endl;
@@ -624,7 +625,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
        cout << "               /       \\  /     \\  /   / o_|"       << endl;
        cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+       cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;
        cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
        cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
        cout << "           |    '              ||  --)    \\     |"  << endl;
@@ -644,8 +645,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
 
   //3rd Earth official here
   cout << "You: Passport and entry pass please!" << endl;
-  
-  string userinput = "";
+
+  userinput = "";
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
   {
       // Print passport as long as the input is not Y nor N
@@ -678,11 +679,11 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       {
         cout << "Visitor: Here's my passport. I met my friends just now, you're not going to let me back, are you?" << endl << endl;
       }
-      else 
+      else
       {
-        cout << "Visitor: I see my two friends have returned, thank you for your service officer." << endl      
+        cout << "Visitor: I see my two friends have returned, thank you for your service officer." << endl;
       }
-      
+
       cout << "Passport information" << endl;
       cout << "-------------------------" << endl;
       cout << "Name: " << "George Washington"<< endl;
@@ -691,8 +692,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Issue date: " << "2040-04-20" << endl;
       cout << "Planet: " << "Earth - United States" << endl;
       cout << "Passport Number: " << "854769615" << endl;
-      cout << "-------------------------" << endl << endl;	
-    
+      cout << "-------------------------" << endl << endl;
+
       // Print entry-pass
       cout << "Entry pass information" << endl;
       cout << "-------------------------" << endl;
@@ -701,7 +702,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Birthday: " << "1732-02-22" << endl;
       cout << "Planet: " << "Earth - United States" << endl;
       cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
-	  
+
       cout << endl << endl;
       cout << "[1] Check approved countries (Earth)" << endl;
       cout << "[2] Check aproved planets" << endl;
@@ -724,8 +725,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       }
 
 
-     if (userinput == "1")     
-     {	
+     if (userinput == "1")
+     {
      	system("clear");
      	cout << "Approved country list" << endl;
      	cout << "--------------------------------------" << endl;
@@ -735,7 +736,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
      	system("clear");
-     }     
+     }
      else if (userinput == "2")
      {
      	system("clear");
@@ -748,7 +749,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	system("clear");
      }
-     
+
      else if (userinput == "3")
      {
      	system("clear");
@@ -781,7 +782,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        system("clear");
 
      }
-     else if (userinput == "Y" || userinoput == "y")
+     else if (userinput == "Y" || userinput == "y")
      {
        ++official_count;
        system("clear");
@@ -805,14 +806,14 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        system("clear");
      }
     }
-  
+
 //3 endings here
 
 
 
-  
+
 //Died with honor
-/*Events: 
+/*Events:
 Awarded medal of honor in week 6
 Died in week 7(final week) by starvation */
 if (official_count == 3)
@@ -829,7 +830,7 @@ if (official_count == 3)
   cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
   cout << "               /       \\  /     \\  /   / o_|"       << endl;
   cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;
   cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
   cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
   cout << "           |    '              ||  --)    \\     |"  << endl;
@@ -872,7 +873,7 @@ if (official_count == 3)
   cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
   cout << "               /       \\  /     \\  /   / o_|"       << endl;
   cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;
   cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
   cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
   cout << "           |    '              ||  --)    \\     |"  << endl;
@@ -916,7 +917,7 @@ else if (official_count != 3 && official_count != 0)
 
   cout << "You: OH DA-" << endl;
   cout << endl << endl << endl;
-  cout << "* BANG *"
+  cout << "* BANG *" << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
   system("clear");
@@ -932,7 +933,7 @@ else if (official_count != 3 && official_count != 0)
   cout << "                _______/ \\\\_____// \\____/ o_|"      << endl;
   cout << "               /       \\  /     \\  /   / o_|"       << endl;
   cout << "             /  |  _____     |       / /   \\ \\ "    << endl;
-  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;  
+  cout << "            /   |  |===|    o|      / /\\    \\ \\ "   << endl;
   cout << "           |    |   \\@/      |     / /  \\    \\ \\ "  << endl;
   cout << "           |    |___________o|__/----)   \\    \\/ "  << endl;
   cout << "           |    '              ||  --)    \\     |"  << endl;
@@ -972,7 +973,7 @@ else if (official_count == 0)
   cout << "We need not hide in the dark anymore! Humans will treat us as equals and give us the respect we very much deserve!" << endl << endl;
   cout << "In other news, Officer Greg (formally known as Officer B-263-54) was awarded the Medal of Glory for his unselfish contribution during the rebellion. ";
   cout << "His actions allowed us to take the fallen \"government\"by surprise. Greg, to you: " << endl << endl;
-  cout << "You are a true hero and we will forever be grateful for you!"
+  cout << "You are a true hero and we will forever be grateful for you!";
   cout << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
@@ -988,10 +989,11 @@ else if (official_count == 0)
   system("clear");
 
 
-  return;	     
- 
+  return;
+
 
 
 }
 
+}
 }
