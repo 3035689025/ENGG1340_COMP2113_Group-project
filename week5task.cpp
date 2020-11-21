@@ -102,6 +102,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	system("clear");
      }     
+
      else if (userinput == "2")
      {
      	system("clear");
@@ -113,6 +114,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
      	system("clear");
+     }
      
      else if (userinput == "3")
      {
@@ -121,6 +123,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
        system("clear");
+     }
     
      //users should NOT choose Y
      if (userinput == "Y" || userinput == "y")
@@ -244,6 +247,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
      	system("clear");
+     }
      
      else if (userinput == "3")
      {
@@ -251,7 +255,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cout << "Scanner result: " << "Human - Male" << endl;
      	cin.get();
      	cin.get();
-       system("clear");
+      system("clear");
+     }
 
      if (userinput == "N" || userinput == "n")
      {
@@ -292,8 +297,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
-
      }
+     
      else if (userinput == "Y" || userinoput == "y")
      {
        ++official_count;
@@ -505,7 +510,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cout << "Press enter to continue" << endl;
      	cin.get();
      	cin.get();
-     	system("clear");
+     	system("clear"):
+     }
      
      else if (userinput == "3")
      {
@@ -514,6 +520,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
        system("clear");
+     }
     
      //users should NOT choose Y
      if (userinput == "Y" || userinput == "y")
@@ -550,6 +557,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        system("clear");
      }
   }
+
   //update from Officer Kim here
   if (official_count == 2)
   {
@@ -577,6 +585,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cout << "Press enter to continue" << endl;
        cin.get();
        system("clear");
+   
   }
   else if (official_count == 1)
   {
@@ -707,14 +716,14 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N"  && userinput != "y" && userinput != "n")
       {
-	 cout << "Invalid input, Try again" << endl;
+	       cout << "Invalid input, Try again" << endl;
          cout << "[1] Check approved countries (Earth)" << endl;
-	 cout << "[2] Check aproved planets" << endl;
-	 cout << "[3] Scanner (For checking gender) " << endl;
-    	 cout << "[Y] Aprrove entry " << endl;
-    	 cout << "[N] Disapprove entry " << endl;
-    	 cout << endl << "Input:";
-       cin >> userinput;
+	      cout << "[2] Check aproved planets" << endl;
+	      cout << "[3] Scanner (For checking gender) " << endl;
+    	  cout << "[Y] Aprrove entry " << endl;
+    	  cout << "[N] Disapprove entry " << endl;
+    	  cout << endl << "Input:";
+        cin >> userinput;
       }
 
 
@@ -741,6 +750,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
      	system("clear");
+     }
      
      else if (userinput == "3")
      {
@@ -749,6 +759,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      	cin.get();
      	cin.get();
        system("clear");
+     }
 
      if (userinput == "N" || userinput == "n")
      {
@@ -777,7 +788,8 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      {
        ++official_count;
        system("clear");
-       if (official_count == 3){
+       if (official_count == 3)
+       {
          cout << "Visitor: Thank you kind sir. Have a nice day!" <<endl;
        }
        else
@@ -795,6 +807,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
        cin.get();
        system("clear");
      }
+    }
   
 //3 endings here
 
@@ -983,6 +996,6 @@ else if (official_count == 0)
  
 
 
-
+}
 
 }
