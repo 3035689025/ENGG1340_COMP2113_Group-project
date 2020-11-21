@@ -10,6 +10,9 @@
 
 using namespace std;
 
+
+//for week 4 a wanted list will be printed for the user to remember 
+// the 3 names are not to be allowed to enter
 void week4task(int& week, int& money, int& wrongattempts, cases record[], int& salary)
 {
 
