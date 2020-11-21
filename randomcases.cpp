@@ -57,9 +57,8 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 		cout << "Gender: " << record[case_index].EP_gender << endl;
 		cout << "Birthday: " << record[case_index].EP_birth << endl;
 		cout << "Planet: " << record[case_index].EP_country << endl;
-
-		//////////////呢到可以轉一轉 switch(case) print唔同野 E.G. Wanted list 等陣再傾下
-		/////// ////////////if (week == 2 || week == 3){}
+		
+		// User action
 		cout << "\n \n \n \n";
 		cout << "Your action:" << endl;
 		cout << "[1] Check approved countries (Earth)" << endl;
@@ -71,8 +70,7 @@ void randomcases(int week, cases record[], int &salary, int &wrongattempts, int 
 		cin >> userinput;
 
 
-		///////////////呢到可以轉一轉 switch(case) print唔同野 E.G. Wanted list 等陣再傾下
-		/////////////// if (week == 2 || week == 3){}
+		// While loop to confirm the input is vaild
 		while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
 		{
 
