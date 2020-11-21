@@ -17,7 +17,7 @@ int save(int week, int money, int wrongattempts)
 
 	if (save1.fail())
 	{
-		cout << "Save1 - Not exist" << endl;
+		cout << "Save1 - Not exist" << endl; // To show that there is no existing save
 		save1.close();
 	}
 
@@ -28,7 +28,7 @@ int save(int week, int money, int wrongattempts)
 		int save1_wrongattempts;
 		save1 >> save1_week >> save1_money >> save1_wrongattempts;
 		save1.close();
-		cout << "Save1 -   Week:" << save1_week << "   Money: " << save1_money << "   Wrong attempts: " << save1_wrongattempts << endl;
+		cout << "Save1 -   Week:" << save1_week << "   Money: " << save1_money << "   Wrong attempts: " << save1_wrongattempts << endl; // Print out the status of the save
 	}
 
 	//Save2
@@ -81,7 +81,7 @@ int save(int week, int money, int wrongattempts)
 	{
 		cin >> input;
 
-		if (input == "1")
+		if (input == "1") //Save as save1
 		{
 			ofstream save1;
 			save1.open("save1.txt");
@@ -98,7 +98,7 @@ int save(int week, int money, int wrongattempts)
 
 		}
 
-		else if (input == "2")
+		else if (input == "2") //Save as save2
 		{
 			ofstream save2;
 			save2.open("save2.txt");
@@ -115,7 +115,7 @@ int save(int week, int money, int wrongattempts)
 
 		}
 
-		else if (input == "3")
+		else if (input == "3") //Save as save3
 		{
 			ofstream save3;
 			save3.open("save2.txt");
@@ -131,7 +131,7 @@ int save(int week, int money, int wrongattempts)
 			}
 		}
 
-		else if (input == "Y" || input == "y")
+		else if (input == "Y" || input == "y") //Continue the game
 		{
 			return 1;
 		}
@@ -141,7 +141,7 @@ int save(int week, int money, int wrongattempts)
 			cout << "Invaild input, please try again" << endl;
 			cout << "Input: ";
 		}
-	} while (!(input == "1" || input == "2" || input == "3" || input == "Y" || input == "y"));
+	} while (!(input == "1" || input == "2" || input == "3" || input == "Y" || input == "y")); //Ask whether the player continue the game
 
 	system("CLS");
 	cout << "Do you want to exit the game?" << endl << endl;
@@ -154,7 +154,7 @@ int save(int week, int money, int wrongattempts)
 	cin >> quitinput;
 
 
-	while (!(quitinput == "Y" || quitinput == "y" || quitinput == "N" || quitinput == "n")) 
+	while (!(quitinput == "Y" || quitinput == "y" || quitinput == "N" || quitinput == "n"))  //Invaild input
 	{
 		cout << "Invaild input, please try again" << endl;
 		cout << "Input: ";
