@@ -570,5 +570,49 @@ void casessetup(cases record[])
 	record[39].EP_country = "Planet Zootopia";
 	record[39].vailidity = false;
 	record[39].explanation = "Planet not on approved list";
+	
+	//list of the 3 wanted 
+	
+	record[40].icon = "Human - Male";
+	record[40].PP_name = "Eagle Flies";
+	record[40].PP_gender = "Human - Male";
+	record[40].PP_birth = "2007-08-09";
+	record[40].PP_issue = "2030-11-15";
+	record[40].PP_country = "Planet Razer";
+	record[40].PP_number = "765432987";
+	record[40].EP_name = "Eagle Flies";
+	record[40].EP_gender = "Human - Male";
+	record[40].EP_birth = "2007-08-09";
+	record[40].EP_country = "Planet Razer";
+	record[40].vailidity = false;
+	record[40].explanation = "Wanted criminal (name on wanted list)";
+	
+	record[41].icon = "Human - Female";
+	record[41].PP_name = "Patricia Aniston";
+	record[41].PP_gender = "Human - Female";
+	record[41].PP_birth = "1990-09-01";
+	record[41].PP_issue = "2030-07-14;
+	record[41].PP_country = "Planet Music";
+	record[41].PP_number = "582971874";
+	record[41].EP_name = "Patricia Aniston";
+	record[41].EP_gender = "Human - Female";
+	record[41].EP_birth = "1990-09-01";
+	record[41].EP_country = "Planet Music";
+	record[41].vailidity = false;
+	record[41].explanation = "Wanted criminal (name on wanted list)";
+	
+	record[42].icon = "Human - Male";
+	record[42].PP_name = "Thomas Carter Jr.";
+	record[42].PP_gender = "Human - Male";
+	record[42].PP_birth = "2011-08-11";
+	record[42].PP_issue = "2029-12-25";
+	record[42].PP_country = "Planet S-23";
+	record[42].PP_number = "744498654";
+	record[42].EP_name = "Thomas Carter Jr.";
+	record[42].EP_gender = "Human - Male";
+	record[42].EP_birth = "2011-08-11";
+	record[42].EP_country = "Planet S-23";
+	record[42].vailidity = false;
+	record[42].explanation = "Wanted criminal (name on wanted list)";
 
 }
