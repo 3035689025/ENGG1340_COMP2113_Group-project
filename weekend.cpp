@@ -4,6 +4,8 @@
 #include "weekend.h"
 using namespace std;
 
+
+//for the end of every week including endings and showing balance -> the performance of players
 void week_end(int &week, int &money, int &wrongattempts, int &salary)
 {
 	
