@@ -336,7 +336,6 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   //alien spy here
   cout << "You: Passport and entry pass please!" << endl << endl;
   cout << "..." << endl;
-  system("clear");
 
   userinput = "";
   while (userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
