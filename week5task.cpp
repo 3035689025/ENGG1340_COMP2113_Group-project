@@ -16,6 +16,12 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
   //Died in disgrace(1) and Died in incompetence will not occur in this week even if the requirements are fulfilled.
   //Died with honor , Died in disgrace (2) and Hero’s journey will be the focus of this week.
   system("clear");
+	
+  cout << "Urgent note from the rebels" << endl;
+  cout << "--------------------------------------" << endl;
+  cout << "3 officials will return to Earth this week. Deny their entries and we will assassinate them in space. Now is the time for you to step up!" << endl;
+  cout << endl << endl;  
+
   cout << "You: Should I stay in line and fulfill my duties? Or fight for my people and disapprove the officials? Decisions...Decisions..." << endl << endl;
   cout << "Press enter to continue" << endl;
   cin.get();
