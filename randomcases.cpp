@@ -9,6 +9,8 @@
 #include "randomcases.h"
 using namespace std;
 
+
+//for random cases for the users to check
 void randomcases(int week, cases record[], int &salary, int &wrongattempts, int &last_index, int timecount) 
 {
 	int case_index = 0;
