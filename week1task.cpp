@@ -12,8 +12,10 @@ using namespace std;
 
 void week1task(int& week, int& money, int& wrongattempts, cases record[], int &salary)
 {
+	system("clear");
 	cout << "The year is 2077. Earth is opening after 30 years of self-isolation. You are the Border Officer, B-263-54, chosen from millions to work at the Earth Border. Your job is to protect Earth from unwanted visitors. Follow the instructions from your superior, Officer Kim, approve or disapprove accordingly." << endl << endl;
 	cout << "Press enter to continue" << endl;
+	cin.get();
 	cin.get();
 	//include the headings <stdlib. h> or <cstdlib>
 	system("clear");
@@ -78,13 +80,15 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 		} while (last_index == case_index);
 		last_index = case_index;
 
-		cout << endl << endl << "You: Passport please!" << endl;
-		Sleep(6);
+		
 
 
 		while (userinput != "Y" && userinput != "N" && userinput !="y" && useinput!="n")
 		{
+			cout << endl << endl << "You: Passport please!" << endl;
 			end = std::chrono::system_clock::now();
+			cout << setw(99) << "Week: " << week << endl; // Week
+			cout << setw(99) << "Salary: " << salary << endl; //Salary
 			cout << setw(99) << "Wrong Attempts: " << wrongattempts << endl; //Wrong attempts
 			cout << setw(99) << "Time left: " << 90 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() << "s" << endl; //Time left
 			
