@@ -43,6 +43,7 @@ int main()
 		if (userinput == "2") // Load
 		{
 			load(week, money, wrongattempts);
+			system("clear")
 		}
 
 		if (userinput == "1") // Start game
