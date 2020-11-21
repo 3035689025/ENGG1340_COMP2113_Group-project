@@ -13,12 +13,12 @@ void week_end(int &week, int &money, int &wrongattempts, int &salary)
 	{
 		//bribery from The Infected
 		system("clear");
-		cout << "Urgent note from The Infected";
-		cout << "--------------------------------------";
+		cout << "Urgent note from The Infected" << endl;
+		cout << "--------------------------------------" << endl ;
 		cout << "In the briefcase, you will find $10000. Please accept it and fight alongside us. We need your help!" << endl;
 
 		cout << endl;
-		cout << "You: Should I accept it? If I do, I don't have to worry about money anymore. But if I get caught with this briefcase...it's certain death." << endl << endl;
+		cout << "You: Should I accept it? If I do, I don't have to worry about money anymore. But if I get caught with this briefcase...it's certain death." << endl;
 		cout <<"Even if I don't accept the money, I can still support the rebels. Decisions...Decisions..." << endl;
 
 		cout << endl;
