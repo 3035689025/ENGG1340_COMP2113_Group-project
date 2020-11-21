@@ -9,6 +9,10 @@
 #include "randomcases.h"
 using namespace std;
 
+//This function will randomly draw a case from the cases record, and read userinput whether they approve or disapprove the visitors.
+//Each rightly approve visitors will bring $5 to players
+//If wrongly approve/disapprove the visitors, the wrongattempts will increase
+//Wrongattempts > 15 will trigger one of the ending
 
 //for random cases for the users to check
 void randomcases(int week, cases record[], int &salary, int &wrongattempts, int &last_index, int timecount) 
