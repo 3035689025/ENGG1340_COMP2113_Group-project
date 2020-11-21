@@ -13,6 +13,12 @@
 #include "load.h"
 using namespace std;
 
+//The main function of the whole program
+//The program will run based on the week-variable
+//After the weektask function, it is allowed for user to save and quit the game.
+//User can use the load function in the menu page(main function) to load their save.
+//Each time the user be returned to the main menu page, all the status of user will be reset to 0.
+//When the user start the new game, the status will be changed to the staus in week1.
 int main()
 {
 	system("clear");
