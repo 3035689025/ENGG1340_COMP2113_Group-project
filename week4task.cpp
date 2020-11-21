@@ -17,13 +17,13 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "News: " << endl;
 	cout << "Press enter to start your work this week" << endl;
 	cin.get();
-	system("CLS");
+	system("clear");
 
 	////// The Wanted list
 	cout << "The wanted list" << endl;
 	cout << "Press enter to start your work this week" << endl;
 	cin.get();
-	system("CLS");
+	system("clear");
 
 
 	///////Duty (Officer Kim)????
@@ -31,7 +31,7 @@ void week4task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "duty" << endl << endl;  /////////////////////////////////////////////////////////////////duty未填(外星人入得)
 	cout << "Press enter to start your work this week" << endl;
 	cin.get();
-	system("CLS"); ///////////LINUX 好似係用clear rather than CLS
+	system("clear");
 
 	// For indicate the occurance of the visotr on wanted list.
 	int wantedlist1 = 0;
