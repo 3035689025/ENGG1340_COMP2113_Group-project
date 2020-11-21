@@ -93,7 +93,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "\n \n \n \n";
 	cout << "The Resistance" << endl;
 	cout << "___________________________________________________________________" << endl;
-	cout << "Humans took our land! It's time to fight back, Greg! Join the resistance and fight for the glory of Arstotzka!" << endl << endl <endl;
+	cout << "Humans took our land! It's time to fight back, Greg! Join the resistance and fight for the glory of Arstotzka!" << endl << endl <<endl;
 	cout << "Press enter to return the letter";
 	cin.get();
 	cin.get();
