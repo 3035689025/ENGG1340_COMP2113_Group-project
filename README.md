@@ -214,19 +214,18 @@ struct cases { // Stored into struct cases.h
 	bool vailidity;
 };
 
-record[0].icon = "Human - Male";
-record[0].PP_name = "Lian Ho Yeung, Michael";
-record[0].PP_gender = "Human - Male";
-record[0].PP_birth = "1998-04-22";
-record[0].PP_issue = "2043-09-31";
-record[0].PP_country = "Earth - China";
-record[0].PP_number = "3035714260";
-record[0].EP_name = "Lian Ho Yeung, Michael";
-record[0].EP_gender = "Human - Male";
-record[0].EP_birth = "1998-04-22";
-record[0].EP_country = "Earth - China";
-record[0].vailidity = true;
-
+record[0].icon = "Human - Male"; \
+record[0].PP_name = "Lian Ho Yeung, Michael"; \
+record[0].PP_gender = "Human - Male"; \
+record[0].PP_birth = "1998-04-22"; \
+record[0].PP_issue = "2043-09-31"; \
+record[0].PP_country = "Earth - China"; \
+record[0].PP_number = "3035714260"; \
+record[0].EP_name = "Lian Ho Yeung, Michael"; \
+record[0].EP_gender = "Human - Male"; \
+record[0].EP_birth = "1998-04-22"; \
+record[0].EP_country = "Earth - China"; \
+record[0].vailidity = true; \
 
 
 ###### Requirement 3- Dynamic memory management
