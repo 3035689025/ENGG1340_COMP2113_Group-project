@@ -77,10 +77,10 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
 
 
       cout << endl << "Input:";
-      cin >> userinput;
       //for invalid input
       while (userinput != "1" && userinput != "2" && userinput != "3" && userinput != "Y" && userinput != "N" && userinput != "y" && userinput != "n")
       {
+	 cin >> userinput;
 	 cout << "Invalid input, Try again" << endl;
 	 cout << "[1] Check approved countries (Earth)" << endl;
 	 cout << "[2] Check aproved planets" << endl;
