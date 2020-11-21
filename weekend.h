@@ -2,6 +2,6 @@
 #define DAYEND_H
 
 
-int week_end(int& week, int& money, int& wrongattempts, int& salary);
+void week_end(int& week, int& money, int& wrongattempts, int& salary);
 
 #endif
