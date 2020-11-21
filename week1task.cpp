@@ -67,7 +67,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 	//For indicating the index of last case to avoid the same case show right after the last case
 	int last_index=-1;
 	
-	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 60))
+	while ((std::chrono::duration_cast<std::chrono::seconds>(end - start).count() < 90))
 	{
 		string userinput = "";
 		int case_index =0;
@@ -86,7 +86,7 @@ void week1task(int& week, int& money, int& wrongattempts, cases record[], int &s
 		{
 			end = std::chrono::system_clock::now();
 			cout << setw(99) << "Wrong Attempts: " << wrongattempts << endl; //Wrong attempts
-			cout << setw(99) << "Time left: " << 30 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() << "s" << endl; //Time left
+			cout << setw(99) << "Time left: " << 90 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() << "s" << endl; //Time left
 			
 			cout << endl;
 			int lenght = record[case_index].PP_name.length();
