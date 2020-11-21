@@ -122,7 +122,7 @@ int week_end(int &week, int &money, int &wrongattempts, int &salary, int &gameov
 			return 1;
 		}
 
-		             int Rent = 20, Food = 20, Electricity = 20;
+		int Rent = 20, Food = 20, Electricity = 20;
 		system("clear");
 		cout << endl << endl;
 		cout << setw(40) << "Income statement" << endl << endl;
