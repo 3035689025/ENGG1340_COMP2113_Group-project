@@ -38,7 +38,7 @@ void wantedlist(int &wantedlist1, int &wantedlist2, int &wantedlist3, cases reco
 		auto end = std::chrono::system_clock::now(); //For time count usege
 		cout << setw(99) << "Wrong attempts: " << wrongattempts << endl;
 		cout << setw(99) << "Salary: " << salary << endl;
-		cout << setw(99) << "Time left: " << 60 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() - timecount << endl;
+		cout << setw(99) << "Time left: " << 90 - std::chrono::duration_cast<std::chrono::seconds>(end - start).count() - timecount << endl;
 		
 		cout << endl;
 		int namelenght = record[case_index].PP_name.length(); //For random draw of the icon
