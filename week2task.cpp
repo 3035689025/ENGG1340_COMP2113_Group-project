@@ -42,6 +42,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "Officer Kim: Humans AND aliens are allowed to enter Earth starting from this week. Make sure the information in their passports is consistent." << endl << endl;
         cout << "Press enter to start your work this week" << endl;
 	cin.get();
+	cin.get();
 	system("clear");
 
 	//Time counter
@@ -94,6 +95,7 @@ void week2task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	cout << "___________________________________________________________________" << endl;
 	cout << "Humans took our land! It's time to fight back, Greg! Join the resistance and fight for the glory of Arstotzka!" << endl << endl;
 	cout << "Press enter to return the letter";
+	cin.get();
 	cin.get();
 	system("clear");
 	
