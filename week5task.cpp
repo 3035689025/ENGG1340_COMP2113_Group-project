@@ -58,13 +58,19 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "-------------------------" << endl;
       cout << "Name: " << "Voodoo Doll"<< endl;
       cout << "Gender: " << "Doll - Female" << endl;
-      cout << "Birthday: " << "2045-09-12" << endl;
+      cout << "Birthday: " << "2045-09-12" << endl; //issue here
       cout << "Issue date: " << "2035-12-30" << endl;
       cout << "Planet: " << "Planet S-23" << endl;
       cout << "Passport Number: " << "465354987" << endl;
-      cout << "-------------------------" << endl;	
+      cout << "-------------------------" << endl << endl;	
     
-      //ADD ENTRY PASS INFO HERE!!!!!!!!!!!!
+      // Print entry-pass
+      cout << "Entry pass information" << endl;
+      cout << "-------------------------" << endl;
+      cout << "Name: " << "Voodoo Doll" << endl;
+      cout << "Gender: " << "Doll - Female" << endl;
+      cout << "Birthday: " << "2045-09-12" << endl;
+      cout << "Planet: " << "Planet S-23" << endl;
 	  
 	  
 	  
@@ -176,7 +182,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Visitor: You should've known I'll be here, but here's my passport anyway. " << endl;
       cout << "Passport information" << endl;
       cout << "-------------------------" << endl;
-      cout << "Name: " << "King Henry IV"<< endl;
+      cout << "Name: " << "King Henry IV" << endl;
       cout << "Gender: " << "Human - Male" << endl;
       cout << "Birthday: " << "1970-08-01" << endl;
       cout << "Issue date: " << "2039-07-14" << endl;
@@ -184,7 +190,14 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Passport Number: " << "123456789" << endl;
       cout << "-------------------------" << endl;	
     
-      //ADD ENTRY PASS INFO HERE!!!!!!!!!!!!
+      // Print entry-pass
+      cout << "Entry pass information" << endl;
+      cout << "-------------------------" << endl;
+      cout << "Name: " << "King Henry IV" << endl;
+      cout << "Gender: " << "Human - Male" << endl;
+      cout << "Birthday: " << "1970-08-01" << endl;
+      cout << "Planet: " << "Earth - Wakanda" << endl;
+      cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
 	  
       cout << endl << endl;
 	    cout << "[1] Check approved countries (Earth)" << endl;
@@ -432,14 +445,21 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Passport information" << endl;
       cout << "-------------------------" << endl;
       cout << "Name: " << "Genghis Khan XIV"<< endl;
-      cout << "Gender: " << "Supreme Male" << endl;
+      cout << "Gender: " << "Supreme - Male" << endl;
       cout << "Birthday: " << "1111-11-11" << endl;
       cout << "Issue date: " << "2000-01-01" << endl;
       cout << "Planet: " << "Earth - Asia" << endl;
       cout << "Passport Number: " << "666666666" << endl;
-      cout << "-------------------------" << endl;	
+      cout << "-------------------------" << endl << endl;
     
-      //ADD ENTRY PASS INFO HERE!!!!!!!!!!!!
+      // Print entry-pass
+      cout << "Entry pass information" << endl;
+      cout << "-------------------------" << endl;
+      cout << "Name: " << "Genghis Khan XIV" << endl;
+      cout << "Gender: " << "Supreme - Male" << endl;
+      cout << "Birthday: " << "1111-11-11" << endl;
+      cout << "Planet: " << "Earth - Asia" << endl;
+      cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
 	  
       cout << endl << endl;
 	    cout << "[1] Check approved countries (Earth)" << endl;
@@ -490,7 +510,7 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
      else if (userinput == "3")
      {
      	system("CLS"); //or clear
-     	cout << "Scanner result: " << "Human - Supreme Male (Supreme Leader of Asia: Genghis Khan XIV)" << endl;
+     	cout << "Scanner result: " << "Human - Supreme - Male (Supreme Leader of Asia: Genghis Khan XIV)" << endl;
      	cin.get();
      	cin.get();
        system("CLS"); //clear (change at the very last)
@@ -665,9 +685,16 @@ void week5task(int& week, int& money, int& wrongattempts, cases record[], int &s
       cout << "Issue date: " << "2040-04-20" << endl;
       cout << "Planet: " << "Earth - United States" << endl;
       cout << "Passport Number: " << "854769615" << endl;
-      cout << "-------------------------" << endl;	
+      cout << "-------------------------" << endl << endl;	
     
-      //ADD ENTRY PASS INFO HERE!!!!!!!!!!!!
+      // Print entry-pass
+      cout << "Entry pass information" << endl;
+      cout << "-------------------------" << endl;
+      cout << "Name: " << "George Washington" << endl;
+      cout << "Gender: " << "Human - Male" << endl;
+      cout << "Birthday: " << "1732-02-22" << endl;
+      cout << "Planet: " << "Earth - United States" << endl;
+      cout << "Note: Earth Official - entry to any planet / country is allowed." << endl;
 	  
       cout << endl << endl;
       cout << "[1] Check approved countries (Earth)" << endl;
