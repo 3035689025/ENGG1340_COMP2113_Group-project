@@ -67,7 +67,7 @@ void week3task(int& week, int& money, int& wrongattempts, cases record[], int& s
 	}
 	last_index = -1;
 	
-	
+	system("clear");
 	cout << "                    dS$$S$S$S$S$S$S$$Sb                   " << endl;
 	cout << "                  :$$S^S$S$S$S$S$S^S$$;                   " << endl;
 	cout << "                  SSP   `^$S$S$^'   TSS                   " << endl;
