@@ -144,10 +144,14 @@ void week_end(int &week, int &money, int &wrongattempts, int &salary)
 		if (money < 0) //run out of money
 		{
 			//died in competence
+			cout << "Press enter to continue" << endl;
+			cin.get();
+			cin.get();
 			system("clear");
 			cout << "You: After all the hard work, still...I haven't had a proper meal in weeks. I'm seriously overworked..." << endl << endl;
 			cout << "You: ...and now I've run out of money..." <<endl << endl;
 			cout << "Press enter to continue" << endl;
+			cin.get();
 			cin.get();
 			system("clear");
 
