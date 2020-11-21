@@ -39,8 +39,8 @@ weekend.o:	weekend.cpp weekend.h
 main.o:	main.cpp cases.h casessetup.h week1task.h week2task.h week3task.h week4task.h week5task.h weekend.h save.h load.h
 	g++ -c main.cpp
 
-main:	casessetup.o icon.o load.o randomcases.o save.o wantedlist.o week1task.o week2task.o week3task.o week4task.o weekend.o main.o
-	g++ casessetup.o icon.o load.o randomcases.o save.o wantedlist.o week1task.o week2task.o week3task.o week4task.o weekend.o main.o -o main
+main:	casessetup.o icon.o load.o randomcases.o save.o wantedlist.o week1task.o week2task.o week3task.o week4task.o week5task.o weekend.o main.o
+	g++ casessetup.o icon.o load.o randomcases.o save.o wantedlist.o week1task.o week2task.o week3task.o week4task.o week5task.o weekend.o main.o -o main
 	
 clean:
 	rm -f main *.o
