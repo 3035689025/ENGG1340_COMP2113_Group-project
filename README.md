@@ -4,9 +4,9 @@
 _a game inspired by Papers Please_
 
 
-Members
-Lian Ho Yeung (3035714260)
-Luk Chin Kiu (3035689025)
+Members\
+Lian Ho Yeung (3035714260)\
+Luk Chin Kiu (3035689025)\
 -- Group 20 of ENGG1340_COMP2113 --
 
 #### Game description:
