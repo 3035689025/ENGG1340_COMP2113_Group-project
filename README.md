@@ -4,12 +4,15 @@
 _a game inspired by Papers Please_
 
 
-Members\
+#### Members:
 Lian Ho Yeung (3035714260)\
 Luk Chin Kiu (3035689025)\
 -- Group 20 of ENGG1340_COMP2113 --
 
-#### Game description:
+### Requirements:
+Environment: Linux
+
+### Game description:
 "Officer" is a story-based RPG (role-playing game) based on the game “Papers please”. Although we have borrowed concepts such as checking documents and secret missions from the original game, the gameplay and story of “Officer” is completely original.
 
 #### Settings:
